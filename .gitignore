@@ -1,0 +1,9 @@
+_site/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.gz
+*.toc
+

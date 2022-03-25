@@ -1,0 +1,237 @@
+\documentclass[12pt]{amsart}
+% The srcltx package helps with inverse dvi search
+%\usepackage{srcltx}
+
+% This package has an easy way to set the margins
+\usepackage[paper=letterpaper]{geometry}
+\geometry{top=1in,left=1in,right=1in,bottom=1in,headheight=14pt}
+
+% These packages include nice commands from AMS-LaTeX
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+%\usepackage[noend]{algpseudocode}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{bm}
+\usepackage{booktabs}
+\usepackage{cancel}
+\usepackage{caption}
+\usepackage{changepage}
+\usepackage{color}
+\usepackage{comment}
+\usepackage{empheq}
+\usepackage[shortlabels]{enumitem}
+\usepackage[mathscr]{euscript}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{hyperref}
+%\usepackage[linktoc=none]{hyperref}
+\usepackage{listings}
+\usepackage{lscape}
+\usepackage{multimedia}
+\usepackage{setspace}
+\usepackage{subfig}
+\usepackage{tabularx}
+\usepackage{textcomp}
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+\usetikzlibrary{scopes}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{shapes,backgrounds, arrows}
+\usepackage{xcolor}
+
+%This package helps make nice headers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{\textsf{Note}}
+\chead{\textsf{Jared McBride}}
+\rhead{\textsf{\today}}
+\renewcommand{\headrulewidth}{1pt}
+
+% Make the space between lines slightly more
+% generous than normal single spacing, but compensate
+% so that the spacing between rows of matrices still
+% looks normal.  Note that 1.1=1/.9090909...
+\renewcommand{\baselinestretch}{1.1}
+\renewcommand{\arraystretch}{.9090909}
+
+\renewcommand{\and}{\qquad\text{and}\qquad}
+\newcommand{\ds}{\displaystyle}
+
+\DeclareMathOperator*{\argmax}{argmax}
+\DeclareMathOperator*{\argmin}{argmin}
+
+\newcommand\Fontvi{\fontsize{8}{7.2}\selectfont}
+\newcommand{\vs}{\vspace{2 cm}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\p}{\mathbb{P}}
+\newcommand{\T}{\mathbb{T}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\F}{\mathscr{F}}
+\newcommand{\scrE}{\mathscr{E}}
+\newcommand{\spa}{\text{span}}
+\newcommand{\rref}{\mathrm{rref}}
+
+\newcommand{\X}{\mathfrak{X}}
+\newcommand{\ssX}{\bm{\textsf{X}}}
+\newcommand{\ssx}{\bm{\textsf{x}}}
+\newcommand{\fS}{\mathfrak{S}}
+\newcommand{\fC}{\mathfrak{C}}
+
+\renewcommand{\b}[1]{{\color{blue} #1}}
+\usepackage[T1]{fontenc}
+\usepackage{beramono}
+\usepackage{listings}
+
+\renewcommand{\and}{\qquad\text{and}\qquad }
+
+\renewcommand{\P}{\mathbb{P}}
+\newcommand{\cov}{\mathrm{cov}}
+\newcommand{\var}{\mathrm{var}}
+\newcommand{\abox}[1]
+{
+	\begin{center}
+		\fbox{$\displaystyle #1$}
+	\end{center}
+}
+%%
+%% Julia definition (c) 2014 Jubobs
+%%
+\lstdefinelanguage{Julia}%
+{morekeywords={abstract,break,case,catch,const,continue,do,else,elseif,end,export,false,for,function,immutable,import,importall,if,in,macro,module,otherwise,quote,return,switch,true,try,type,typealias,using,while},%
+	sensitive=true,%
+	alsoother={$},%
+	morecomment=[l]\#,%
+	morecomment=[n]{\#=}{=\#},%
+	morestring=[s]{"}{"},%
+	morestring=[m]{'}{'},%
+}[keywords,comments,strings]%
+
+\lstset{%
+	language         = Julia,
+	basicstyle       = \ttfamily,
+	keywordstyle     = \bfseries\color{blue},
+	stringstyle      = \color{magenta},
+	commentstyle     = \color{olive},
+	showstringspaces = false,
+}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+
+\title{A Iterated Whitening Approach to Spectral Estimation}
+\author{Jared A. McBride}
+\date{\today}
+%
+%\doublespacing
+
+\begin{document}
+	
+\begin{abstract}
+Spectral estimation can be difficult. In this paper I present a method of akin to maximal-entropy Spectral Analysis [Burg]. 
+\end{abstract}
+
+\maketitle
+\tableofcontents
+
+\section{Introduction}
+
+% Introduction paragraph by paragraph:
+
+% 1. Describe the importance of spectral estimation, especially at low power.
+% 2. Reveiw breifly the developement of estimators
+% 3. point out that many are unable to resolve lower power fetures efficiently
+% 4. Intruduce (recall) the method and talk through it
+% 5. road map and promises.
+
+Spectral estimation is an difficult task. It is an important task, too. 
+
+There have been many techniques developed for the estimation of power spectrum. Originally there was the periodogram and smoothed periodogram. This method evolved an various ways of smoothing the periodogram were explored (1950's and 60'). Then it was show that the maximum entropy principle (Jaynes) could be formulated to produce power spectrum estimates (Burg 1975). Later there were techniques developed using Monte Carlo Markov Chains (Cornish and Littenburg 2015). [include parametric?]
+
+One problem that many estimators have is the estimation at low-power. 
+
+In this paper I review a number of the most popular techniques for spectral estimation and the statistical properties of these estimators. Their advantages and disadvantages are summarized. I then purpose a technique that can be applied to many of these spectral estimators that can improve there ability to capture features of the spectrum at very low power, a regime in which other estimators fail to resolve. This technique, which can be described as an iterative correction method, whitens the given sample buy extracting a whitening filter by factoring an earlier power spectrum estimate.
+
+The variance of many estimates has the disadvantage of making the power spectrum estimate inaccurate in place where the true power spectrum has power smaller than the variance. Those low-power features are swallowed up in the error, how ever by whitening according to the noisy power spectrum we amplify those low-power features, while attenuating the not-low-powered features, the  till they are of an order of magnitude that is able to be resolve accurately by most power spectrum estimators. The information at each whitening stage is keep and then put together to form a more complete power spectrum estimate.  
+
+I then show that this procedure stands on a firm theoretical foundation...
+
+of approximating the power spectrum of a given process given a finite-time realization of the process. This is done by approximating a modeling filter for the process, and then computing the transfer function of the modeling filter and multiplying that by it's conjugate. The modeling filter given a realization. This is done using spectral factorization. This may seem circular, but iterative is the better term. The method I use for producing the spectral factor does not require the actual power spectrum, but a Laurent polynomial approximation of the power spectrum. This approximation will often leave out information [of some description which I don't yet know], And so,  In order to produce the spectral factor information about the 
+
+
+Current techniques for spectral factorization have a floor of noise. That is to say the error in estimation is large enough as to cover-up the low-power features of the power spectrum. This is demonstrated in Figure \ref{fig: floor} which shows a number of estimation techniques with a particular power spectrum. In this note I explain where that floor comes from and present a simple method for piecing the floor and resolving very low-power spectral features. 
+
+
+The remained of the note is organized as follows. In Section 2 I 
+\section{Background}
+\subsection{Spectral Estimation Past and Present}
+
+Given a wide-sense stationary (WSS) stochastic process $X = \big(X_n, n = 0, 1, \dots\big)$ it's $z$-spectrum $S_X(z)$ is defined by
+$$S_X(z) = \sum_{n=-\infty}^\infty C_X[n]z^{-n},$$
+where $C_X[n] = \E X_nX_0^*$ is the autocovariance sequence of the process $X$\footnote{
+	A note on notation: the superscript $*$ denotes the complex conjugate transpose (Hermitian transpose) operator for matrices and just the complex conjugate for real or complex numbers. The superscripts $-*$ together is an abbreviation for the complex conjugate of the multiplicative inverse, i.e. $$z^{-*} = \frac{1}{z^*}.$$
+}. Where as the $z$-spectrum is the $z$-transform of the of the autocovariance sequence the term power spectrum will be used to denote the Fourier transform of the autocovariance sequence, 
+$$\bar{S}_X(\omega) = \sum_{n=-\infty}^\infty C_X[n]e^{-jn\omega},$$
+So that $S_X(z)$ is also the $z$-transform of the autocovariance sequence. This function is real-valued on the unit circle since, $C_X[-n] = C_X^*[n]$, and by the Wiener-Khinchin theorem, it is, in fact, nonnegative definite on the unit circle\footnote{
+	Though what follows holds for scalar processes it also holds for vector valued processes. As such, I assume the vector case. Meaning, the covariance sequence is a sequence of square $d\times d$-matrices, where $d$ is the dimension of $X_0$.}.
+
+Here I summarize the development of spectral estimation techniques and summarize there advantages and disadvantages.
+
+Given a finite sequence of observations $x = (x_n, n = 0, 1, \dots, N-1)$, a finite realization of a stochastic process which is assumed to be WSS and zero-mean,  we would like estimate the 
+
+\subsubsection{Generalized Bartlett's Method}
+We start with the periodogram which I will define as 
+$$ I(\omega) = \frac{1}{N}\bigg|\sum_{n=0}^{N-1} x_n e^{-in\omega}\bigg|^2$$
+
+
+\subsubsection{Maximum Entropy Spectral Analysis}
+
+
+\subsection{analysis at low power}
+
+\subsection{Spectral Factorization}
+Spectral factorization plays a significant role in the purposed method of spectral approximation. This is because the spectral factor can be though of as a modeling filter. That is a system whose transfer function is the spectral factor. If a white noise signal is then passed through the system the resulting output will have the power spectrum of the original given process we are studying.   
+
+In the usual case where a the true power spectrum is unknown it is reasonable, in some situations, to approximate an estimated spectrum as a Laurent polynomial\footnote{
+	A Laurent polynomial is an expression of the following form,
+	$$\sum_{n=-m}^m c_nz^{-n}\qquad \text{where }c_n^* = c_{-n}.$$
+}. This is desirable since there are a number of methods that may be employed to factor such functions (see e.g. \cite{sayed2001}). It can be show that a Laurent Polynomial $P$ of order $m$,
+$$P(z) = \sum_{n=-m}^m c_n z^{-n}$$
+may be factored such that 
+$$P(z) = L(z)L^*(z^{-*}) \qquad \text{and}\qquad L(z) = \sum_{n=0}^m \ell_n z^{-n}.$$
+
+\subsection{Spectral Factorization of the numerical spectrum}
+
+
+\subsubsection{Rigorous results on Performance}
+How do Errors propagate?
+
+Convergence?
+
+\section{The Method through iterated whitening}
+The method purposed here is not new as prewhitening has already been discussed in the literature (e.g. \cite[Sec.~7.4.1]{priestley1981spectral}). My goal is demonstrate it's effectiveness and provide some much need statistical results. 
+
+Given a timeseries,   
+
+
+
+
+\subsection{description of method}
+\subsection{Rigorous results (validation)}
+
+\section{Comparison to Current Methods with Examples}
+
+\section{Applications}
+
+\section{Conclusions}
+
+\appendix
+
+
+
+\bibliographystyle{unsrt}
+\bibliography{../Notes}
+\end{document}

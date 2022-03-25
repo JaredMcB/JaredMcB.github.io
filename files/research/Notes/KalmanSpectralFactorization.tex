@@ -1,0 +1,461 @@
+\documentclass[12pt]{amsart}
+% The srcltx package helps with inverse dvi search
+%\usepackage{srcltx}
+
+% This package has an easy way to set the margins
+\usepackage[paper=letterpaper]{geometry}
+\geometry{top=1in,left=1in,right=1in,bottom=1in,headheight=14pt}
+
+% These packages include nice commands from AMS-LaTeX
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{bm}
+\usepackage{booktabs}
+\usepackage{cancel}
+\usepackage{caption}
+\usepackage{changepage}
+\usepackage{color}
+\usepackage{comment}
+\usepackage[shortlabels]{enumitem}
+\usepackage[mathscr]{euscript}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{hyperref}
+%\usepackage[linktoc=none]{hyperref}
+\usepackage{listings}
+\usepackage{lscape}
+\usepackage{multimedia}
+\usepackage{setspace}
+\usepackage{subfig}
+\usepackage{tabularx}
+\usepackage{textcomp}
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+\usetikzlibrary{scopes}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{shapes,backgrounds, arrows}
+\usepackage{xcolor}
+
+%This package helps make nice headers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{\textsf{Note}}
+\chead{\textsf{Jared McBride}}
+\rhead{\textsf{\today}}
+\renewcommand{\headrulewidth}{0pt}
+
+% Make the space between lines slightly more
+% generous than normal single spacing, but compensate
+% so that the spacing between rows of matrices still
+% looks normal.  Note that 1.1=1/.9090909...
+\renewcommand{\baselinestretch}{1.1}
+\renewcommand{\arraystretch}{1.1}
+
+\renewcommand{\and}{\qquad\text{and}\qquad}
+\newcommand{\ds}{\displaystyle}
+
+\newcommand\Fontvi{\fontsize{8}{7.2}\selectfont}
+\newcommand{\vs}{\vspace{2 cm}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\p}{\mathbb{P}}
+\newcommand{\T}{\mathbb{T}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\F}{\mathscr{F}}
+\newcommand{\scrE}{\mathscr{E}}
+\newcommand{\spa}{\text{span}}
+\newcommand{\rref}{\mathrm{rref}}
+
+\newcommand{\X}{\mathfrak{X}}
+\newcommand{\ssX}{\bm{\textsf{X}}}
+\newcommand{\ssx}{\bm{\textsf{x}}}
+\newcommand{\fS}{\mathfrak{S}}
+\newcommand{\fC}{\mathfrak{C}}
+
+\renewcommand{\b}[1]{{\color{blue} #1}}
+\usepackage[T1]{fontenc}
+\usepackage{beramono}
+\usepackage{listings}
+
+\renewcommand{\and}{\qquad\text{and}\qquad }
+
+\renewcommand{\P}{\mathbb{P}}
+\newcommand{\cov}{\mathrm{cov}}
+\newcommand{\var}{\mathrm{var}}
+\newcommand{\abox}[1]
+{
+	\begin{center}
+		\fbox{$\displaystyle #1$}
+	\end{center}
+}
+%%
+%% Julia definition (c) 2014 Jubobs
+%%
+\lstdefinelanguage{Julia}%
+{morekeywords={abstract,break,case,catch,const,continue,do,else,elseif,end,export,false,for,function,immutable,import,importall,if,in,macro,module,otherwise,quote,return,switch,true,try,type,typealias,using,while},%
+	sensitive=true,%
+	alsoother={$},%
+	morecomment=[l]\#,%
+	morecomment=[n]{\#=}{=\#},%
+	morestring=[s]{"}{"},%
+	morestring=[m]{'}{'},%
+}[keywords,comments,strings]%
+
+\lstset{%
+	language         = Julia,
+	basicstyle       = \ttfamily,
+	keywordstyle     = \bfseries\color{blue},
+	stringstyle      = \color{magenta},
+	commentstyle     = \color{olive},
+	showstringspaces = false,
+}
+
+
+\newtheorem{theorem}{Theorem}
+
+
+\title{Numerical Spectral Factorization by Kalman Recursion}
+\author{Jared A. McBride}
+\date{\today}
+
+%\doublespacing
+
+\begin{document}
+	
+\begin{abstract}
+	In this note I describe a method presented Kailath et al. in \cite{sayed2001} and \cite{kailath2000} for finding a spectral factor of the $z$-spectrum of a wide-sense stationary stochastic process under certain conditions. The method employs a version of Kalman filtering. As such I begin with a summary of relevant results from Kalman filtering. With those results in hand we present the method for finding spectral factors and conclude with examples.
+\end{abstract}
+
+\maketitle
+\tableofcontents
+
+\section{Introduction}
+
+Given a wide-sense stationary (WSS) stochastic process $X = \big(X_n, n \in \Z\big)$ it's $z$-spectrum $S_X(z)$ is defined by\footnote{
+	The superscript $*$ denotes the conjugate transpose operator for matrices and just the complex conjugate for real or complex numbers. The superscripts $-*$ together is an abbreviation for the conjugate of the multiplicative inverse, i.e. $$z^{-*} = \frac{1}{z^*}.$$
+	} 
+$$S_X(z) = \sum_{n=-\infty}^\infty R_X[n]z^{-n},$$
+where $R_X[n] = \E X_nX_0^*$ This function is positive definite on the unit circle since $R_X[-n] = R_X^*[n]$. 
+Spectral factorization refers to a particular factorization in which 
+$$S_X(z) = L(z)L^*(z^{-*})$$
+where $L(z)$ is \emph{minimum phase}, meaning both $L(z)$ and $L^{-1}(z) = 1/L(z)$ are analytic on and outside the unit circle. The function $L$ will be referred to as a spectral factor of $S_X$. This factorization is not unique since for any spectral factor of $S_X$ right-multiplication by a unitary matrix produces another spectral factor of $S_X$. 
+
+In this note I describe a method presented Kailath et al. in \cite{sayed2001} and \cite[p.~336]{kailath2000} for finding a spectral factor under certain conditions. The method employs a version of Kalman filtering, more specifically the Kalman recursion for finding the innovations process for process with a finite state-space model. The innovations for such a process will be defined below. Section \ref{sec: Kalman} provides a summary of relevant results from Kalman filtering, together with some intuition relevant to present context. With those results in hand, Section \ref{sec: Factor} presents the method for finding spectral factors. Then, in Section \ref{sec: Example} is an example.  
+
+\section{Kalman Filtering}
+\label{sec: Kalman}
+
+The purpose of this section is to provide information from Kalman filtering theory that will that is pertinent to the development of the factorization algorithm to be discussed. To that end, the \textit{summum bonum} of the section is the computation of a so-called modeling filter for a given process. The Associated whitening filter also bears significance in this work and will be briefly treated.   
+
+Suppose we have a (discrete-time) stochastic process\footnote{
+	In this section $X$ need not be WSS.
+}
+$X = \big(X_n, n \in \Z\big)$ with a finite state-space representation of the following form:
+\begin{subequations}
+\label{equ: ss}
+\begin{align}
+\label{equ: ss State}\theta_{i+1} &= F_i\theta_i + G_iu_i \\
+\label{equ: ss Obs}X_i &= H_i\theta_i + v_i
+\end{align}
+\end{subequations}
+where $F_i \in C^{m\times m},$ $G_i \in C^{m\times p},$ and $H_i \in C^{d\times m}$ are known matrices, and $u=\{u_i\}$, $v=\{v_i\}$, and $\theta_0$ are random variables with the following property\footnote{
+	Through out the note $$\delta_{ij} = \begin{cases} 1 &\text{if }i = j\\ 0 &\text{if }i \ne j.\end{cases}$$
+	}
+\begin{equation}
+\E\begin{pmatrix} \theta_0 \\u_i \\ v_i \end{pmatrix}
+\begin{pmatrix} \theta_0 \\u_j \\ v_j\\1 \end{pmatrix}^*
+=\begin{pmatrix}
+\Pi_0 & 0                & 0              & 0 \\
+0     & Q_i\delta_{ij}   & S_i\delta_{ij} & 0 \\
+0     & S^*_i\delta_{ij} & R_i\delta_{ij} & 0
+\end{pmatrix}
+\label{equ: cond}
+\end{equation}
+
+In the context here, we think of $X_i$ as a given series of\textit{ observations}, they are directly measurable, and $\theta_i$ is the \textit{state} of the process. Both of these series are sequences of random variables, along with $u$ and $v$. The matrices $F_i$, $G_i$, $H_i$, $\Pi_0$, $Q_i$, $S_i$ and $R_i$ are deterministic for all $i$. 
+
+The Kalman filter allows us to find the linear least squares estimate of the state $\theta_i$ given all preceding observations $X_j$ for $j = 0,1,2,\dots, i$. 
+This quantity I will denote by $\hat{\theta}_{i|i-1}$. Since in this note I will only be concerned with conditioning on the $X_i$'s the subscript $\cdot_{|i}$ will denote conditioning on all $X_j$ for $j \le i$. 
+So with this convention when I write $\hat{X}_{i|i-1}$ I mean the linear least squares estimate of $X_i$ given $X_j$ for $j < i$. 
+
+Let $\mathbb{X}_d$ be the module of $\C^d$-valued random variables, over the ring of square ($d\times d$) complex matrices, together with the following inner product
+$$\langle x,y \rangle = \E xy^*\qquad \text{for all }x,y\in \mathbb{X}_d.$$ Much of Hilbert space theory will apply to what we do here. I wanted to make the space explicit to facilitate the discussion in the sequel. It is helpful to have in mind some Hilbert space theory in the discussion to follow since associated with least square estimates is an orthogonality principle, and with it a geometric interpretation of conditioning on random variables in a Hilbert space, i.e. conditioning is a projection on the space spanned by the variable by which we are conditioning. 
+
+We seek to project $\theta_{i+1}\in \mathbb{X}_m$ onto the space $\mathcal{L}_i = \text{span} \{X_0,X_1,\dots,X_{i}\}\in \mathbb{X}_d$. A strait forward way to obtain this projection is to compute an orthogonal basis for $\mathcal{L}_i$, $\{e_i\}$.  Then we can simply write 
+\begin{equation}
+\hat{\theta}_{i+1|i} = \sum_{j=0}^i \langle \theta_{i+1}, e_j \rangle R^{-1}_{e,j} e_j\label{equ: projection}
+\end{equation}
+where $R_{e,i} = \langle e_i, e_i \rangle$. To that end, let us build this orthogonal set in a way similar to the Grahm-Schmidt process, but without normalizing. Put
+$$e_i = X_i - \hat{X}_{i|i-1}\quad \text{for }i>0\qquad\text{and}\qquad e_0 = X_0$$
+The $\{e_i\}$ have the property $\mathcal{L}_i = \text{span}\{e_j,~j\le i\}$ for any $i\ge 0$. This stochastic process we will refer to as the \textit{innovations} associated with $X$. Observe that the innovations are an orthogonal set, having $\langle e_i,e_j \rangle = I\delta_{ij}$. There are other orthogonality relations I would generally like to highlight. First noting that $\theta_i \in \text{span}\{\theta_0, u_j,\; j<i\}$, then by use of (\ref{equ: ss Obs}) and the definition of $e_i$ one can show the following.
+$$\langle \theta_i, u_j \rangle = 0 \and \langle \theta_i, v_j \rangle = 0 \qquad\text{for}\qquad i\le j;$$
+$$\langle X_i, u_j \rangle = 0 \and \langle X_i, v_j \rangle = 0 \qquad\text{for}\qquad i < j;$$
+$$\langle X_i, u_j \rangle = S^*_i \and \langle X_i, v_j \rangle = R_i \qquad\text{for}\qquad i = j;$$ 
+$$\langle e_i, u_j \rangle = 0 \and \langle e_i, v_j \rangle = 0 \qquad\text{for}\qquad i < j;$$
+$$\langle e_i, u_j \rangle = S^*_i \and \langle e_i, v_j \rangle = R_i \qquad\text{for}\qquad i = j.$$
+
+
+\subsection{Kalman filter recursions for the innovations}
+
+Kalman developed a recursion to cheaply find the innovations process, which we will derive here.
+I like the way Kialath put it, ``It turns out that the recusive construction of the innovations combines nicely with the recursive evolution of the state variables to give a recursion for the innovations...''\cite[p.~312]{kailath2000}.
+
+We seek a recursion for $\{e_i\}$ but start with finding a recursion for $\hat{\theta}_{i|i-1}$ using (\ref{equ: projection}),
+\begin{align*}
+\hat{\theta}_{i+1|i} &= \sum_{j=0}^i \langle \theta_{i+1}, e_j \rangle R^{-1}_{e,j} e_j\\
+&= \left(\sum_{j=0}^{i-1} \langle \theta_{i+1}, e_j \rangle R^{-1}_{e,j} e_j\right) + \langle \theta_{i+1}, e_i \rangle R^{-1}_{e,i} e_i\\
+& = \hat{\theta}_{i+1|i-1} + \langle \theta_{i+1}, e_i \rangle R^{-1}_{e,i} e_i\\
+\end{align*}
+The first term of the last line undermines the recursion in $\hat{\theta}_{j|j-1}$; however, we can remedy this by projecting equation (\ref{equ: ss State}) onto $\mathcal{L}_{i-1}$ to get
+$$\hat{\theta}_{i+1|i-1} = F_i\hat{\theta}_{i|i-1} +G_i\hat{u}_{i|i-1} = F_i\hat{\theta}_{i|i-1} + 0$$
+which provides
+$$\hat{\theta}_{i+1|i} = F_i\hat{\theta}_{i|i-1} + \langle \theta_{i+1}, e_i \rangle R^{-1}_{e,i} e_i$$
+The next thing to do is to make sure we can compute $e_i$ from the $\hat{\theta}_{i|i-1}$'s. If we project equation (\ref{equ: ss Obs}) onto $\mathcal{L}_{i-1}$ then 
+\begin{equation}
+\hat{X}_{i|i-1} = H_i\hat{\theta}_{i|i-1} + \hat{v}_{i|i-1} = H_i\hat{\theta}_{i|i-1} + 0.\label{equ: X hat}
+\end{equation}
+So, that
+$$e_i = X_i - \hat{X}_{i|i-1} = X_i - H_i\hat{\theta}_{i|i-1}.$$ 
+From this point I will use the abbreviated notation $\hat{\theta}_i = \hat{\theta}_{i|i-1}$.
+
+Putting this together, we get a recursion for the innovations
+\begin{subequations}
+\begin{align}
+\label{equ: theta hat} \hat{\theta}_{i+1} &= F_i\hat{\theta}_{i} + K_ie_i, \quad \hat{\theta}_0 = 0\\
+\label{equ: innov} e_i &= X_i - H_i \hat{\theta}_{i}.
+\end{align}
+\end{subequations}
+where $K_i = \langle \theta_{i+1}, e_i \rangle R^{-1}_{e,i}$. 
+
+Here then is the recursion we sought, which recursively generates the innovations associated with the process $X$. For our interests, and for many others, it would be useful if the $K_i$'s and the $R_{e,i}$'s could be computed off-line, that is, independent of the observations. As it turns out this is possible and I will demonstrate how this may be accomplished.
+
+Let $\tilde{\theta}_i = \theta_i - \hat{\theta}_{i}$, we get orthogonality between $\tilde{\theta}_{i}$ and $e_i$. With which, we can express the recursion of the covariance of the error, $\tilde{\theta}_{i}$ rather simply. Let $P_{i} = \langle \tilde{\theta}_{i},\tilde{\theta}_{i} \rangle$, then combining equations (\ref{equ: ss State}) and (\ref{equ: theta hat}) and taking the covariance of both sides gives the the discrete Lyapunov recursion,
+\begin{equation}
+P_{i+1} = F_iP_{i}F_i^* + G_iQ_iG_i^* - K_iR_{e,i}K^*_i,\qquad i\ge 0
+\label{equ: DL}
+\end{equation}
+which we initialize by $$P_{0} = \langle \hat{\theta}_{0}, \hat{\theta}_{0} \rangle = \langle \theta_0, \theta_0 \rangle = \Pi_0.$$ 
+
+It is easy to see by subtracting (\ref{equ: X hat}) from (\ref{equ: ss Obs}) that $e_i = H_i\tilde{\theta}_{i} - v_i$, and this is enough to put $R_{e,i}$ in terms of $P_i$.
+Because $\hat{\theta}_{i}$ is orthogonal to $v_i$, we get
+$$R_{e,i} = H_iP_iH^*_i + R_i.$$
+Now to put $K_i$ in terms of only $P_i$ and $R_{e,i}$, we start with $K_i = \langle \theta_{i+1}, e_i \rangle R_{e,i}^{-1}$ and observe that by (\ref{equ: ss Obs}) $\langle X_{i+1}, e_i \rangle = F_i\langle X_{i}, e_i \rangle  + G_i\langle u_i, e_i \rangle$. Reflecting on both inner products in term provides
+\begin{align*}
+\langle X_{i}, e_i \rangle &= \langle X_{i}, \tilde{X}_i \rangle H^*_i + \langle X_{i}, v_i \rangle \\
+&= \langle \hat{X}_{i} + \tilde{X}_i, \tilde{X}_i \rangle H^*_i + 0 \\
+&= P_i H^*_i
+\end{align*}
+and $\langle u_{i}, e_i \rangle = S_i$, as we have seen. Substituting, we able to find that
+$$K_i = (F_iP_iH_i^* + G_iS_i) R_{e,i}^{-1},$$
+as desired. 
+
+We have just have just found a recursion for the $K_i$ and $R_{e,i}$, which are necessary in the computation of $e_i$, which is independent of observations. It also provides a recursion for the error covariance of the state estimate (which is useful in its own right).  The discussion in this section can be summarized into a single theorem
+\begin{theorem}
+	\label{thm: innov}
+	Consider the standard statespace model
+	$$\left\{\begin{array}{ r l}
+	\theta_{i+1} &= F_i\theta_i + G_iu_i \\
+	X_i &= H_i\theta_i + v_i
+	\end{array}\right. $$
+	for $i\ge 0$, and satisfying (\ref{equ: cond}). The innovations process of $X$ can be recursively computed using the equations
+	\begin{subequations}
+		\label{equ: innovations}
+		\begin{align}
+	e_i &= X_i - H_i\hat{\theta}_i, \qquad i \ge 0,\\
+	\hat{\theta}_{i+1} &= F_i\hat{\theta}_i + K_{p,i}e_i,\qquad \hat{\theta}_0 = 0,
+	\end{align}
+	\end{subequations}
+	where \begin{subequations}
+		\label{equ: Kal}
+		\begin{align}
+		\label{equ: Kal Pi}  P_{i+1} &= F_iP_{i}F_i^* + G_iQ_iG_i^* - K_iR_{e,i}K^*_i,\qquad P_0 = \Pi_0 \\
+		\label{equ: Kal Rei} R_{e,i} &= H_iP_iH^*_i + R_i \\
+		\label{equ: Kal Ki}  K_i &= (F_iP_iH_i^* + G_iS_i) R_{e,i}^{-1}
+		\end{align}
+	\end{subequations}
+	from (\ref{equ: cond}). Here, $P_i = \langle \tilde{\theta}_i,\tilde{\theta}_i \rangle$ where $\tilde{\theta}_i = \theta_i - \hat{\theta}_i$.
+\end{theorem}
+
+Observe that the discrete Lyanov recursion (\ref{equ: DL}) can now be written as a discrete Riccati recursion,
+$$ P_{i+1} = F_iP_{i}F_i^* + G_iQ_iG_i^* - (F_iP_iH_i^* + G_iS_i)(H_iP_iH^*_i + R_i)^{-1}(H_iP_iF_i^* + S^*_iG^*_i).$$
+
+\subsection{The Stationary Case and the Modeling Filter}
+
+So far in this section all we have assumed about $X$ is that it is a discrete-time stochastic process that has a finite state-space representation defined by (\ref{equ: ss} - \ref{equ: cond}). But now it is time to assume conditions native to the problem at hand, which will be delineated shortly. These assumptions are afforded by the stationary of the processes I work with.  The plan is to realize stationarity and adjust the innovations process so as to produce both stationary innovations and state estimators.
+ 
+Here are the further assumptions I impose on the process $X$, 
+\begin{itemize}
+	\item the state-space representation for $X$ is time-invariant, meaning, all the parameters are constant in time. So,
+	$$F_i = F,\quad G_i=G, \quad H_i = H,\quad Q_i=Q, \quad S_i=S \quad\text{and}\quad R_i = R\qquad \text{for }i\ge 0$$
+	additionally I impose that $F$ be stable (meaning its eigenvalues lie strict in the unit cirlce) and $R$ be strictly positive-definite, $R>0$, also 
+	\item $X$ is in  steady state, meaning $\Pi_i = \Pi$ for $i\ge 0$ where is $\Pi$ is the positive-semi-definite solution to the Lyaponov equation. 
+	$$\Pi = F\Pi F^* + GQG^*.$$
+	 Since $F$ is stable this has a unique solution. 
+\end{itemize}
+A consequence of these assumptions in that $X$ is wide-sense stationary.
+Under these conditions we now apply Theorem \ref{thm: innov} and find that the innovations sequence associated with $X$ has the following state-space representation 
+\begin{subequations}
+	\label{equ: innovations stationary}
+	\begin{align}
+	e_i &= X_i - H\hat{\theta}_i, \qquad i \ge 0,\\
+	\hat{\theta}_{i+1} &= F\hat{\theta}_{i} + K_{p,i}e_i,\qquad \hat{\theta}_0 = 0,	
+	\end{align}
+\end{subequations}
+	where now
+	\begin{subequations}
+	\label{equ: Kal stationary}
+	\begin{align}
+	\label{equ: Kal stationary Pi}  P_{i+1} &= FP_{i}F^* + GQG^* - K_iR_{e,i}K^*_i,\qquad P_0 = \Pi \\
+	\label{equ: Kal stationary Rei} R_{e,i} &= HP_iH^* + R \\
+	\label{equ: Kal stationary Ki}  K_i &= (FP_iH^* + GS) R_{e,i}^{-1}
+	\end{align}
+\end{subequations}
+
+Re rearranging (\ref{equ: innovations stationary}) slightly we can write
+\begin{subequations}
+	\label{equ: model}
+	\begin{align}
+	\hat{\theta}_{i+1} &= F\hat{\theta}_{i} + K_{p,i}e_i,\qquad \hat{\theta}_0 = 0,\\
+	X_i &= H\hat{\theta}_i + e_i, \qquad i \ge 0.
+	\end{align}
+\end{subequations}
+Which provides an alternative way of modeling the process $X$, this time driven by the white noise sequence $e_i$. We recover $X_i$ exactly if the innovation sequence computed by (\ref{equ: innovations stationary}). We would like however to be able to feed in any white noise input and recover a stationary process with the same $z$-spectrum as $X$. For that job (\ref{equ: innovations stationary}) is not a good candidate since it represents a time-variant system. This begs the question is there a time invariant model filter that produces stationary outputs. It turns out that the system parameters $P_i$, $R_{e,i}$, and $K_i$ all converge as $i\rightarrow \infty$. Which suggests a time invariant system that when fed in a stationary input will certainly produce a stationary output. 
+
+The convergence of $P_i$ has been well studied \cite[sec.~14.5]{kailath2000} and there are many conditions one can check to ensure that the limit of the recursion converges to the stabilizing solution of the appropriate Racatti equation necessary to provide the causal and casually invertible modeling filter. Since this theory is more problem dependent I will defer this matter to when we have a specific problem. 
+
+So, assume that
+$$\lim_{i\rightarrow \infty} P_i = P$$
+So that $P$ in the unique solution to 
+$$P = FPF^* + GQG^* - KR_eK^*$$
+where $R_e = HPH+R$ and $K = (FPH^* + GS)R^{-1}_e$, and that $P$ is such that $F_p = F - KH$ is stable. And let us consider the system $L: w = (w_i,\; i\ge 0) \mapsto Y = (Y_i,\; i\ge 0)$ given by 
+\begin{subequations}
+	\label{equ: whitening}
+	\begin{align}
+	\eta_{i+1} &= F\eta_{i} + Kw_i,\\
+	Y_i &= H\eta_i+ w_i, \qquad i \ge 0.	
+	\end{align}
+\end{subequations}
+where $ \langle e_i,e_j \rangle = R_e\delta_{ij}$, and $\eta_0$ is chosen such that $\langle \eta_0, \eta_0 \rangle = \Sigma$ where $$\Sigma =F\Sigma F^* +KR_eK^*$$.
+
+
+
+ 
+\section{Spectral Factorization by Kalman Filtering}
+\label{sec: Factor}
+
+In this section I explain how the above results from Kalman filtering may be employed in finding an approximate spectral factor of a given power spectrum ($z$-spectrum).
+
+Given a $z$-spectrum $S_X(z)$ of a WSS discrete-time process $X_n\in \C^d$ for $n>-\infty$, by definition, $$S_X(z) = \sum_{n=-\infty}^{\infty} R_X[n]z^{-n},$$
+where $$R_X[n] = \cov(X_{k+n},X_{k}) = \E X_{k+n}X_{k}^* = \langle X_{k+n},X_{k}\rangle$$ is the covariance. Now, if the decay of the covariance is sufficiently fast it is reasonable to truncate $S_X(z)$ to a Laurent polynomial
+$$\tilde{S}_X(z) = \sum_{n=-m}^{m} R_X[n]z^{-n}.$$
+However, this isn't the always the best way to approximate the spectrum. It is usual to the apply some windowing function to the autocovariances. The Parzen windowing function $\Lambda_n$, given below, for some $m>0$ is an example. 
+$$\Lambda_n = \begin{cases}
+1-6\left(\frac{n}{m}\right)^2+6\left(\frac{|n|}{m}\right)^3, & |n|\le m/2 \\
+2\left(1-\frac{|n|}{m}\right)^3, & m/2 < |n| \le m \\
+0, & |n| > m
+\end{cases}.$$
+The Fourier transform $\widehat{\lambda}(\omega)$ of the Parzen windowing function is 
+$$\widehat{\Lambda}(\omega) = \frac{3}{4}m\left(\frac{\sin \pi \omega m/2}{\pi \omega m/2}\right)^4,\qquad -\infty \le \omega \le \infty$$
+Let $R_\text{win}[n] = \Lambda_nR_X[n]$ and 
+$$S_\text{win}(z) = \sum_{n=-m}^{m} R_\text{win}[n]z^{-n}.$$
+The function $S_\text{win}(z)$ is generally a better approximation of $S_{X}(z)$ than $\tilde{S}_{X}(z).$ 
+
+Now that we have approximated the $z$-spectrum we seek to factor by a Laurent polynomial, we can construct a process $Y_n$ with a finite state-space model whose $z$-spectrum is exactly $S_\text{win}(z)$, that is $S_{Y}(z) = S_\text{win}(z)$ \cite[p.~488]{sayed2001}. We then take the stat-space model and using Kalman, compute the innovations recursion. It is constructed using the following model:
+$$\left\{\begin{array}{ r l}
+\theta_{i+1} &= F\theta_i + Gv_i \\
+\tilde{Y}_i &= H\theta_i + u_i
+\end{array}\right.$$
+Where
+$$
+F = \begin{pmatrix}
+0 &   &        &        &   \\
+I & 0 &        &        &   \\
+& I & 0      &        &   \\
+&   & \ddots & \ddots &   \\
+&   &        & I      & 0
+\end{pmatrix}\in \C^{md\times md}\and 
+H = \begin{pmatrix}
+0 & \dots  & 0       & I 
+\end{pmatrix}\in \C^{d\times md},
+$$
+$$\E \begin{pmatrix} v_i & u_i \end{pmatrix}\begin{pmatrix} v_j^* \\ u_j^* \end{pmatrix} = 
+\begin{pmatrix} R\delta_{ij} & S\delta_{ij} \\ S^*\delta_{ij} & Q\delta_{ij} \end{pmatrix},$$
+and the remaining quantities need only satisfy the following relations
+$$\Pi = F\Pi F^* + GQG^*$$
+$$GS = N - F\Pi H^*$$
+$$R = R_\text{win}[0] - H\Pi H^*$$
+where 
+$$\Pi = \cov(X_i,X_i) = \E X_iX_i^* \;\;\Big(\!\in \C^{m\times m}\Big) \and 
+N = \begin{pmatrix} R_\text{win}[m] \\ R_\text{win}[m-1] \\ \vdots \\ R_\text{win}[1] \end{pmatrix}$$ 
+Now, provided of all the above can be satisfied it can be show that $Y_i$ is stationary and its autocovariance is
+\begin{align*}
+	R_{Y}[i] &= \begin{cases}
+		HF^{i-1}N & i > 0 \\
+		H\Pi H^* + R & i = 0 \\
+		NF^{*(-i-1)}H^* & i < 0
+	\end{cases} \\
+	&=\begin{cases}
+		0 & i > m \\
+		R_\text{win}[i]& m \ge i \ge -m \\
+		0 & i < -m
+	\end{cases} 
+\end{align*}
+So, that $\tilde{S}_Y(z) = S_{\tilde{Y}}(z)$ as desired. 
+
+So, we have a time-invariant, stationary state-space model that approximates the original process in the sense that the $z$-spectra are close. With this finite, linear state-space model we can use the Kalman filter to produce an innovations model that will correspond to a casual and causally invertible model filter for the process $\tilde{Y}_n$ and therefore the inverse constitute a whitening filter. The result is well know and we choose the following representation \cite[p.~335]{kailath2000}.
+
+$$\left\{\begin{array}{ r l}
+\theta_{i+1} &= F\theta_i + K_ie_i,\qquad \theta_0 = 0\\
+\tilde{Y}_i &= H\theta_i + e_i
+\end{array}\right.$$
+where $\E e_ie_j^* =  R_{e,1}\delta_{ij}$,
+$$K_i = (N - F\Sigma_i H^*)R_{e,i}^{-1}, \qquad R_{e,i} = R_Y[0] - H\Sigma_i H^*,$$
+and 
+\begin{equation} \Sigma_{i+1} = F\Sigma_i F^* + K_iR_{e,i}K_i^*. \label{eqn: Sigmai}\end{equation}
+Equation (\ref{eqn: Sigmai}), plugging in $R_{e,i}$ and $K_i$, can be written as a discrete-time algebraic Riccati recursion as follows
+\begin{equation} 
+\Sigma_{i+1} = F\Sigma_i F^* + (N - F\Sigma_i H^*)( R_Y[0] - H\Sigma_i H^*)^{-1}(N^* - H\Sigma_i F^*). 
+\label{eqn: DARR}
+\end{equation}
+
+Now, we would like to take the timeseries to be in steady-state so that we have a time invariant representation. the question is then does $K_i$, $R_{e,i}$, and $\Sigma_i$ converge? It can be show that under certain assumptions they do \cite[ch.~14]{kailath2000}. And we get the following 
+
+\begin{equation}
+\left\{\begin{array}{ r l}
+\theta_{i+1} &= F\theta_i + Ke_i,\qquad \theta_0 = 0\\
+\tilde{Y}_i &= H\theta_i + e_i
+\end{array}\right.
+\label{sys: Inno}
+\end{equation}
+where $\E e_ie_j^* =  R_{e,1}\delta_{ij}$,
+$$K = (N - F\Sigma H^*)R_{e}^{-1}, \qquad R_{e} = R_Y[0] - H\Sigma H^*,$$
+and 
+\begin{equation} \Sigma = F\Sigma F^* + KR_{e}K^*. \label{eqn: Sigma} \end{equation}
+Equation (\ref{eqn: Sigma}) can be writen as a discrete-time algebraic Riccati equation (DARE) as follows
+\begin{equation} 
+\Sigma = F\Sigma F^* + (N - F\Sigma H^*)( R_Y[0] - H\Sigma H^*)^{-1}(N^* - H\Sigma F^*). 
+\label{eqn: DARE}
+\end{equation}
+Observe that from System (\ref{sys: Inno}) it can be shown that $$\tilde{Y}_n = \sum_{i=1}^{m} HF^{i-1}Ke_{n-i} + e_n = \sum_{i = 0}^{m} K^{\#}_ie_{n-i}$$
+where $$K^{\#}_i = \begin{cases}
+K_{m-i+1} & 1\le i \le m\\
+I & i = 0\end{cases}$$
+The notation views $K \in C^{d\times md}$ as a column vector with matrix entries, $(d\times d)$-blocks.
+And so defines an $MA(m)$ (model) process. 
+
+\section{An Example}
+\label{sec: Example}
+
+\appendix
+\section{CKMS}
+
+CKMS, named for Chandrasekhar, Kailath, Morf, and Sidhu who in various ways and times contributed to its developement, is a efficient algorithm for computing the Kalman filter recursion for innovations. We will begin by observing who the Kalman filter may be used to find the spectral factors of a rational power spectrum (and approximate that of a nonrational power spectrum) and then from there give details about the CKMS recurssion.
+
+
+\bibliographystyle{unsrt}
+\bibliography{../Notes}
+\end{document}
