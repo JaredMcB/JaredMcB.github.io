@@ -10,11 +10,11 @@ main:
   - title: "Talks"
     url: /talks/
 
-  - title: "Research"
-    url: /year-archive/
-
   - title: "CV"
     url: /CV2020/
 
   - title: "DDMR Reading Group"
     url: /DDMRRG/
+
+  # - title: "Research"
+  #   url: /year-archive/
