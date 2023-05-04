@@ -11,6 +11,6 @@ location: "Buena Vista, Virginia"
 This brief lesson is about how you will use college algebra in your everyday life.
 
 
-Handout
+[Handout](/files/teaching/files-SVU-TeachingSamp/SVU-TeachingSampHandout.pdf)
 
-Slides
+[Slides](/files/teaching/files-SVU-TeachingSamp/SVU-TeachingSampSlides.pdf)
