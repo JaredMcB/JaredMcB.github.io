@@ -1,10 +1,10 @@
 ---
-title: "MATH 115: College"
+title: "MATH 115: College Algebra"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/SVU_TeachingSample
 venue: "Southern Virginia University"
-date: 2023-5-4
+date: 2023-5-3
 location: "Buena Vista, Virginia"
 ---
 
