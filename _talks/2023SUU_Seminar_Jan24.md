@@ -5,7 +5,7 @@ type: "Talk"
 permalink: /talks/2023SUU_Seminar_Jan24
 venue: "Southern Utah University, Math Department, Seminar"
 date: 2023-01-22
-location: "Tucson, Arizona"
+location: "Cedar City, Utah"
 ---
 
 ### Abstract
