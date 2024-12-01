@@ -10,4 +10,4 @@ location: "Buena Vista, Virginia"
 
 This mainly houses the data for the ANOVA Lesson.
 
-[Pulse Data](/files/teaching/files-SVU-M221/ANAOVA_Pulse.csv)
+[Pulse Data](/files/teaching/files-SVU-M221/ANAOVA_Pulse_Grouped.csv)
