@@ -19,3 +19,5 @@ This mainly houses the data for the ANOVA Lesson.
 [NFL Weights Data](/files/teaching/files-SVU-M221/ANOVA_NFL.csv)
 
 [NFL Raw Data](/files/teaching/files-SVU-M221/NFL.csv)
+
+[Student Performance](/files/teaching/files-SVU-M221/StudentsPerformance.csv)
