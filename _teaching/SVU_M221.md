@@ -15,3 +15,5 @@ This mainly houses the data for the ANOVA Lesson.
 [Arsenic Data](/files/teaching/files-SVU-M221/ANOVA_Arsenic.csv)
 
 [Speed Dating](/files/teaching/files-SVU-M221/ANOVA_Speed_Dating.csv)
+
+[NFL](/files/teaching/files-SVU-M221/ANOVA_NFL.csv)
