@@ -24,13 +24,13 @@ This mainly houses the data for the ANOVA Lesson.
 
 ## Finale Prep data
 
-[Course Evaluations](files/teaching/files-SVU-M221/FinalePrep-CourseEvals.csv)
+[Course Evaluations](/files/teaching/files-SVU-M221/FinalePrep-CourseEvals.csv)
 
-[NBA](files/teaching/files-SVU-M221/FinalePrep-NBA.csv)
+[NBA](/files/teaching/files-SVU-M221/FinalePrep-NBA.csv)
 
-[Sub Shops](files/teaching/files-SVU-M221/FinalePrep-SubShops.csv)
+[Sub Shops](/files/teaching/files-SVU-M221/FinalePrep-SubShops.csv)
 
-[Word Counts](files/teaching/files-SVU-M221/FinalePrep-WordCounts.csv)
+[Word Counts](/files/teaching/files-SVU-M221/FinalePrep-WordCounts.csv)
 
 
 
