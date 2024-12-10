@@ -21,3 +21,16 @@ This mainly houses the data for the ANOVA Lesson.
 [NFL Raw Data](/files/teaching/files-SVU-M221/NFL.csv)
 
 [Student Performance](/files/teaching/files-SVU-M221/StudentsPerformance.csv)
+
+## Finale Prep data
+
+[Course Evaluations](files/teaching/files-SVU-M221/FinalePrep-CourseEvals.csv)
+
+[NBA](files/teaching/files-SVU-M221/FinalePrep-NBA.csv)
+
+[Sub Shops](files/teaching/files-SVU-M221/FinalePrep-SubShops.csv)
+
+[Word Counts](files/teaching/files-SVU-M221/FinalePrep-WordCounts.csv)
+
+
+
