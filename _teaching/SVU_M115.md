@@ -11,3 +11,5 @@ location: "Buena Vista, Virginia"
 This mainly houses the data for the model fitting lessons.
 
 [Cricket Chirps](/files/teaching/files-SVU-M115/CricketChirps.csv)
+
+[Gas Consumption](/files/teaching/files-SVU-M115/GasConsumption.csv)
