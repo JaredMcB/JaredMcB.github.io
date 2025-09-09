@@ -10,11 +10,11 @@ redirect_from:
 
 ![FamilyAtWapatki](\files\Pics\FamilyAtWapatki.jpg)
 
-Currently, I am a Ph.D. candidate at the University of Arizona in the Applied Math Graduate Interdisciplinary Program (GIDP). I received a master's degree in math from Brigham Young University (BYU) in 2016. I have a wife and fove children.
+Currently, I am a Ph.D. candidate at the University of Arizona in the Applied Math Graduate Interdisciplinary Program (GIDP). I received a master's degree in math from Brigham Young University (BYU) in 2016. I have a wife and five children.
 
 ## Research
 
-Broadly I am interested in stochastic modeling. Currently I am studying data-driven models and model reduction. For my [master's thesis](https://scholarsarchive.byu.edu/etd/6023/). I studied the steady state configuration of a small group of cells connected by cadherin sites.
+Broadly I am interested in stochastic modeling. Currently, I am studying data-driven models and model reduction. For my [master's thesis](https://scholarsarchive.byu.edu/etd/6023/). I studied the steady state configuration of a small group of cells connected by cadherin sites.
 
 ### Current Research Project
 
