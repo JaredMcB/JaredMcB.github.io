@@ -8,9 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-![FamilyAtWapatki](\files\Pics\FamilyAtWapatki.jpg)
+<img src="\files\Pics\FamilyAtWapatki.jpg" alt="Family at Wapatki" width="500" />
 
-Currently, I am a Ph.D. candidate at the University of Arizona in the Applied Math Graduate Interdisciplinary Program (GIDP). I received a master's degree in math from Brigham Young University (BYU) in 2016. I have a wife and five children.
+I am teaching math at Southern Virginia University. I received a Ph.D. in applied math in 2023 from the University of Arizona. I received a master's degree in math from Brigham Young University (BYU) in 2016. My wife and I have five children.
+
+## Teaching Philosophy
+
+I believe that knowledge is not a static body of facts to be delivered but a dynamic process built through interaction, collaboration, and reflection. Drawing from the principles of social constructivism, I view learning as a shared journey in which students actively construct meaning through dialogue, problem-solving, and engagement with diverse perspectives. My role as an educator is to create a learning environment where inquiry is encouraged, mistakes are valued as part of growth, and students feel empowered to take ownership of their learning. In my classes, I design activities that require students to work together, challenge each other’s assumptions, and co-create solutions, fostering both academic understanding and critical thinking skills.
 
 ## Research
 
