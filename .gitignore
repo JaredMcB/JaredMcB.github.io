@@ -6,4 +6,7 @@ _site/
 *.out
 *.gz
 *.toc
+*.fls
+*.fdb_latexmk
+.DS_Store
 
