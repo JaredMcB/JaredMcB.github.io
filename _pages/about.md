@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<img src="\files\Pics\FamilyAtWapatki.jpg" alt="Family at Wapatki" width="500" />
+<img src="\files\Pics\FamilyAtWapatki.jpg" alt="Family at Wapatki" width="400" />
 
 I am teaching math at Southern Virginia University. I received a Ph.D. in applied math in 2023 from the University of Arizona. I received a master's degree in math from Brigham Young University (BYU) in 2016. My wife and I have five children.
 

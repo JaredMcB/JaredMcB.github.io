@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jared McBride"
 title_separator          : "-"
 name                     : &name "Jared"
-description              : &description "PhD candidate in the University of Arizona Applied Math GIDP"
+description              : &description "I am an assisstnat professor of Mathematics at the Southern Virginia University"
 url                      : https://JaredMcB.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JaredMcB.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Jared McBride"
   avatar           : "profilepic.png"
-  bio              : "I am a PhD candatite in the University of Arizona Aplied Math GIDP"
-  location         : "Tucson, AZ"
+  bio              : "I am an assisstnat professor of Mathematics at the Southern Virginia University"
+  location         : "Buena Vista, VA"
   employer         :
   pubmed           :
   googlescholar    :
-  email            : "jaredm@math.arizona.edu"
+  email            : "jared.mcbride@svu.edu
   researchgate     : "https://www.researchgate.net/profile/Jared-Mcbride"
   uri              :
   bitbucket        :
@@ -113,7 +113,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : "https://www.youtube.com/@JaredMcBrideMath"
   wikipedia        :
 
 
