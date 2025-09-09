@@ -10,7 +10,7 @@ redirect_from:
 
 ![FamilyAtWapatki](\files\Pics\FamilyAtWapatki.jpg)
 
-Currently, I am a Ph.D. candidate at the University of Arizona in the Applied Math Graduate Interdisciplinary Program (GIDP). I received a master's degree in math from Brigham Young University (BYU) in 2016. I have a wife and three children.
+Currently, I am a Ph.D. candidate at the University of Arizona in the Applied Math Graduate Interdisciplinary Program (GIDP). I received a master's degree in math from Brigham Young University (BYU) in 2016. I have a wife and fove children.
 
 ## Research
 
