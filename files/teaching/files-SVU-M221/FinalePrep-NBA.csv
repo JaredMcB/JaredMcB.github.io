@@ -1,534 +1,534 @@
-﻿PLAYER,TEAM,AGE,HEIGHT,WEIGHT,COLLEGE,COUNTRY,DRAFT YEAR,DRAFT ROUND,DRAFT NUMBER,GP,PTS,REB,AST,NETRTG,OREB%,DREB%,USG%,TS%,AST%,,,,,,,23,28,30,37
-Trey Lyles,SAC,28,81,234,Kentucky,Canada,2015,1,12,30,6.9,4.7,1.3,7.8,4.6,18.3,13.1,59.2,8.2,,(ANOVA),,,,,21,24,30,34
-Royce O'Neale,BKN,30,78,226,Baylor,USA,Undrafted,Undrafted,Undrafted,44,7,4.6,2.9,-0.4,3,14.9,13.1,53.1,16.1,,Step 1: ,OC: the true average points for players does not change with age.,,,,23,25,29,35
-Talen Horton-Tucker,UTA,23,76,234,Iowa State,USA,2019,2,46,31,10.9,2.5,4.1,-1.5,1.7,9.3,23.5,50.7,29,,Step 2:,OC: the true average does change ,,,,21,25,31,35
-Jaden Springer,PHI,21,76,202,Tennessee,USA,2021,1,28,26,3.1,1.4,0.9,-6.6,6.7,7.3,17.8,44.6,13.6,,,,,,,22,24,29,36
-Nic Claxton,BKN,24,83,215,Georgia,USA,2019,2,31,35,12.4,10.4,1.9,-5.1,9.5,23.9,15.5,64.3,9.6,,Step 3: ,H0:,µ1 = µ2 =µ3 = µ4,,,23,25,32,35
-Jayson Tatum,BOS,25,80,210,Duke,USA,2017,1,3,43,26.8,8.4,4.3,10.3,2.6,19.2,29.3,59.9,18.9,,,H1: ,not all means are equal to each other,,,21,25,29,35
-Zion Williamson,NOP,23,78,284,Duke,USA,2019,1,1,37,21.9,5.5,4.7,2.1,5.8,11.8,27.5,62,24.7,,,,,,,23,28,32,34
-Mo Bamba,PHI,25,85,231,Texas,USA,2018,1,6,24,4.3,3,0.5,4.6,13.6,17.3,17.9,63.6,9.3,,Step 4: ,0.05,,,,20,24,33,34
-Gui Santos,GSW,21,78,185,None,Brazil,2022,2,55,6,2.5,2,0.3,-16.1,10.6,19.4,17.8,55,9.5,,,,,,,23,27,29,36
-Justin Minaya,POR,24,77,205,Providence,USA,Undrafted,Undrafted,Undrafted,12,1.5,1.1,0.4,-2.1,3.8,6.7,9.5,39.8,6.4,,Step 5:,,,,,23,25,29,38
-Ben Sheppard,IND,22,78,190,Belmont,USA,2023,1,26,25,3.1,1.2,0.9,0.7,2.5,9.8,12.7,48.6,10,,Age 19 -23,Age 24 - 28 ,Age 29 - 33 ,Age 34 -39,,20,25,30,39
-Vince Williams Jr.,MEM,23,76,205,Virginia Commonwealth,USA,2022,2,47,36,8.4,5.5,2.2,0.4,4.9,16.9,13.5,61,12.2,,23,28,30,37,,22,28,31,36
-Jacob Gilyard,MEM,25,68,160,Richmond,USA,Undrafted,Undrafted,Undrafted,29,3.8,1,3.2,-12.1,1.4,5,10.7,56.5,29.3,,21,24,30,34,,23,25,29,35
-Obi Toppin,IND,25,81,220,Dayton,USA,2020,1,8,47,11.2,4,1.6,1.3,4.8,12.5,15.7,67.6,8.3,,23,25,29,35,,21,24,29,37
-Dennis Schroder,TOR,30,73,175,None,Germany,2013,1,17,46,13.9,2.7,6.3,0.6,1.3,7.2,18.8,56.5,27,,21,25,31,35,,20,28,33,35
-Aaron Gordon,DEN,28,80,235,Arizona,USA,2014,1,4,41,13.6,6.5,3,7.2,8.3,12.5,17,59.2,12.4,,22,24,29,36,,23,27,29,34
-Clint Capela,ATL,29,82,256,None,Switzerland,2014,1,25,44,11.3,10.4,1,-3.6,15.9,21.8,15.9,59.4,5.2,,23,25,32,35,,20,24,31,37
-Malcolm Brogdon,POR,31,76,229,Virginia,USA,2016,2,36,36,15.7,3.6,5.4,-4.9,2.2,10.4,22.9,55.8,30.3,,21,25,29,35,,23,25,30,38
-Garrett Temple,TOR,37,77,195,Louisiana State,USA,Undrafted,Undrafted,Undrafted,12,1.5,0.8,0.5,-4.8,7.1,11.6,15.8,57.1,20,,23,28,32,34,,21,27,30,37
-Marcus Smart,MEM,29,75,220,Oklahoma State,USA,2014,1,6,20,14.5,2.7,4.3,-0.8,0.9,7.3,22.5,55.2,21.1,,20,24,33,34,,22,24,31,34
-Brandon Miller,CHA,21,79,200,Alabama,USA,2023,1,2,38,14.7,3.9,2.3,-9.3,2.7,10.4,21.3,53.6,10.7,,23,27,29,36,,22,27,32,35
-Quentin Grimes,NYK,23,77,210,Houston,USA,2021,1,25,43,7.2,1.9,1.1,0.6,1.5,7.4,14.7,55.2,8.1,,23,25,29,38,,22,24,31,36
-Shaedon Sharpe,POR,20,77,205,Kentucky,Canada,2022,1,7,32,15.9,5,2.9,-10.3,3.6,11.6,22,52.4,13.8,,20,25,30,39,,21,25,30,35
-Josh Green,DAL,23,77,200,Arizona,Australia,2020,1,18,33,8.1,3.1,2.6,0.9,2.3,9.1,12.8,57.6,12.5,,22,28,31,36,,21,27,31,35
-DeMar DeRozan,CHI,34,78,220,Southern California,USA,2009,1,9,45,22.1,4.1,5.4,-3,1.5,9.7,24,56.7,22.7,,23,25,29,35,,21,24,30,35
-Kevin Knox II,DET,24,79,215,Kentucky,USA,2018,1,9,28,7.5,2.4,0.7,-10.1,2.9,10.9,15.7,58.2,5.6,,21,24,29,37,,20,28,29,34
-Jalen Smith,IND,23,81,215,Maryland,USA,2020,1,10,33,10.6,5.6,1.1,-1.6,8.7,23.6,18.4,72.4,7.8,,20,28,33,35,,23,28,31,35
-Kawhi Leonard,LAC,32,79,225,San Diego State,USA,2011,1,15,40,23.6,6.2,3.7,11.7,3.2,14.2,25.1,63.3,16.6,,23,27,29,34,,22,28,30,36
-Cason Wallace,OKC,20,75,195,Kentucky,USA,2023,1,10,46,6.8,2.3,1.4,4.4,3.4,7.4,12,63.5,8.6,,20,24,31,37,,23,24,29,35
-Mikal Bridges,BKN,27,78,209,Villanova,USA,2018,1,10,45,21.7,5.1,3.7,-2.2,2.2,11.8,25.6,57.1,16.6,,23,25,30,38,,22,25,33,38
-Tre Mann,OKC,22,75,178,Florida,USA,2021,1,18,13,3.8,1.8,1.5,-3.8,3.5,16.1,18.2,60.6,25.3,,21,27,30,37,,21,24,31,35
-Deandre Ayton,POR,25,85,247,Arizona,Bahamas,2018,1,1,30,13.2,10.6,1.6,-8.9,9.8,24.2,18.3,56.5,7.8,,22,24,31,34,,22,24,33,35
-Nathan Mensah,CHA,25,81,230,San Diego State,Ghana,Undrafted,Undrafted,Undrafted,19,1.5,3,0.5,-21.1,8.9,14,6.9,51.3,5,,22,27,32,35,,20,25,31,35
-Jevon Carter,CHI,28,73,200,West Virginia,USA,2018,2,32,45,5.2,0.8,1.2,0.7,0.7,5,17.8,47.9,12.3,,22,24,31,36,,22,24,30,34
-Xavier Tillman,MEM,25,79,245,Michigan State,USA,2020,2,35,33,5.9,4.6,1.6,-6.7,7.4,14.9,16,43.3,12.4,,21,25,30,35,,22,28,33,37
-Keldon Johnson,SAS,24,77,220,Kentucky,USA,2019,1,29,44,16.7,5.9,3.3,-8.4,4.4,14.1,22.3,55.5,15.7,,21,27,31,35,,23,28,31,35
-Robin Lopez,MIL,35,85,281,Stanford,USA,2008,1,15,13,0.8,0.2,0.3,-9.8,3,4.7,11,56.3,14.8,,21,24,30,35,,23,28,30,
-Jalen Wilson,BKN,23,78,220,Kansas,USA,2023,2,51,11,4.5,2.2,0.8,-12.6,11.2,9.5,14.1,63.5,11.3,,20,28,29,34,,23,24,30,
-Boban Marjanovic,HOU,35,88,290,None,Serbia,Undrafted,Undrafted,Undrafted,8,2.1,2.3,0.5,-23.5,11.6,28.3,18.9,40.9,12.5,,23,28,31,35,,20,26,33,
-Ryan Arcidiacono,NYK,29,75,195,Villanova,USA,Undrafted,Undrafted,Undrafted,18,0,0.4,0.2,-2,0,13,6.7,0,13.8,,22,28,30,36,,19,26,33,
-JT Thor,CHA,21,81,203,Auburn,USA,2021,2,37,37,3.3,2.7,0.4,-7.2,6.3,11.9,11.5,44.2,3.9,,23,24,29,35,,23,24,32,
-Julian Phillips,CHI,20,80,198,Tennessee,USA,2023,2,35,23,1.3,0.6,0.3,3.5,2.8,7.1,11.8,42,9,,22,25,33,38,,23,26,31,
-Lester Quinones,GSW,23,76,208,Memphis,USA,Undrafted,Undrafted,Undrafted,9,2.7,1.3,0.6,8.1,6.3,13.6,20.1,50.3,10.6,,21,24,31,35,,20,28,29,
-Dillon Brooks,HOU,28,78,225,Oregon,Canada,2017,2,45,36,13.8,3.5,1.6,1,2.2,8.3,18.4,57.9,7.2,,22,24,33,35,,23,26,30,
-Gradey Dick,TOR,20,78,200,Kansas,USA,2023,1,13,25,4.2,1.5,1.1,-5.2,3.1,7.1,15,48.2,11.4,,20,25,31,35,,21,25,31,
-Alec Burks,DET,32,77,214,Colorado,USA,2011,1,12,39,12.5,2.4,1.5,-11.1,1.7,9.6,22.8,57.4,11.2,,22,24,30,34,,21,26,29,
-Gabe Vincent,LAL,27,74,200,California-Santa Barbara,USA,Undrafted,Undrafted,Undrafted,5,5.4,1,3,-1.5,1.5,2.3,11.5,41.1,17.2,,22,28,33,37,,20,24,31,
-Seth Curry,DAL,33,73,185,Duke,USA,Undrafted,Undrafted,Undrafted,34,4.3,1.4,0.8,8.8,3,7.5,14.7,50.3,8.3,,23,28,31,35,,23,27,33,
-Ja Morant,MEM,24,74,174,Murray State,USA,2019,1,2,9,25.1,5.6,8.1,-0.2,1.9,13.4,29.6,57,38.4,,23,28,30,,,22,24,29,
-Joe Ingles,ORL,36,81,220,None,Australia,Undrafted,Undrafted,Undrafted,32,5,2.5,3.3,4.9,2.5,11.6,12.1,56.1,22.4,,23,24,30,,,19,24,29,
-Thaddeus Young,TOR,35,80,225,Georgia Tech,USA,2007,1,12,18,4.3,2.8,2.1,-2.7,8.1,13.2,13,58.4,19.7,,20,26,33,,,20,26,29,
-Kessler Edwards,SAC,23,79,203,Pepperdine,USA,2021,2,44,30,1.5,0.7,0.3,-7.6,3.1,12.1,12.5,52.6,8.2,,19,26,33,,,21,28,32,
-Terry Rozier,MIA,29,73,190,Louisville,USA,2015,1,16,33,21.9,3.9,6.5,-14.2,1.6,10.1,26.4,56.4,29.8,,23,24,32,,,19,25,32,
-Trent Forrest,ATL,25,76,210,Florida State,USA,Undrafted,Undrafted,Undrafted,19,2.1,1.4,2,-16.5,2.2,12,12.4,38.9,26,,23,26,31,,,20,26,30,
-Mamadi Diakite,SAS,27,81,228,Virginia,Guinea,Undrafted,Undrafted,Undrafted,3,4,1,0.7,15.2,5.9,11.8,22.2,78.5,25,,20,28,29,,,23,25,31,
-Usman Garuba,GSW,21,80,229,None,Spain,2021,1,23,2,0,0,0.5,-33.3,0,0,5.3,0,33.3,,23,26,30,,,22,25,31,
-R.J. Hampton,MIA,22,76,175,None,USA,2020,1,24,8,1.3,0.8,1,10.6,2.6,4.5,9.8,33.6,12.7,,21,25,31,,,21,27,29,
-Saben Lee,PHX,24,74,183,Vanderbilt,USA,2020,2,38,11,2.8,1.1,1.1,7,8.5,8.6,19.5,54.4,24,,21,26,29,,,23,28,33,
-Ziaire Williams,MEM,22,81,185,Stanford,USA,2021,1,10,44,7.7,3.4,1.5,-11.4,3.3,14.1,19.6,50.6,12.5,,20,24,31,,,23,28,33,
-David Roddy,MEM,22,76,255,Colorado State,USA,2022,1,23,43,8.1,4,1.5,-7.2,4.5,13,17,49.4,9.4,,23,27,33,,,23,27,31,
-Eric Gordon,PHX,35,75,215,Indiana,USA,2008,1,7,38,12.4,2.1,2.3,1.5,1.1,5.7,17,58.1,10.4,,22,24,29,,,20,24,29,
-Bryce McGowens,CHA,21,78,175,Nebraska,USA,2022,2,40,35,5.1,1.7,0.9,-12.7,2.1,8.6,13.3,57.3,7.8,,19,24,29,,,22,26,32,
-Terquavion Smith,PHI,21,76,160,North Carolina State,USA,Undrafted,Undrafted,Undrafted,4,2,0,1.3,2.3,0,0,25,40.5,38.5,,20,26,29,,,23,24,29,
-Johnny Davis,WAS,21,76,195,Wisconsin,USA,2022,1,10,20,2.4,1,0.3,1.8,5.5,7.5,14.6,46.8,4.4,,21,28,32,,,20,24,29,
-Joel Embiid,PHI,29,85,280,Kansas,Cameroon,2014,1,3,33,36,11.4,5.8,11.2,8,24,38.7,65,31.7,,19,25,32,,,23,24,30,
-Kevon Looney,GSW,27,81,222,UCLA,USA,2015,1,30,43,5.4,6.9,2.3,-5.8,12,22,10.4,63.8,15.9,,20,26,30,,,21,27,30,
-Wendell Carter Jr.,ORL,24,82,270,Duke,USA,2018,1,7,20,11.1,6.6,1.6,-1.3,7.3,19.7,17,63.1,9.7,,23,25,31,,,20,26,32,
-Lindell Wigginton,MIL,25,73,189,Iowa State,Canada,2019,,,3,2,0,0,-66.5,0,0,41.2,51,0,,22,25,31,,,21,26,31,
-Dejounte Murray,ATL,27,77,180,Washington,USA,2016,1,29,45,21.4,5,5.1,-4,1.8,12.6,24.2,56.7,22,,21,27,29,,,21,25,32,
-Jarace Walker,IND,20,79,235,Houston,USA,2023,1,8,15,4.9,1.9,1.3,-1.7,4.6,13.3,18,55.2,15.5,,23,28,33,,,22,28,32,
-Ron Harper Jr.,TOR,23,76,233,Rutgers,USA,Undrafted,Undrafted,Undrafted,1,0,0,1,-88.9,0,0,0,0,33.3,,23,28,33,,,19,24,31,
-Kyle Anderson,MIN,30,81,230,UCLA,USA,2014,1,30,46,6.3,3.5,4,1.1,3.2,12,14,51.3,25.7,,23,27,31,,,23,26,29,
-Nate Hinton,HOU,24,77,210,Houston,USA,Undrafted,Undrafted,Undrafted,6,2.3,1.3,0.3,-5.4,6.3,15.8,15.7,63.6,7.4,,20,24,29,,,19,24,33,
-Jae'Sean Tate,HOU,28,76,230,Ohio State,USA,Undrafted,Undrafted,Undrafted,42,4.6,3.5,1.1,5,5.2,13,10.6,55.3,8.2,,22,26,32,,,23,28,30,
-Johnny Juzang,UTA,22,77,209,UCLA,USA,Undrafted,Undrafted,Undrafted,1,0,0,1,-18.1,0,0,20,0,100,,23,24,29,,,23,25,31,
-Luke Kornet,BOS,28,85,250,Vanderbilt,USA,Undrafted,Undrafted,Undrafted,33,5.3,3.9,0.9,3.3,11.4,12.8,11.4,72,8.4,,20,24,29,,,22,25,31,
-Keita Bates-Diop,PHX,28,80,229,Ohio State,USA,2018,2,48,35,4.5,2.6,0.9,-3.2,5.1,11.4,12.8,50.4,8.4,,23,24,30,,,21,25,30,
-Trey Murphy III,NOP,23,80,206,Virginia,USA,2021,1,17,21,12.9,3.8,2,11.2,1.6,12.2,18.7,58.7,11,,21,27,30,,,23,26,31,
-Stanley Umude,DET,24,78,210,Arkansas,USA,Undrafted,Undrafted,Undrafted,15,5,1.9,0.5,-11.4,2.1,15.1,16.9,69.3,7.7,,20,26,32,,,21,26,29,
-Patrick Williams,CHI,22,79,215,Florida State,USA,2020,1,4,43,10,3.9,1.5,-1.2,3.9,10.5,16.3,55.3,7.7,,21,26,31,,,21,26,33,
-Davis Bertans,OKC,31,82,225,None,Latvia,2011,2,42,14,3.1,0.7,0.6,7.8,2.1,9.1,14,67.5,11.7,,21,25,32,,,20,25,32,
-JD Davison,BOS,21,73,195,Alabama,USA,2022,2,53,2,1,1,0,13.2,16.7,11.1,13.3,53.2,0,,22,28,32,,,21,25,31,
-De'Anthony Melton,PHI,25,75,200,Southern California,USA,2018,2,46,33,11.8,4,3.2,10.7,2.8,10.9,17.4,54,14.1,,19,24,31,,,23,27,30,
-James Wiseman,DET,22,83,240,Memphis,USA,2020,1,2,29,6,4.1,0.6,-13.6,9.2,18,14.8,67.9,6.5,,23,26,29,,,21,25,32,
-AJ Griffin,ATL,20,78,220,Duke,USA,2022,1,16,17,2.2,0.8,0.2,-9.9,1.5,9.4,15.6,41.2,4.3,,19,24,33,,,20,25,29,
-Jalen Johnson,ATL,22,80,219,Duke,USA,2021,1,20,32,15.5,8.2,3.2,-3.1,3.4,20.9,17.5,61.8,13.9,,23,28,30,,,23,28,30,
-Jimmy Butler,MIA,34,79,230,Marquette,USA,2011,1,30,31,21,5,4.4,2.7,6.2,9.2,24.2,61.7,20.4,,23,25,31,,,23,24,33,
-Keon Ellis,SAC,24,75,175,Alabama,USA,Undrafted,Undrafted,Undrafted,28,3.9,1.3,1.3,1.3,2.7,8.6,13,60.2,12.9,,22,25,31,,,22,24,32,
-Bol Bol,PHX,24,87,220,Oregon,Sudan,2019,2,44,12,3.4,2.3,0.5,6.8,11.8,21.4,14.9,81.3,9.2,,21,25,30,,,23,24,29,
-Luka Garza,MIN,25,82,243,Iowa,USA,2021,2,52,9,1.7,0.9,0.2,-3.6,12.9,15.4,32.4,38.4,13.3,,23,26,31,,,22,24,29,
-Jamaree Bouyea,POR,24,74,180,San Francisco,USA,Undrafted,Undrafted,Undrafted,6,1.7,1.7,1.3,-19.7,2.7,15.7,20,23.8,25.8,,21,26,29,,,21,24,31,
-Justin Holiday,DEN,34,78,180,Washington,USA,Undrafted,Undrafted,Undrafted,26,3.5,1.2,1,6.5,1.2,8.2,9.5,64.1,9.1,,21,26,33,,,22,28,,
-Grayson Allen,PHX,28,76,198,Duke,USA,2018,1,21,41,13.5,4.2,2.9,3.2,2.4,10,14.1,70.2,11.3,,20,25,32,,,22,25,,
-Gary Harris,ORL,29,76,210,Michigan State,USA,2014,1,19,27,7.1,1.7,1.9,4.3,2.2,5.4,12.2,57.3,10.9,,21,25,31,,,23,26,,
-Kristaps Porzingis,BOS,28,86,240,None,Latvia,2015,1,4,33,19.5,6.7,2,12.2,5.5,15.5,23.1,66.3,9.3,,23,27,30,,,20,26,,
-Alex Caruso,CHI,29,77,186,Texas A&M,USA,Undrafted,Undrafted,Undrafted,40,10.1,3.6,2.7,0.8,3.6,10,15.2,63.7,14.8,,21,25,32,,,22,27,,
-Jock Landale,HOU,28,83,255,St. Mary's,Australia,Undrafted,Undrafted,Undrafted,27,2.3,2.1,0.6,6.7,12,8.4,12.5,44.5,8.3,,20,25,29,,,23,25,,
-Reggie Jackson,DEN,33,74,208,Boston College,USA,2011,1,24,47,11,2,4,1.3,1.6,6.9,21,54.8,24.9,,23,28,30,,,19,26,,
-Isaiah Jackson,IND,22,81,205,Kentucky,USA,2021,1,22,36,6.8,4.1,0.9,0.8,11.1,19.1,16.8,68.5,8.5,,23,24,33,,,21,26,,
-Yuta Watanabe,PHX,29,81,215,George Washington,Japan,Undrafted,Undrafted,Undrafted,26,3.7,1.7,0.4,-4.7,2.9,8.5,12.9,48.7,3.7,,22,24,32,,,22,25,,
-Scotty Pippen Jr.,MEM,23,73,170,Vanderbilt,USA,Undrafted,Undrafted,Undrafted,3,7.3,3.3,3.7,12.2,4.5,14.5,20.9,64.4,35.5,,23,24,29,,,22,25,,
-Craig Porter Jr.,CLE,23,73,180,Wichita State,USA,Undrafted,Undrafted,Undrafted,29,7.1,2.7,3.1,2.9,3.3,13.8,20.4,56.2,27,,22,24,29,,,21,24,,
-Javon Freeman-Liberty,TOR,24,75,190,DePaul,USA,Undrafted,Undrafted,Undrafted,2,1,0.5,0,-75,14.3,0,30,33.3,0,,21,24,31,,,22,24,,
-Amir Coffey,LAC,26,79,210,Minnesota,USA,Undrafted,Undrafted,Undrafted,32,4.8,1.7,0.7,-1.9,2.4,7.7,10.1,67.6,5.3,,22,28,,,,21,24,,
-Pat Connaughton,MIL,31,77,209,Notre Dame,USA,2015,2,41,40,5.5,3.2,1.7,1,3.1,11.9,9.9,59.8,9.9,,22,25,,,,21,24,,
-Jay Huff,DEN,26,85,240,Virginia,USA,Undrafted,Undrafted,Undrafted,6,1.2,0.2,0.2,-15.4,0,9.1,16.3,58.3,12.5,,23,26,,,,21,24,,
-Trendon Watford,BKN,23,80,237,Louisiana State,USA,Undrafted,Undrafted,Undrafted,31,5.7,2.9,1.6,6.8,7.4,15.2,18.7,60.2,17.5,,20,26,,,,22,26,,
-Isaiah Mobley,CLE,24,80,238,Southern California,USA,2022,2,49,3,1.7,0.7,1.3,-21.4,0,25,15.6,62.5,44.4,,22,27,,,,23,25,,
-Alex Fudge,LAL,20,80,200,Florida,USA,Undrafted,Undrafted,Undrafted,4,1,0.5,0,-77.3,13.3,0,21.1,29.1,0,,23,25,,,,22,25,,
-Jamal Murray,DEN,26,76,215,Kentucky,Canada,2016,1,7,33,20.9,3.9,6.5,7,1.9,10.5,26.9,58.3,29.7,,19,26,,,,22,26,,
-Juan Toscano-Anderson,SAC,30,78,209,Marquette,USA,Undrafted,Undrafted,Undrafted,11,0.6,1.3,0.4,-0.1,6.8,16.7,10.6,29.2,10.8,,21,26,,,,20,25,,
-Noah Clowney,BKN,19,81,210,Alabama,USA,2023,1,21,2,7,2.5,1,-47.5,8.8,9.5,16.2,70.9,12.5,,22,25,,,,22,25,,
-Cedi Osman,SAS,28,79,230,None,Turkey,2015,2,31,46,7.1,2.6,1.8,-15.1,1.9,12.2,15.1,59.4,14.5,,22,25,,,,20,27,,
-De'Andre Hunter,ATL,26,80,221,Virginia,USA,2019,1,4,24,14.9,4.1,1.4,-2.2,2,11.7,18.4,60.1,6.1,,21,24,,,,21,25,,
-Trae Young,ATL,25,73,164,Oklahoma,USA,2018,1,5,41,27,2.9,10.8,-2.1,1.2,6.6,30,57.8,44.2,,22,24,,,,21,24,,
-Sam Hauser,BOS,26,79,217,Virginia,USA,Undrafted,Undrafted,Undrafted,45,8,3.6,1,8.6,3,12.3,13.5,62.1,6.5,,21,24,,,,21,25,,
-Jaylen Nowell,MEM,24,76,201,Washington,USA,2019,2,43,9,5.7,1.6,1.8,-0.6,1.8,6.7,16.2,45.3,14.5,,21,24,,,,23,25,,
-KJ Martin,PHI,23,78,215,None,USA,2020,2,52,30,2.3,1,0.5,-0.7,2.6,8.9,12.8,51.5,9.2,,21,24,,,,19,24,,
-Malik Beasley,MIL,27,76,187,Florida State,USA,2016,1,19,44,11.3,4,1.4,6.8,2.2,10,13.3,65.2,5.9,,22,26,,,,22,24,,
-Danuel House Jr.,PHI,30,78,220,Texas A&M,USA,Undrafted,Undrafted,Undrafted,29,4.1,1.6,0.8,5.3,2.8,7.8,12,57.1,7.5,,23,25,,,,22,26,,
-AJ Green,MIL,24,76,190,Northern Iowa,USA,Undrafted,Undrafted,Undrafted,28,3.3,0.8,0.6,2.7,2.7,7.4,14.9,61.5,9.9,,22,25,,,,23,25,,
-Devin Vassell,SAS,23,77,200,Florida State,USA,2020,1,11,41,18.1,3.5,3.6,-6.1,1.1,9.8,21.9,58.2,17.4,,22,26,,,,19,24,,
-Trey Jemison,WAS,24,82,260,Alabama-Birmingham,USA,Undrafted,Undrafted,Undrafted,2,0,0.5,0,75,0,50,25,0,0,,20,25,,,,20,24,,
-Chris Duarte,SAC,26,77,190,Oregon,Dominican Republic,2021,1,13,35,3.7,1.8,0.9,-1.7,2.7,11.4,14.2,47.6,8.8,,22,25,,,,20,27,,
-James Johnson,IND,36,79,240,Wake Forest,USA,2009,1,16,5,0.8,0.8,1,14.8,4,15,10.9,40,20,,20,27,,,,22,24,,
-Taylor Hendricks,UTA,20,81,215,Central Florida,USA,2023,1,9,13,4.9,2.2,0.5,1.6,5.9,9,15.5,52,4.1,,21,25,,,,22,27,,
-Keegan Murray,SAC,23,80,225,Iowa,USA,2022,1,4,40,16,5.5,1.6,1.9,3.9,12.9,18.7,57.6,6.7,,21,24,,,,21,24,,
-Nikola Jokic,DEN,28,83,284,None,Serbia,2014,2,41,46,26.3,12,8.9,10.1,9.5,26.8,29.1,66.1,40.7,,21,25,,,,21,24,,
-Julian Strawther,DEN,21,78,205,Gonzaga,USA,2023,1,29,33,5.9,1.5,1.1,-10.8,0.8,9.4,18.7,50,11.3,,23,25,,,,19,26,,
-Jaden Ivey,DET,21,76,195,Purdue,USA,2022,1,5,42,14.3,3.8,3.7,-7.7,5,9.3,23.4,55,19.4,,19,24,,,,22,26,,
-Leonard Miller,MIN,20,82,210,None,Canada,2023,2,33,5,2.6,1.8,0.2,-41.3,0,50,22.2,72.2,14.3,,22,24,,,,21,26,,
-Thanasis Antetokounmpo,MIL,31,79,219,None,Greece,2014,2,51,19,0.7,0.4,0.5,-5.6,6.3,4.5,12.4,50,14.8,,22,26,,,,22,25,,
-Orlando Robinson,MIA,23,82,235,Fresno State,USA,Undrafted,Undrafted,Undrafted,20,4.2,3.1,1.4,5.3,8.6,19.9,15.4,60.3,16.8,,23,25,,,,23,25,,
-Maxi Kleber,DAL,32,82,240,None,Germany,Undrafted,Undrafted,Undrafted,11,3.9,3.3,1.6,-8.6,4.1,14.5,11.4,47,12.1,,19,24,,,,23,27,,
-Rudy Gobert,MIN,31,85,258,None,France,2013,1,27,45,13.4,12.4,1.2,9.3,11.3,25.4,15.6,65.5,5.2,,20,24,,,,20,27,,
-Josh Richardson,MIA,30,77,200,Tennessee,USA,2015,2,40,36,9.6,2.7,2.5,-5.8,1.6,9,15.7,55.8,14.7,,20,27,,,,23,26,,
-Isaiah Hartenstein,NYK,25,85,250,None,Germany,2017,2,43,44,6.5,8.4,1.9,9.4,12.7,19.9,10.1,64.2,9.5,,22,24,,,,21,27,,
-Franz Wagner,ORL,22,82,220,Michigan,Germany,2021,1,8,38,20.4,5.7,3.9,1.5,3.2,14,25.2,56.2,19.2,,22,27,,,,23,27,,
-Jordan Clarkson,UTA,31,75,194,Missouri,USA,2014,2,46,37,18,3.6,5,-2.3,3.3,8.4,26.7,52.8,25.2,,21,24,,,,19,27,,
-Dereck Lively II,DAL,19,85,230,Duke,USA,2023,1,12,35,8.9,7.8,1.3,4.8,11.2,18.2,11.9,72.3,6.6,,21,24,,,,23,26,,
-Kobe Bufkin,ATL,20,77,195,Michigan,USA,2023,1,15,2,0.5,1,0,-126.4,16.7,100,33.3,12.9,0,,19,26,,,,22,26,,
-Chet Holmgren,OKC,21,85,208,Gonzaga,USA,2022,1,2,46,17,7.5,2.7,9.2,5.2,18.1,21,63.4,12.3,,22,26,,,,20,25,,
-GG Jackson,MEM,19,81,210,South Carolina,USA,2023,2,45,14,8.1,2.6,0.6,6.7,4.8,12.2,18.7,67.5,6.7,,21,26,,,,22,24,,
-P.J. Tucker,LAC,38,77,245,Texas,USA,2006,2,35,15,1.3,2.9,0.5,-0.5,6.6,11.3,4.3,49.2,4.3,,22,25,,,,20,25,,
-Dru Smith,MIA,26,74,203,Missouri,USA,Undrafted,Undrafted,Undrafted,9,4.3,1.6,1.6,-15,4.1,5.8,12.8,57.6,18.7,,23,25,,,,23,28,,
-Dyson Daniels,NOP,20,79,199,None,Australia,2022,1,8,46,5.5,3.7,2.7,4.6,4.5,12.2,12.5,50.6,15.6,,23,27,,,,23,24,,
-Isaiah Livers,WAS,25,78,232,Michigan,USA,2021,2,42,23,5,2.1,1.1,-19.3,3,7.3,12.2,46,7.1,,20,27,,,,19,28,,
-Hamidou Diallo,WAS,25,77,202,Kentucky,USA,2018,2,45,2,1,1,0.5,31.8,18.2,0,18.8,50,33.3,,23,26,,,,21,27,,
-Dean Wade,CLE,27,81,228,Kansas State,USA,Undrafted,Undrafted,Undrafted,36,5.9,4.5,0.8,8.2,3.7,15.9,9.8,62.2,5,,21,27,,,,23,26,,
-Damian Jones,CLE,28,82,245,Vanderbilt,USA,2016,1,30,20,2,1.3,0.4,-14.2,5.6,15.1,12.8,61.9,8.9,,23,27,,,,23,27,,
-Cody Martin,CHA,28,78,205,Nevada,USA,2019,2,36,14,6.8,3.3,2.6,-14.1,3.3,10,14.8,43.1,13.8,,19,27,,,,20,25,,
-Norman Powell,LAC,30,76,215,UCLA,USA,2015,2,46,44,13.3,2.5,1,7.6,0.6,9,18.6,63.8,5.4,,23,26,,,,20,25,,
-Jaden McDaniels,MIN,23,81,185,Washington,USA,2020,1,28,36,10.9,2.7,1.3,5.7,2.5,6.9,15.6,60.2,6,,22,26,,,,21,24,,
-Duncan Robinson,MIA,29,79,215,Michigan,USA,Undrafted,Undrafted,Undrafted,44,13.5,2.5,2.9,0.6,0.9,8.3,19.1,61.4,15.7,,20,25,,,,23,26,,
-Cam Thomas,BKN,22,75,210,Louisiana State,Japan,2021,1,27,36,21,2.6,2.4,-5.7,0.7,8.2,30,54.7,13.5,,22,24,,,,22,26,,
-Delon Wright,WAS,31,77,185,Utah,USA,2015,1,20,24,4.5,2.1,3,-3.6,2.4,10,13.3,48.3,25.3,,20,25,,,,20,24,,
-Dorian Finney-Smith,BKN,30,79,220,Florida,USA,Undrafted,Undrafted,Undrafted,42,9.1,4.8,1.4,-1.1,5.5,10.4,13.5,54.8,6.8,,23,28,,,,20,24,,
-Jordan Hawkins,NOP,21,77,190,Connecticut,USA,2023,1,14,41,10.8,2.8,1.4,-1.1,2.5,10.1,19.3,57.2,9.1,,23,24,,,,20,26,,
-Giannis Antetokounmpo,MIL,29,83,243,None,Greece,2013,1,15,44,31,11.7,6.2,8.3,7.6,23.9,32.1,64.7,29.1,,19,28,,,,23,24,,
-RJ Barrett,TOR,23,78,214,Duke,Canada,2019,1,3,39,19.2,5.2,2.8,-1.6,2.7,13.9,25.7,56.2,13.4,,21,27,,,,21,26,,
-Bruce Brown,TOR,27,76,202,Miami,USA,2018,2,42,38,11.8,4.9,2.8,1.8,3.1,13.7,16.1,56.7,11.5,,23,26,,,,22,27,,
-LeBron James,LAL,39,81,250,None,USA,2003,1,1,42,25,7.5,7.6,1.9,2.7,18,28.8,61.3,34.8,,23,27,,,,20,25,,
-Keyontae Johnson,OKC,23,76,230,Kansas State,USA,2023,2,50,6,1.5,1,0.7,3.1,6.5,7,12.7,40.9,11.1,,20,25,,,,21,25,,
-Onuralp Bitim,CHI,24,78,215,None,Turkey,Undrafted,Undrafted,Undrafted,1,0,0,0,-45.2,0,0,0,0,0,,20,25,,,,20,24,,
-Lauri Markkanen,UTA,26,85,240,Arizona,Finland,2017,1,7,37,24,8.8,1.9,4.4,7.1,18.8,24.3,64.8,8.8,,21,24,,,,22,25,,
-Robert Covington,PHI,33,79,209,Tennessee State,USA,Undrafted,Undrafted,Undrafted,29,4.4,3.3,0.8,12.1,6.4,12.7,10.4,58,6.4,,23,26,,,,22,27,,
-Sandro Mamukelashvili,SAS,24,81,240,Seton Hall,Georgia,2021,2,54,26,2.6,1.9,1,-0.1,7.8,19.2,16.9,51.5,20.2,,22,26,,,,23,25,,
-JaVale McGee,SAC,36,85,270,Nevada,USA,2008,1,18,34,4.6,2.9,0.4,-1.1,11,23.1,21.2,65.1,7.6,,20,24,,,,23,25,,
-Harrison Barnes,SAC,31,80,225,North Carolina,USA,2012,1,7,44,11.9,2.9,1.3,-1.9,2.8,7.2,14.1,63.8,5.5,,20,24,,,,23,25,,
-Oscar Tshiebwe,IND,24,80,255,Kentucky,DRC,Undrafted,Undrafted,Undrafted,6,3.5,2,0.3,15.4,15.8,24,20,56.3,7.7,,20,26,,,,23,24,,
-Dalano Banton,BOS,24,80,204,Nebraska,Canada,2021,2,46,22,2.5,1.5,0.7,1.8,6.7,11.5,16,49.2,14.2,,23,24,,,,20,24,,
-Tyrese Haliburton,IND,23,77,185,Iowa State,USA,2020,1,12,34,23.6,4.1,12.6,6.7,1.8,10.3,25.2,63.2,50.1,,21,26,,,,23,24,,
-Torrey Craig,CHI,33,77,221,South Carolina Upstate,USA,Undrafted,Undrafted,Undrafted,27,6.1,4.8,1,-7.7,7.6,14.5,12,55.3,6.8,,22,27,,,,19,28,,
-Victor Wembanyama,SAS,20,88,210,None,France,2023,1,1,40,20.5,10.1,3.1,-5.1,7.5,26.6,31.1,55.8,17.4,,20,25,,,,21,24,,
-Cameron Johnson,BKN,27,80,210,North Carolina,USA,2019,1,11,36,13.8,4.6,2.6,-2,3.6,12.3,19,57.5,13.7,,21,25,,,,22,25,,
-Bam Adebayo,MIA,26,81,255,Kentucky,USA,2017,1,14,36,21,10.5,4.2,-3.2,6.5,24,26.4,56.7,21.1,,20,24,,,,,25,,
-Russell Westbrook,LAC,35,76,200,UCLA,USA,2008,1,4,44,11.3,5.8,4.7,2.8,6.8,17.6,23.3,52.3,29.1,,22,25,,,,,27,,
-Donte DiVincenzo,NYK,26,76,203,Villanova,USA,2018,1,17,46,11.4,3.1,2.2,2.3,3.4,10.7,18.9,62.2,13.9,,22,27,,,,,28,,
-D'Moi Hodge,LAL,25,75,188,Missouri,British Virgin Islands,Undrafted,Undrafted,Undrafted,7,2,0,0.7,-44.2,0,0,17.2,44.1,22.7,,23,25,,,,,24,,
-Buddy Hield,IND,31,76,220,Oklahoma,Bahamas,2016,1,6,47,12.3,3.2,2.7,3.5,2.6,10.3,18.4,58.7,12.5,,23,25,,,,,26,,
-Kelly Oubre Jr.,PHI,28,79,203,Kansas,USA,2015,1,15,32,12.8,4.2,1.1,4.2,3.3,11.5,18.4,57.1,5.5,,23,25,,,,,26,,
-Jeff Green,HOU,37,80,235,Georgetown,USA,2007,1,5,43,6.3,2.1,0.7,-3.2,3.7,8.3,14.3,62.5,6.3,,23,24,,,,,24,,
-Walker Kessler,UTA,22,85,245,Auburn,USA,2022,1,22,39,8.4,7.4,0.8,0.5,10.3,18.9,13,65,4.7,,20,24,,,,,28,,
-Udoka Azubuike,PHX,24,83,270,Kansas,Nigeria,2020,1,27,12,2.9,2.6,0.3,-12.6,11,18.3,12.7,65.2,4,,23,24,,,,,24,,
-Jacob Toppin,NYK,23,80,200,Kentucky,USA,Undrafted,Undrafted,Undrafted,3,0,0,0.3,-2.8,0,0,0,0,50,,19,28,,,,,26,,
-Derrick Jones Jr.,DAL,26,78,210,UNLV,USA,Undrafted,Undrafted,Undrafted,43,10.1,3.6,1,-3.4,4.5,9,15.1,60,5.3,,21,24,,,,,25,,
-Max Christie,LAL,20,77,190,Michigan State,USA,2022,2,35,37,4.8,2.6,1,-1.9,1.5,12.8,13.4,51.7,7.9,,22,25,,,,,28,,
-Naz Reid,MIN,24,81,264,Louisiana State,USA,Undrafted,Undrafted,Undrafted,46,12.4,4.5,1,5.8,4.3,15,21.4,61.3,7.3,,,25,,,,,24,,
-Zach LaVine,CHI,28,77,200,UCLA,USA,2014,1,13,25,19.5,5.2,3.9,-5.4,0.9,13.4,23.8,57.8,17.2,,,27,,,,,24,,
-Andre Drummond,CHI,30,83,279,Connecticut,USA,2012,1,9,47,7.8,8.3,0.6,-1.6,19.5,32.9,20.7,56.7,5.5,,,28,,,,,26,,
-Charles Bassey,SAS,23,82,230,Western Kentucky,Nigeria,2021,2,53,19,3.3,4,1.1,-11.6,10.2,26.5,11,73.9,13.6,,,24,,,,,26,,
-Jordan Nwora,TOR,25,80,225,Louisville,USA,2020,2,45,21,5.8,2,1.2,-2.9,4.9,14.2,21.5,54.8,15.1,,,26,,,,,27,,
-Dalen Terry,CHI,21,79,195,Arizona,USA,2022,1,18,31,2.3,1.5,1.2,3.5,3.3,12.8,12.3,48.2,15.4,,,26,,,,,27,,
-Austin Reaves,LAL,25,77,197,Oklahoma,USA,Undrafted,Undrafted,Undrafted,47,15.1,4.1,5.2,-3.7,2.6,10.5,19.6,61.3,24.3,,,24,,,,,26,,
-Jermaine Samuels Jr.,HOU,25,78,230,Villanova,USA,Undrafted,Undrafted,Undrafted,7,1.7,1.4,0.3,-21.5,4.7,20,8.4,67.6,5.7,,,28,,,,,24,,
-Jabari Smith Jr.,HOU,20,83,220,Auburn,USA,2022,1,3,40,13.7,8.7,1.5,-0.7,6,20.2,17.5,58.7,6.6,,,24,,,,,26,,
-Nicolas Batum,PHI,35,80,230,None,France,2008,1,25,33,5.8,3.8,2.3,10.4,4.9,10.2,8.1,69.8,11.3,,,26,,,,,28,,
-Lamar Stevens,BOS,26,79,230,Penn State,USA,Undrafted,Undrafted,Undrafted,18,2.7,1.6,0.4,-1.2,8.5,13.8,19.2,52.4,11.4,,,25,,,,,24,,
-Keon Johnson,BKN,21,77,185,Tennessee,USA,2021,1,21,1,12,1,1,-32.1,0,5.9,19.3,61.5,5.9,,,28,,,,,27,,
-Peyton Watson,DEN,21,79,200,UCLA,USA,2022,1,30,45,6.8,2.7,1,-1.5,3,11.1,16.3,55.5,8.2,,,24,,,,,26,,
-Svi Mykhailiuk,BOS,26,79,205,Kansas,Ukraine,2018,2,47,21,2.6,0.9,0.3,2.4,3,7.1,17.1,45.3,6.3,,,24,,,,,28,,
-Jaime Jaquez Jr.,MIA,22,78,225,UCLA,USA,2023,1,18,40,13.8,3.8,2.7,-0.6,4.1,8.7,18.8,60,13.8,,,26,,,,,28,,
-James Harden,LAC,34,77,220,Arizona State,USA,2009,1,3,39,17.2,4.7,8.6,10.7,1.1,12.5,20.2,63.8,33.5,,,26,,,,,26,,
-Bilal Coulibaly,WAS,19,80,195,None,France,2023,1,7,44,8.1,4.1,1.8,-9,2.8,12.4,13.6,55.9,9,,,27,,,,,25,,
-Colin Castleton,LAL,23,82,250,Florida,USA,Undrafted,Undrafted,Undrafted,5,3.2,1.8,0.6,-15.5,13.8,17.2,16.2,74.3,16.7,,,27,,,,,27,,
-Nick Smith Jr.,CHA,19,74,185,Arkansas,USA,2023,1,27,29,6.4,1.6,1.2,-19.4,3,7.6,19.6,54.8,13.2,,,26,,,,,24,,
-Onyeka Okongwu,ATL,23,82,240,Southern California,USA,2020,1,6,45,9.2,6.7,1.4,-1.2,9.8,17.4,13,65.2,7.7,,,24,,,,,25,,
-Wesley Matthews,ATL,37,77,220,Marquette,USA,Undrafted,Undrafted,Undrafted,19,2.1,1.4,0.6,-5.4,1.7,9.9,10.4,42.2,7.5,,,26,,,,,24,,
-Pete Nance,CLE,23,82,225,North Carolina,USA,Undrafted,Undrafted,Undrafted,2,0,0,0,44.6,0,0,25,0,0,,,28,,,,,24,,
-Day'Ron Sharpe,BKN,22,81,265,North Carolina,USA,2021,1,29,37,7.5,7,1.4,7.7,16.5,24.1,18.2,59.8,12.6,,,24,,,,,24,,
-Nikola Vucevic,CHI,33,82,260,Southern California,Montenegro,2011,1,16,42,16.9,10.5,3.5,-1.8,7.7,23.3,22.8,52.8,16.2,,,27,,,,,25,,
-De'Aaron Fox,SAC,26,75,185,Kentucky,USA,2017,1,5,38,27.7,4,5.6,3.4,2.3,8.9,30.4,57.9,23.9,,,26,,,,,25,,
-Jose Alvarado,NOP,25,73,179,Georgia Tech,USA,Undrafted,Undrafted,Undrafted,29,6.8,2.1,1.8,10.6,2.4,9.6,18.4,53.7,16.4,,,28,,,,,24,,
-Nickeil Alexander-Walker,MIN,25,77,205,Virginia Tech,Canada,2019,1,17,46,6.7,1.8,2.6,3,1.9,6,12.8,57.1,15.8,,,28,,,,,25,,
-Myles Turner,IND,27,83,250,Texas,USA,2015,1,11,45,17.2,7,1.3,4.9,6.3,19.4,22.8,62.8,6.2,,,26,,,,,25,,
-Patrick Baldwin Jr.,WAS,21,81,220,Wisconsin-Milwaukee,USA,2022,1,28,15,2.9,1.9,0.4,14.3,4.4,19.4,15.3,62.1,7.7,,,25,,,,,26,,
-Seth Lundy,ATL,23,76,220,Penn State,USA,2023,2,46,9,1.6,0.8,0,-11.7,2.2,11.8,16.8,37.3,0,,,27,,,,,27,,
-Josh Minott,MIN,21,80,205,Memphis,USA,2022,2,45,15,1.7,0.2,0.2,-5.8,2,4.1,19.2,55.8,10.3,,,24,,,,,26,,
-Mouhamed Gueye,ATL,21,82,210,Washington State,Senegal,2023,2,39,2,0,0,0,-117.3,0,0,8.3,0,0,,,25,,,,,26,,
-Grant Williams,DAL,25,78,236,Tennessee,USA,2019,1,22,42,8.5,3.6,1.8,-4.6,3.5,9.9,13.4,56.8,9.1,,,24,,,,,28,,
-Anthony Black,ORL,20,79,200,Arkansas,USA,2023,1,6,43,5,2.3,1.7,-1.9,2.9,9.2,11.5,56.5,12.1,,,24,,,,,27,,
-Michael Porter Jr.,DEN,25,82,218,Missouri,USA,2018,1,14,47,16,7,1.4,8.9,4.2,18.4,19.5,59.8,5.8,,,24,,,,,24,,
-Jalen Green,HOU,21,76,186,None,USA,2021,1,2,45,17.8,4.7,3.2,-1.9,1.2,13.6,26.5,52.9,15.8,,,25,,,,,27,,
-Andrew Wiggins,GSW,28,79,197,Kansas,Canada,2014,1,1,39,12.3,4.2,1.6,-7.8,6.1,9,20.7,51,8.4,,,25,,,,,24,,
-Tyler Herro,MIA,24,77,195,Kentucky,USA,2019,1,13,27,21.6,5.3,4.1,-3.9,1.6,14,27.5,55.2,20.2,,,24,,,,,24,,
-Tyrese Maxey,PHI,23,74,200,Kentucky,USA,2020,1,21,42,25.7,3.6,6.6,10.4,1.5,7.9,26.2,57.8,26,,,25,,,,,25,,
-Chris Boucher,TOR,31,81,200,Oregon,Saint Lucia,Undrafted,Undrafted,Undrafted,43,6.2,4.1,0.4,3.1,8.2,19.8,16.5,58.9,3.9,,,25,,,,,28,,
-Chris Paul,GSW,38,73,175,Wake Forest,USA,2005,1,4,32,8.9,3.8,7.2,4,1.1,11.8,14,54.3,34.4,,,26,,,,,,,
-Spencer Dinwiddie,BKN,30,77,215,Colorado,USA,2014,2,38,43,13.1,3.4,6,-0.8,1.7,9,18.9,53.7,27.3,,,27,,,,,,,
-Jaylin Williams,OKC,21,81,240,Arkansas,USA,2022,2,34,38,3.5,3.1,1.3,7.8,4.1,22.4,13.4,53.2,14,,,26,,,,,,,
-Luguentz Dort,OKC,24,76,220,Arizona State,Canada,Undrafted,Undrafted,Undrafted,44,10.8,3.8,1.3,7.8,4.5,8.5,14.8,60.1,5.5,,,26,,,,,,,
-Malaki Branham,SAS,20,76,180,Ohio State,USA,2022,1,20,42,8.4,2,2.3,-15.1,1.3,8,18.2,51.3,15.2,,,28,,,,,,,
-Dereon Seabron,NOP,23,77,180,North Carolina State,USA,Undrafted,Undrafted,Undrafted,5,2.8,1.4,0.8,26.6,2.2,8.6,12.8,44.8,9.8,,,27,,,,,,,
-Ochai Agbaji,UTA,23,77,215,Kansas,USA,2022,1,14,47,5.6,2.6,0.9,-5.2,3.6,8.3,12.1,53.5,6.1,,,24,,,,,,,
-Otto Porter Jr.,TOR,30,80,230,Georgetown,USA,2013,1,3,15,2.6,1.9,0.5,4.7,3.2,13,8.3,56.8,5.8,,,27,,,,,,,
-Jrue Holiday,BOS,33,76,205,UCLA,USA,2009,1,17,42,13.1,6.1,4.6,8.7,4.1,12.7,17.2,57.1,18.7,,,24,,,,,,,
-Jordan Miller,LAC,24,77,194,Miami,USA,2023,2,48,4,1.8,0.8,0,-60.1,11.1,5.3,14.6,70,0,,,24,,,,,,,
-Javonte Smart,PHI,24,76,205,Louisiana State,USA,Undrafted,Undrafted,Undrafted,1,0,0,0,-150,0,0,0,0,0,,,25,,,,,,,
-Brandon Boston Jr.,LAC,22,78,188,Kentucky,USA,2021,2,51,10,4.1,1.1,0.4,-39.4,7.6,7.6,25.1,50.4,9.5,,,28,,,,,,,
-Jeremiah Robinson-Earl,NOP,23,80,240,Villanova,USA,2021,2,32,19,4.1,2.5,0.5,-4.8,6.9,15.6,14.3,63.1,6.6,,,,,,,,,,
-Jae Crowder,MIL,33,78,235,Marquette,USA,2012,2,34,15,7.1,3.3,1.2,-8.1,1.6,12.8,11.2,62.1,7.1,,,,,,,,,,
-Scottie Barnes,TOR,22,79,237,Florida State,USA,2021,1,4,46,20.3,8.3,5.7,-3.9,6.2,17,24,57.5,24.1,,,,,,,,,,
-Adama Sanogo,CHI,21,81,245,Connecticut,Mali,Undrafted,Undrafted,Undrafted,3,2.7,2,0,70.1,15.4,33.3,17.9,92.6,0,,,,,,,,,,
-Drew Peterson,BOS,24,81,205,Southern California,USA,Undrafted,Undrafted,Undrafted,1,3,0,1,60,0,0,20,150,50,,,,,,,,,,
-Kyle Kuzma,WAS,28,81,221,Utah,USA,2017,1,27,45,22,6.5,4.4,-12.2,3.1,16.6,30.2,54.4,21.3,,,,,,,,,,
-Kira Lewis Jr.,TOR,22,73,170,Alabama,USA,2020,1,13,16,2.8,0.9,1.1,-5.7,2.4,5.7,18.2,38.7,20.5,,,,,,,,,,
-Aaron Wiggins,OKC,25,77,190,Maryland,USA,2021,2,55,43,5.6,2.2,0.8,5.4,5,11.1,15.2,69.2,8.9,,,,,,,,,,
-Cory Joseph,GSW,32,74,200,Texas,Canada,2011,1,29,24,2.2,1.2,1.6,-1.8,1.7,8.4,10.2,44.9,17.1,,,,,,,,,,
-Naji Marshall,NOP,26,78,220,Xavier,USA,Undrafted,Undrafted,Undrafted,37,7.5,3.4,1.9,7.5,5.7,12.4,17.6,56.7,14.1,,,,,,,,,,
-Moritz Wagner,ORL,26,83,245,Michigan,Germany,2018,1,25,44,11.5,4.7,1.3,1.2,8.5,16.3,21.4,66,10.9,,,,,,,,,,
-Devin Booker,PHX,27,78,206,Kentucky,USA,2015,1,13,37,28.6,4.9,7.3,6.7,2.1,10.9,30.2,62.3,31.8,,,,,,,,,,
-Malik Monk,SAC,25,75,200,Kentucky,USA,2017,1,11,43,14.7,2.6,5.5,0.6,1.4,8.9,23.4,57.9,30.6,,,,,,,,,,
-Jonathan Isaac,ORL,26,82,230,Florida State,USA,2017,1,6,28,6.4,3.9,0.4,13.1,7.6,18.3,17.4,57.3,4.4,,,,,,,,,,
-Andre Jackson Jr.,MIL,22,78,209,Connecticut,USA,2023,2,36,39,2.8,2.2,0.9,-3.8,8.2,11.4,9.4,65.9,10.2,,,,,,,,,,
-Trayce Jackson-Davis,GSW,23,81,245,Indiana,USA,2023,2,57,32,6.8,4.3,1,3.3,11.1,17,16.3,68,9.7,,,,,,,,,,
-Ivica Zubac,LAC,26,85,240,None,Croatia,2016,2,32,38,12.4,9.7,1.3,9,12.9,23.2,16.7,66.5,6.6,,,,,,,,,,
-Al Horford,BOS,37,81,240,Florida,Dominican Republic,2007,1,3,38,7.7,6.7,2.9,9.2,4.9,18.5,11,62.9,14,,,,,,,,,,
-Jarrett Allen,CLE,25,81,243,Texas,USA,2017,1,22,38,15.2,10.4,3,6,11.9,21.7,18,67.9,14.1,,,,,,,,,,
-Bojan Bogdanovic,DET,34,79,226,None,Croatia,2011,2,31,25,20.4,3.4,2.6,-11.8,1.6,9.1,24.1,59.5,11.6,,,,,,,,,,
-Evan Fournier,NYK,31,78,205,None,France,2012,1,20,3,4,1.3,1,-15,0,13.8,23.2,28.7,11.5,,,,,,,,,,
-Omer Yurtseven,UTA,25,83,275,Georgetown,Turkey,Undrafted,Undrafted,Undrafted,25,3.4,4.1,0.5,-12.5,12.2,25.9,16.1,52.9,7.8,,,,,,,,,,
-Kris Dunn,UTA,29,75,205,Providence,USA,2016,1,5,39,5.2,2.9,4.3,7.2,3.9,11.7,13.4,55.5,28.4,,,,,,,,,,
-Nate Williams,HOU,24,77,205,Buffalo,USA,Undrafted,Undrafted,Undrafted,7,3.6,0.9,0.4,9.2,8.1,1.6,18.4,49.6,7.1,,,,,,,,,,
-Shaquille Harrison,MEM,30,76,195,Tulsa,USA,Undrafted,Undrafted,Undrafted,3,0.7,0.7,0,-75.3,0,40,15.4,50,0,,,,,,,,,,
-Brandon Williams,DAL,24,73,190,Arizona,USA,Undrafted,Undrafted,Undrafted,6,3,0.8,1,-15.8,4.5,8.6,19.8,57.5,30,,,,,,,,,,
-Saddiq Bey,ATL,24,79,215,Villanova,USA,2020,1,19,46,13.1,6.6,1.5,-0.9,7.3,12.4,15.7,54.2,5.8,,,,,,,,,,
-Andrew Nembhard,IND,24,76,191,Gonzaga,Canada,2022,2,31,33,9.2,1.7,4.7,0.4,2.8,5.2,19.5,55.7,27.8,,,,,,,,,,
-Dominick Barlow,SAS,20,81,215,None,USA,Undrafted,Undrafted,Undrafted,20,4.4,3.4,1.1,-9.5,8.1,16.9,13.8,52.1,10.9,,,,,,,,,,
-Moses Brown,POR,24,86,258,UCLA,USA,Undrafted,Undrafted,Undrafted,9,2,5.1,0.2,-17.5,18.4,35.4,13,39.5,4,,,,,,,,,,
-TyTy Washington Jr.,MIL,22,75,195,Kentucky,USA,2022,1,29,2,1.5,0.5,0,17,0,20,35.7,50,0,,,,,,,,,,
-Tim Hardaway Jr.,DAL,31,77,205,Michigan,USA,2013,1,24,43,18,3.7,1.7,-1,1.1,10.9,23.2,56.6,8.3,,,,,,,,,,
-Toumani Camara,POR,23,79,226,Dayton,Belgium,2023,2,52,45,6.7,4.8,0.9,-7.4,6.9,12.7,13.4,50.1,5.6,,,,,,,,,,
-Nick Richards,CHA,26,85,245,Kentucky,Jamaica,2020,2,42,35,9.7,7.8,0.8,-14.1,10.3,21.7,13.4,71.7,5,,,,,,,,,,
-Ish Wainright,POR,29,77,250,Baylor,USA,Undrafted,Undrafted,Undrafted,7,2.9,1.3,0,-0.7,0,17.6,17.1,53,0,,,,,,,,,,
-Rayan Rupert,POR,19,78,185,None,France,2023,2,43,15,2.8,1.3,0.7,-9.7,4.4,12.5,18.2,47.2,15.7,,,,,,,,,,
-Cody Zeller,NOP,31,83,240,Indiana,USA,2013,1,4,33,1.9,2.7,1,8.1,12.1,17.9,11.3,46.7,14.8,,,,,,,,,,
-Desmond Bane,MEM,25,77,215,TCU,USA,2020,1,30,37,24.4,4.6,5.3,-6.2,2.5,10.4,27.6,59.7,26.5,,,,,,,,,,
-Shai Gilgeous-Alexander,OKC,25,78,195,Kentucky,Canada,2018,1,11,45,31.1,5.6,6.4,11.2,2.7,12.6,31.7,64.8,29.4,,,,,,,,,,
-Admiral Schofield,ORL,26,77,241,Tennessee,United Kingdom,2019,2,42,12,1,0.6,0.3,11.7,2,11.1,18.5,37.8,14.8,,,,,,,,,,
-Jordan Ford,SAC,25,73,175,St. Mary's College,USA,Undrafted,Undrafted,Undrafted,6,2,0.3,0.3,28.9,0,10,18.4,76.1,11.8,,,,,,,,,,
-Maxwell Lewis,LAL,21,79,195,Pepperdine,USA,2023,2,40,15,0.3,0.2,0.2,-26,1.6,3,9.9,25,9.1,,,,,,,,,,
-Draymond Green,GSW,33,78,230,Michigan State,USA,2012,2,35,19,9.3,5.9,6.1,0.9,4.5,17.4,15.4,61.6,30.6,,,,,,,,,,
-Xavier Moon,LAC,29,73,165,Morehead State,USA,Undrafted,Undrafted,Undrafted,2,1,1,1.5,-60.6,0,18.2,11.1,50,42.9,,,,,,,,,,
-Ish Smith,CHA,35,73,175,Wake Forest,USA,Undrafted,Undrafted,Undrafted,37,3.3,1.8,3.3,-15.5,1.7,9.6,12.1,45.6,27.2,,,,,,,,,,
-Taurean Prince,LAL,29,78,218,Baylor,USA,2016,1,12,44,9.7,2.9,1.8,-4.2,0.8,8.3,13,57.1,7.5,,,,,,,,,,
-Frank Ntilikina,CHA,25,76,200,None,France,2017,1,8,3,1.7,0.3,0.3,2.2,0,3.8,12.5,51.2,5.6,,,,,,,,,,
-Pascal Siakam,IND,29,80,245,New Mexico State,Cameroon,2016,1,27,45,22.1,6.5,5,1.9,4.2,14.8,24.7,60.2,21.4,,,,,,,,,,
-Jalen Suggs,ORL,22,77,205,Gonzaga,USA,2021,1,5,42,12.5,3.3,2.4,-3.9,2.6,10.3,20.2,57.9,13.4,,,,,,,,,,
-Anthony Edwards,MIN,22,76,225,Georgia,USA,2020,1,1,43,25.9,5.2,5.3,8.6,2,12.5,31.5,58.3,24.3,,,,,,,,,,
-Danny Green,PHI,36,78,215,North Carolina,USA,2009,2,46,2,0,1,0.5,-5.9,0,11.1,4.3,0,5.6,,,,,,,,,,
-Domantas Sabonis,SAC,27,82,240,Gonzaga,Lithuania,2016,1,11,44,19.9,12.7,8,-0.2,8.7,27.9,22.1,65.3,33.3,,,,,,,,,,
-Marques Bolden,MIL,25,82,249,Duke,USA,2019,,,2,0,1,0,91.1,0,33.3,0,0,0,,,,,,,,,,
-Khris Middleton,MIL,32,79,222,Texas A&M,USA,2012,2,39,39,14.9,4.3,5,6.3,2.5,12.7,23.4,58.7,26.2,,,,,,,,,,
-Josh Giddey,OKC,21,80,216,None,Australia,2021,1,6,45,11.6,6.3,4.6,7.6,6,18.1,22.1,52.2,24.2,,,,,,,,,,
-Evan Mobley,CLE,22,83,215,Southern California,USA,2021,1,3,21,16,10.5,2.9,2.2,8,20.8,19.4,60.5,12.9,,,,,,,,,,
-Joe Harris,DET,32,78,220,Virginia,USA,2014,2,33,15,2.5,0.9,0.7,-14.2,1.8,6.1,10.4,50.2,8.7,,,,,,,,,,
-Bennedict Mathurin,IND,21,77,210,Arizona,Canada,2022,1,6,47,14.3,3.9,1.9,-3.5,4,11,22.4,56.6,10.4,,,,,,,,,,
-Leaky Black,CHA,24,78,209,North Carolina,USA,Undrafted,Undrafted,Undrafted,15,1.8,1.1,0.3,-5.9,5.8,12,12.8,57.7,8.2,,,,,,,,,,
-Kevin Love,MIA,35,80,251,UCLA,USA,2008,1,5,35,9.3,6.3,2.4,4.8,6,28.8,20.1,59.8,19.2,,,,,,,,,,
-Micah Potter,UTA,25,81,248,Wisconsin,USA,Undrafted,Undrafted,Undrafted,2,0,2,0,-106.2,0,66.7,6.3,0,0,,,,,,,,,,
-Olivier-Maxence Prosper,DAL,21,79,230,Marquette,Canada,2023,1,24,24,3,2.2,0.8,-7,5.7,16,14.3,47.4,11.7,,,,,,,,,,
-Daniel Gafford,WAS,25,82,234,Arkansas,USA,2019,2,38,40,10.7,7.7,1.6,-7.3,9.8,17.5,13.6,71.5,7.5,,,,,,,,,,
-Jaden Hardy,DAL,21,75,198,None,USA,2022,2,37,41,7.6,2.1,1.7,-5.3,2,11.4,22.4,48.3,16.5,,,,,,,,,,
-Olivier Sarr,OKC,24,82,240,Kentucky,France,Undrafted,Undrafted,Undrafted,10,2,2.7,0.2,7.3,10.4,24.4,10.5,64.4,3.6,,,,,,,,,,
-Wendell Moore Jr.,MIN,22,77,215,Duke,USA,2022,1,26,11,0.5,0.3,0.1,-34.7,0,9.4,8.6,60,4.8,,,,,,,,,,
-Bradley Beal,PHX,30,76,207,Florida,USA,2012,1,3,22,17.4,4.3,4.2,1.7,2.7,10.4,23,57.5,18.5,,,,,,,,,,
-Brook Lopez,MIL,35,85,282,Stanford,USA,2008,1,10,46,13,5.6,1.6,4.8,5.1,11.3,15.3,59.9,6.6,,,,,,,,,,
-Bogdan Bogdanovic,ATL,31,77,225,None,Serbia,2014,1,27,44,17.1,3.1,2.6,1.1,1.7,9.5,22.7,57.1,13.2,,,,,,,,,,
-James Bouknight,CHA,23,76,190,Connecticut,USA,2021,1,11,11,4.1,0.8,0.5,-12.6,1.5,13.1,24.1,61,14.6,,,,,,,,,,
-Jonas Valanciunas,NOP,31,83,265,None,Lithuania,2011,1,5,46,13.9,9.6,2.3,4.2,10.4,26.6,20.2,63.9,12.5,,,,,,,,,,
-Jaren Jackson Jr.,MEM,24,82,242,Michigan State,USA,2018,1,4,44,21.9,5.7,2,-4.4,3.8,13.7,28.7,56.4,11,,,,,,,,,,
-Tari Eason,HOU,22,80,215,Louisiana State,USA,2022,1,17,22,9.8,7,1.2,9.4,8.8,20.3,18.8,52.8,8.7,,,,,,,,,,
-Payton Pritchard,BOS,26,73,195,Oregon,USA,2020,1,26,46,8,3.3,3,11.4,4.3,10.2,15.1,56.8,19,,,,,,,,,,
-Julian Champagnie,SAS,22,79,217,St. John's,USA,Undrafted,Undrafted,Undrafted,39,6.1,2.3,1,-9.1,2.5,11.9,15.2,59.1,8.7,,,,,,,,,,
-Collin Sexton,UTA,25,75,190,Alabama,USA,2018,1,8,47,17.5,2.7,4.3,0.7,3.6,7,26.5,61.3,27,,,,,,,,,,
-Immanuel Quickley,TOR,24,74,190,Kentucky,USA,2020,1,25,42,15.5,3.1,3.5,2.5,0.8,10.9,23.1,58.4,19.8,,,,,,,,,,
-Collin Gillespie,DEN,24,73,195,Villanova,USA,Undrafted,Undrafted,Undrafted,14,2.1,0.4,0.6,-4.3,1.1,4.7,13.8,57.3,11.8,,,,,,,,,,
-Jalen Duren,DET,20,82,250,Memphis,USA,2022,1,13,31,14.1,11.9,2.6,-7.7,10.5,27.5,17.2,65.7,12.6,,,,,,,,,,
-Jalen Brunson,NYK,27,74,190,Villanova,USA,2018,2,33,44,26.6,3.9,6.5,7.1,1.6,9.2,28.1,60,28.7,,,,,,,,,,
-Marvin Bagley III,WAS,24,82,235,Duke,USA,2018,1,2,32,11.4,5.4,1.1,-7.3,11.8,16,21.5,63.1,8.5,,,,,,,,,,
-Max Strus,CLE,27,77,215,DePaul,USA,Undrafted,Undrafted,Undrafted,43,12.8,4.9,3.8,7.7,2.3,11.9,17.2,53.4,15.2,,,,,,,,,,
-Terry Taylor,CHI,24,76,230,Austin Peay,USA,Undrafted,Undrafted,Undrafted,16,1.7,1.3,0.3,8.2,10.9,6.7,11.2,60.2,4.9,,,,,,,,,,
-Jerami Grant,POR,29,79,210,Syracuse,USA,2014,2,39,41,21.2,3.7,2.5,-10.7,1.8,9.3,25.4,57.7,13,,,,,,,,,,
-Ricky Council IV,PHI,22,78,207,Arkansas,USA,Undrafted,Undrafted,Undrafted,5,2.4,0.2,0,-19.6,3.6,0,19.3,52.1,0,,,,,,,,,,
-Paul Reed,PHI,24,81,210,DePaul,USA,2020,2,58,44,6.2,4.9,1.1,7.7,11.7,19.8,15.5,59.9,9.7,,,,,,,,,,
-Keyonte George,UTA,20,76,185,Baylor,USA,2023,1,16,41,10.7,2.7,4.3,-7.1,1.3,9.7,20.9,51.8,25.7,,,,,,,,,,
-Colby Jones,SAC,21,78,207,Xavier,USA,2023,2,34,15,2.3,1.4,0.6,-0.5,7.1,11.1,17.4,40.4,12,,,,,,,,,,
-Moses Moody,GSW,21,77,211,Arkansas,USA,2021,1,14,34,8.7,3.1,0.8,-0.4,5.6,10.6,17.8,60.1,6.9,,,,,,,,,,
-John Collins,UTA,26,81,226,Wake Forest,USA,2017,1,19,43,14.1,7.9,1,-6.7,7.3,21,19.5,60,5.3,,,,,,,,,,
-Jerome Robinson,GSW,26,77,190,Boston College,USA,2018,1,13,7,0.6,0.4,0.3,5.1,3,7.4,17.1,17.2,9.1,,,,,,,,,,
-Stephen Curry,GSW,35,74,185,Davidson,USA,2009,1,7,40,27.3,4.2,5,-2.6,1.3,11,30.2,62.3,23.4,,,,,,,,,,
-Paolo Banchero,ORL,21,82,250,Duke,USA,2022,1,1,46,22.7,6.9,4.9,-2,3.2,17.3,29.5,53.7,23.4,,,,,,,,,,
-Ty Jerome,CLE,26,77,195,Virginia,USA,2019,1,24,2,2,0.5,1.5,-37.1,6.7,0,14.7,50,27.3,,,,,,,,,,
-A.J. Lawson,DAL,23,78,179,South Carolina,Canada,Undrafted,Undrafted,Undrafted,21,4.2,1.2,0.6,8.3,3.9,7.8,16.9,57.3,8,,,,,,,,,,
-Taze Moore,POR,25,77,195,Houston,USA,Undrafted,Undrafted,Undrafted,2,2,0,0,-22.5,0,0,25,50,0,,,,,,,,,,
-Sidy Cissoko,SAS,19,78,200,None,France,2023,2,44,5,1.2,1.2,0,19.1,0,17.1,10.5,38.7,0,,,,,,,,,,
-Isaiah Stewart,DET,22,80,250,Washington,USA,2020,1,16,35,11,6.8,1.7,-4.3,5.9,16.1,15.2,57.9,7.5,,,,,,,,,,
-Gary Trent Jr.,TOR,25,77,204,Duke,USA,2018,2,37,41,11.7,2.1,1.6,-3,0.9,7,18.1,55.1,8.2,,,,,,,,,,
-Jake LaRavia,MEM,22,79,235,Wake Forest,USA,2022,1,19,11,3.6,1.5,0.5,-13.5,5,7.2,16,44.7,8.5,,,,,,,,,,
-Garrison Mathews,ATL,27,78,215,Lipscomb,USA,Undrafted,Undrafted,Undrafted,32,3.7,1.2,0.5,-6.8,1.9,7.8,10.5,66.3,5.1,,,,,,,,,,
-Kaiser Gates,NOP,27,79,225,Xavier,USA,2018,,,1,0,1,0,-7,0,9.1,22.2,0,0,,,,,,,,,,
-Matt Ryan,NOP,26,78,215,Tennessee-Chattanooga,USA,Undrafted,Undrafted,Undrafted,13,9.3,2.3,1.1,4.8,1.6,7.5,14.3,67.9,6.2,,,,,,,,,,
-Deni Avdija,WAS,23,81,210,None,Israel,2020,1,9,45,12.4,6.1,3.9,-7.2,3.5,17.8,18.2,59.4,19.1,,,,,,,,,,
-Cam Whitmore,HOU,19,79,230,Villanova,USA,2023,1,20,22,10.5,3.8,0.4,-2.2,3.7,18.7,23.6,58.3,3.9,,,,,,,,,,
-Tyus Jones,WAS,27,73,196,Duke,USA,2015,1,24,45,12.4,2.9,6.2,-11.8,1,8.7,16.5,58.6,28.9,,,,,,,,,,
-Duop Reath,POR,27,81,245,Louisiana State,South Sudan,Undrafted,Undrafted,Undrafted,34,9.2,4,1.2,-0.8,7.2,15.6,20,58.6,10.6,,,,,,,,,,
-Markieff Morris,DAL,34,81,245,Kansas,USA,2011,1,13,16,2.6,1.8,0.7,-17.3,2.4,15.1,15.8,43.1,10.9,,,,,,,,,,
-Damian Lillard,MIL,33,74,195,Weber State,USA,2012,1,6,43,25.3,4.3,6.8,6.8,1.5,9.8,27.2,59.9,26.8,,,,,,,,,,
-Donovan Mitchell,CLE,27,75,215,Louisville,USA,2017,1,13,34,27.7,5.5,6.1,9.1,2.8,11.9,31.3,58.4,27.7,,,,,,,,,,
-Emoni Bates,CLE,20,80,170,Eastern Michigan,USA,2023,2,49,10,1.8,1,0.6,-35.1,1.3,11.8,15.3,34.8,12.2,,,,,,,,,,
-Dennis Smith Jr.,BKN,26,75,205,North Carolina State,USA,2017,1,9,30,7.1,3.3,4,-0.5,4.7,11.4,17.9,49.8,28.6,,,,,,,,,,
-Patrick Beverley,PHI,35,74,180,Arkansas,USA,2009,2,42,41,5.6,3.1,2.8,4.6,3.1,11.8,13.6,53.4,20.9,,,,,,,,,,
-Gordon Hayward,CHA,33,79,225,Butler,USA,2010,1,9,25,14.5,4.7,4.6,-8.5,3.1,11.6,20.1,54.4,20,,,,,,,,,,
-Drew Eubanks,PHX,26,82,245,Oregon State,USA,Undrafted,Undrafted,Undrafted,40,5.6,4.2,1,-6.3,8.7,17,13.9,65.9,9.4,,,,,,,,,,
-Larry Nance Jr.,NOP,31,80,245,Wyoming,USA,2015,1,27,29,6,5.2,1.3,3.1,7.4,20.6,12.3,68.8,10.2,,,,,,,,,,
-Miles Bridges,CHA,25,79,225,Michigan State,USA,2018,1,12,33,20.8,7.2,3,-11.8,2,18.3,23.7,56,12.9,,,,,,,,,,
-Dario Saric,GSW,29,82,225,None,Croatia,2014,1,12,43,10.4,5.5,2.5,0.4,6.6,19.7,19.2,62.7,17.2,,,,,,,,,,
-Mike Conley,MIN,36,73,175,Ohio State,USA,2007,1,4,42,10.9,2.7,6.4,9.1,1.3,7.7,14.6,61.8,29.8,,,,,,,,,,
-Jalen Hood-Schifino,LAL,20,77,215,Indiana,USA,2023,1,17,12,2,0.8,0.6,-20.9,2.2,9.3,22.5,31.3,14.9,,,,,,,,,,
-Patty Mills,ATL,35,74,180,St. Mary's,Australia,2009,2,55,15,3.3,1.1,0.9,-14.1,2.3,6.8,12,55.7,10.2,,,,,,,,,,
-Kelly Olynyk,UTA,32,83,240,Gonzaga,Canada,2013,1,13,45,8.2,5.1,4.4,-3.1,6.2,17.8,15.4,67.5,28.9,,,,,,,,,,
-Jared Rhoden,DET,24,77,210,Seton Hall,USA,Undrafted,Undrafted,Undrafted,5,2.6,0.8,0.6,23,5,10.7,17.9,65.8,13.6,,,,,,,,,,
-Greg Brown III,DAL,22,79,206,Texas,USA,2021,2,43,6,2.5,1.5,0.7,-9.6,6.4,12.2,17.8,50.1,13.8,,,,,,,,,,
-Aleksej Pokusevski,OKC,22,85,210,None,Serbia,2020,1,17,8,1,1.1,0.6,-33,3.9,19.4,15.3,28.8,14.3,,,,,,,,,,
-Joshua Primo,LAC,21,76,189,Alabama,Canada,2021,1,12,1,2,0,0,-23.7,0,0,38.5,50,0,,,,,,,,,,
-Fred VanVleet,HOU,29,73,197,Wichita State,USA,Undrafted,Undrafted,Undrafted,43,17.1,3.8,8.3,3.6,1,8.9,19.3,55.8,32.2,,,,,,,,,,
-Caris LeVert,CLE,29,78,205,Michigan,USA,2016,1,20,33,15.6,3.6,4.2,0.1,1.6,10.6,23.8,52.7,21.2,,,,,,,,,,
-Jonathan Kuminga,GSW,21,79,225,None,DRC,2021,1,7,42,14.5,4.5,1.6,1.1,4.9,13.3,23.3,60.5,9.9,,,,,,,,,,
-Vasilije Micic,OKC,30,75,188,None,Serbia,2014,2,52,25,3.3,0.8,2.4,16.2,0.4,5.7,14.8,50.5,24.4,,,,,,,,,,
-Jericho Sims,NYK,25,82,250,Texas,USA,2021,2,58,22,1.5,1.7,0.2,-7.9,5.7,14.9,6.9,69.3,4,,,,,,,,,,
-Simone Fontecchio,UTA,28,79,209,None,Italy,Undrafted,Undrafted,Undrafted,45,9,3.4,1.5,-0.1,4,10.2,15.1,60.3,8.4,,,,,,,,,,
-Amari Bailey,CHA,19,75,185,UCLA,USA,2023,2,41,2,2.5,1,0,-1.4,20,0,29.6,36.3,0,,,,,,,,,,
-Kentavious Caldwell-Pope,DEN,30,77,204,Georgia,USA,2013,1,8,45,10,2.3,2.4,9.8,1.5,5.7,12.6,58.3,8.7,,,,,,,,,,
-Luka Samanic,UTA,24,82,227,None,Croatia,2019,1,19,21,2.8,1.8,0.2,9.9,5.2,20.3,21.7,47,4.7,,,,,,,,,,
-Jakob Poeltl,TOR,28,85,260,Utah,Austria,2016,1,9,36,10.6,8.3,2.5,-1,10.5,21,15,67.5,12.6,,,,,,,,,,
-Cade Cunningham,DET,22,78,220,Oklahoma State,USA,2021,1,1,37,22.8,4.1,7.4,-9.8,1.2,10.7,29.5,54.3,33.4,,,,,,,,,,
-Reggie Bullock Jr.,HOU,32,78,205,North Carolina,USA,2013,1,25,18,2.4,1.3,0.5,-12.7,1.1,13.5,10.9,57.2,7.2,,,,,,,,,,
-John Konchar,MEM,27,77,210,Indiana-Purdue Fort Wayne,USA,Undrafted,Undrafted,Undrafted,37,3.6,4,1.6,-7.5,5.7,16.5,9.5,51.4,12.9,,,,,,,,,,
-Furkan Korkmaz,PHI,26,79,202,None,Turkey,2016,1,26,29,1.8,0.6,0.6,9.9,0.5,7.7,11.9,46.6,11.3,,,,,,,,,,
-Kenneth Lofton Jr.,PHI,21,78,275,Louisiana Tech,USA,Undrafted,Undrafted,Undrafted,16,2.4,1.1,0.9,-1.8,1.6,15.5,20.7,42.8,21.2,,,,,,,,,,
-Taj Gibson,NYK,38,81,232,USC,USA,2009,1,26,10,1.4,1.8,0.5,-12.1,5.9,11.8,7.1,50,7.1,,,,,,,,,,
-Dylan Windler,LAL,27,79,196,Belmont,USA,2019,1,26,4,1.5,0.3,0.5,50.3,0,5.6,10.7,100,25,,,,,,,,,,
-LaMelo Ball,CHA,22,79,180,None,USA,2020,1,3,22,23.9,5.1,8,-8.4,3.8,12.2,31.5,56.1,39.5,,,,,,,,,,
-Daniel Theis,LAC,31,80,245,None,Germany,Undrafted,Undrafted,Undrafted,34,6.7,3.7,0.9,2.2,9.1,11.8,15.3,60.5,7.1,,,,,,,,,,
-Armoni Brooks,BKN,25,75,195,Houston,USA,2019,,,10,4.2,1.8,0.5,13.7,6.1,9.8,18.8,44.8,6,,,,,,,,,,
-Kris Murray,POR,23,80,210,Iowa,USA,2023,1,23,27,3.5,1.9,0.6,-5.8,4.5,9.9,13.5,46.4,6.8,,,,,,,,,,
-DeAndre Jordan,DEN,35,83,265,Texas A&M,USA,2008,2,35,23,4.3,5,0.8,-6.9,13.4,23.3,14.8,60.3,9.7,,,,,,,,,,
-Malachi Flynn,NYK,25,73,185,San Diego State,USA,2020,1,29,40,4.4,1.7,1.9,-7.1,2.3,10.6,15.7,53.6,21.8,,,,,,,,,,
-Doug McDermott,SAS,32,78,225,Creighton,USA,2014,1,11,41,6.1,1,1.3,-12.2,1.1,5.4,14.4,63.2,10.9,,,,,,,,,,
-Tristan Thompson,CLE,32,81,254,Texas-Austin,Canada,2011,1,4,36,3.8,3.9,1.1,5.7,13.3,17.3,12.8,60.5,12.2,,,,,,,,,,
-Isaac Okoro,CLE,23,77,225,Auburn,USA,2020,1,5,34,8.6,3.3,1.9,2,4.5,7.5,13.3,58.1,10,,,,,,,,,,
-Jamal Cain,MIA,24,78,191,Oakland,USA,Undrafted,Undrafted,Undrafted,14,5.7,2.1,0.2,-3.8,5.7,8.8,15.9,53.8,2.1,,,,,,,,,,
-Anthony Gill,WAS,31,80,230,Virginia,USA,Undrafted,Undrafted,Undrafted,26,2.2,1.3,0.4,21.2,9.4,13.3,17.3,55.7,8.8,,,,,,,,,,
-Kevon Harris,ORL,26,77,216,Stephen F. Austin,USA,Undrafted,Undrafted,Undrafted,1,0,1,0,18.1,0,33.3,12.5,0,0,,,,,,,,,,
-Derrick White,BOS,29,76,190,Colorado,USA,2017,1,29,42,15.6,4.1,4.7,12.8,2.2,9.6,19,60.9,20,,,,,,,,,,
-Thomas Bryant,MIA,26,82,248,Indiana,USA,2017,2,42,24,4.4,3.2,0.6,-5,10,20.6,17.1,61.1,8.7,,,,,,,,,,
-Paul George,LAC,33,80,220,Fresno State,USA,2010,1,10,42,23.3,5.5,3.5,11.4,2,13.9,26.6,60.7,14.9,,,,,,,,,,
-Anthony Davis,LAL,30,82,253,Kentucky,USA,2012,1,1,45,25,12.2,3.7,0,9,23.9,25.9,61.9,16.2,,,,,,,,,,
-Blake Wesley,SAS,20,75,185,Notre Dame,USA,2022,1,25,25,3.4,1.1,2.3,-9.1,2.1,7.3,13.7,51.1,28,,,,,,,,,,
-Isaiah Joe,OKC,24,75,165,Arkansas,USA,2020,2,49,46,8.7,2.3,1.1,10.3,2,9.9,16.1,63.3,8,,,,,,,,,,
-Nassir Little,PHX,23,78,220,North Carolina,USA,2019,1,25,27,4.6,2.3,0.6,-8.7,3.7,11.8,12.7,60.2,6.5,,,,,,,,,,
-Jordan Poole,WAS,24,76,194,Michigan,USA,2019,1,28,44,16.5,2.2,3.4,-12.7,1.3,6,25.2,52.7,16.3,,,,,,,,,,
-Bismack Biyombo,MEM,31,80,255,None,Democratic Republic of the Congo,2011,1,7,30,5.2,6.4,1.7,-4,7.8,18.1,10.5,56,9.2,,,,,,,,,,
-Brandon Ingram,NOP,26,80,190,Duke,USA,2016,1,2,42,21.3,4.8,5.6,3.3,1.8,13.1,26.9,57.7,25.5,,,,,,,,,,
-Alperen Sengun,HOU,21,83,243,None,Turkey,2021,1,16,45,21.7,9.2,5,1.5,8.2,19,27.7,59.3,25.8,,,,,,,,,,
-Derrick Rose,MEM,35,75,200,Memphis,USA,2008,1,1,17,8.4,1.8,3.4,-3.4,2.1,7,22.1,51.7,29.5,,,,,,,,,,
-Hunter Tyson,DEN,23,80,215,Clemson,USA,2023,2,37,9,0.2,0.7,0.1,-0.2,0,26.1,15,14.3,4.5,,,,,,,,,,
-Markquis Nowell,TOR,24,67,160,Kansas State,USA,Undrafted,Undrafted,Undrafted,1,2,2,2,66.1,50,0,22.2,53.2,100,,,,,,,,,,
-Kyrie Irving,DAL,31,74,195,Duke,Australia,2011,1,1,27,25.2,5.1,5.3,3.5,2.2,12.5,28.5,58.6,24.7,,,,,,,,,,
-Charlie Brown Jr.,NYK,26,78,199,St. Joseph's (PA),USA,Undrafted,Undrafted,Undrafted,3,1,0,0,-24.2,0,0,66.7,37.5,0,,,,,,,,,,
-Dariq Whitehead,BKN,19,78,220,Duke,USA,2023,1,22,2,1.5,2,1.5,-42.8,0,19,9.4,25.5,14.3,,,,,,,,,,
-Luke Kennard,MEM,27,77,206,Duke,USA,2017,1,12,21,10.6,3.2,3.1,-4,1.5,11.5,16.1,61.9,19.2,,,,,,,,,,
-Zeke Nnaji,DEN,23,81,240,Arizona,USA,2020,1,22,36,3.1,2.1,0.5,-14.5,10.6,10.2,15.9,53.3,8.3,,,,,,,,,,
-P.J. Washington,CHA,25,79,230,Kentucky,USA,2019,1,12,38,13.4,5.1,2.3,-10.1,4,14.2,19.7,55.9,11.4,,,,,,,,,,
-Chuma Okeke,ORL,25,79,229,Auburn,USA,2019,1,16,28,3.4,2.5,0.6,-4.4,4.5,14.7,12.7,49.9,7.6,,,,,,,,,,
-Killian Hayes,DET,22,77,195,None,France,2020,1,7,41,6.9,2.8,4.8,-11.4,1.1,10.7,14.7,47.1,26.5,,,,,,,,,,
-Troy Brown Jr.,MIN,24,79,215,Oregon,USA,2018,1,15,34,4.4,2,1,-0.9,3.7,12.9,15.2,60.7,12.1,,,,,,,,,,
-Richaun Holmes,DAL,30,81,235,Bowling Green,USA,2015,2,37,20,3.2,3.3,0.5,-4.6,12.2,18,13.9,53.5,7.1,,,,,,,,,,
-Nikola Jovic,MIA,20,82,205,None,Serbia,2022,1,27,19,5.5,4.3,1.9,11.9,5.2,19.7,16.2,51.6,15.1,,,,,,,,,,
-Malcolm Cazalon,DET,22,78,185,None,France,Undrafted,Undrafted,Undrafted,1,0,0,0,83.3,0,0,0,0,0,,,,,,,,,,
-Kevin Huerter,SAC,25,79,198,Maryland,USA,2018,1,19,42,10.6,3.8,2.6,3.4,2.1,13.7,17.5,57.2,14.5,,,,,,,,,,
-T.J. McConnell,IND,31,73,190,Arizona,USA,2015,0,,38,8,2.6,5.5,-0.3,2.9,12.6,20.7,55.2,42.2,,,,,,,,,,
-Cameron Payne,MIL,29,75,183,Murray State,USA,2015,1,14,42,6.5,1.2,2.3,0.1,0.5,7.2,16.3,62.4,20,,,,,,,,,,
-Jaylen Brown,BOS,27,78,223,California,USA,2016,1,3,43,22.6,5.2,3.6,9.5,3,11.5,28,57.7,17,,,,,,,,,,
-Davion Mitchell,SAC,25,73,202,Baylor,USA,2021,1,9,34,3.6,1,1.8,-12.4,1.3,6.8,14.6,46.2,21.8,,,,,,,,,,
-Mason Plumlee,LAC,33,82,254,Duke,USA,2013,1,22,14,6.3,5.3,1.2,5.1,7.9,22,13,66.7,9.3,,,,,,,,,,
-Jordan Goodwin,PHX,25,76,200,St. Louis,USA,Undrafted,Undrafted,Undrafted,37,5.1,3.2,2.1,-2.3,7.1,13.1,17.4,47.3,21.2,,,,,,,,,,
-Harry Giles III,BKN,25,82,240,Duke,USA,2017,1,20,13,3.3,1.5,0.2,5.6,11.5,13.3,24.6,52.6,6.1,,,,,,,,,,
-Jett Howard,ORL,20,78,215,Michigan,USA,2023,1,11,11,1.8,0.5,0.3,4.3,2.4,8.9,21.9,48.2,12.5,,,,,,,,,,
-Goga Bitadze,ORL,24,82,250,None,Georgia,2019,1,18,40,6.7,6.2,1.7,4,11.4,19.3,12.5,64.1,11.2,,,,,,,,,,
-Corey Kispert,WAS,24,78,224,Gonzaga,USA,2021,1,15,44,11.2,2.2,1.5,-11.3,1.4,8.2,19.4,61.4,10.2,,,,,,,,,,
-Cole Anthony,ORL,23,74,185,North Carolina,USA,2020,1,15,45,12.6,4.2,3.2,0.5,4,13.4,23.6,54.5,20.7,,,,,,,,,,
-Kobe Brown,LAC,24,79,250,Missouri,USA,2023,1,30,27,2.1,1.4,0.6,-10.3,2.9,12,10.2,47.6,8,,,,,,,,,,
-Bobby Portis,MIL,28,82,250,Arkansas,USA,2015,1,22,46,12.4,6.7,1,1.8,6.6,21.9,20.6,58.3,5.7,,,,,,,,,,
-MarJon Beauchamp,MIL,23,79,199,None,USA,2022,1,24,35,4.9,2.4,0.8,1.1,3.8,11.2,13.1,58.2,6.8,,,,,,,,,,
-Jordan Walsh,BOS,19,78,205,Arkansas,USA,2023,2,38,2,0,2.5,0.5,7.1,0,50,6.3,0,33.3,,,,,,,,,,
-Danilo Gallinari,DET,35,82,236,None,Italy,2008,1,6,28,7.1,2.9,1.3,-7.2,2.9,16.6,17.6,60.3,12.7,,,,,,,,,,
-Jalen Pickett,DEN,24,74,202,Penn State,USA,2023,2,32,16,2.1,0.7,0.8,-1,1.1,10.8,16.1,57.1,18.2,,,,,,,,,,
-Mitchell Robinson,NYK,25,85,240,Western Kentucky,USA,2018,2,36,21,6.2,10.3,0.7,2.9,16.9,17.9,9.3,56.7,3.3,,,,,,,,,,
-Oshae Brissett,BOS,25,79,210,Syracuse,Canada,Undrafted,Undrafted,Undrafted,28,4.3,3.1,0.7,8.8,8.6,15,13.8,56.9,7.5,,,,,,,,,,
-Dwight Powell,DAL,32,82,240,Stanford,Canada,2014,2,45,39,4.6,3.9,1.7,6.1,11,13.1,9,75.3,13.1,,,,,,,,,,
-Caleb Houstan,ORL,21,80,205,Michigan,Canada,2022,2,32,36,5,1.7,0.6,-2.5,3.6,7,12.8,57,5.8,,,,,,,,,,
-Coby White,CHI,23,77,195,North Carolina,USA,2019,1,7,47,18.8,4.7,5,0.4,1.5,11.6,22.1,58.4,20.4,,,,,,,,,,
-Terance Mann,LAC,27,77,215,Florida State,USA,2019,2,48,38,7.7,3.2,1.8,6,5.1,7.9,13,54.6,9.3,,,,,,,,,,
-Monte Morris,DET,28,74,183,Iowa State,USA,2017,2,51,3,5.7,1.7,1.7,-7.4,0,13.2,23.7,50.4,27.8,,,,,,,,,,
-Santi Aldama,MEM,23,85,215,Loyola-Maryland,Spain,2021,1,30,35,10.4,5.6,1.8,-4,4.7,18.1,19.2,53.5,12.3,,,,,,,,,,
-Gary Payton II,GSW,31,74,195,Oregon State,USA,Undrafted,Undrafted,Undrafted,16,5.4,3,0.8,5.3,5.6,11.5,14.1,52.4,7.2,,,,,,,,,,
-Marcus Morris Sr.,PHI,34,80,218,Kansas,USA,2011,1,14,34,6.6,2.9,0.7,0.7,3,14.3,15.4,56.6,6.4,,,,,,,,,,
-Neemias Queta,BOS,24,85,248,Utah State,Portugal,2021,2,39,18,4.6,4.4,0.4,13.1,14.8,19.7,13.4,62.2,4.6,,,,,,,,,,
-Kendall Brown,IND,20,79,205,Baylor,USA,2022,2,48,4,2,0.5,0.3,-22,9.5,0,16,52.4,10,,,,,,,,,,
-Ousmane Dieng,OKC,20,81,185,None,France,2022,1,11,22,4.2,1.9,0.9,-1.9,3.4,12.1,15.8,55.2,11,,,,,,,,,,
-Ryan Rollins,WAS,21,75,180,Toledo,USA,2022,2,44,10,4.1,1.1,1.1,38.8,3.2,11.8,23.2,63.1,20,,,,,,,,,,
-Robert Williams III,POR,26,81,249,Texas A&M,USA,2018,1,27,6,6.8,6.3,0.8,-13.3,8,22.7,12.2,68.4,6.5,,,,,,,,,,
-Eugene Omoruyi,WAS,26,78,235,Oregon,Nigeria,Undrafted,Undrafted,Undrafted,19,4.5,1.5,0.6,11.6,9.6,14.4,27.3,66.2,18,,,,,,,,,,
-Georges Niang,CLE,30,79,230,Iowa State,USA,2016,2,50,43,9.5,3.8,1.2,1.1,1.6,15,17.2,57.5,7.7,,,,,,,,,,
-Cole Swider,MIA,24,80,220,Syracuse,USA,Undrafted,Undrafted,Undrafted,9,2.6,0.2,0.3,11.1,2,2.3,22,54.8,10.7,,,,,,,,,,
-Dante Exum,DAL,28,77,214,None,Australia,2014,1,5,32,9.2,2.8,2.8,8.3,2.8,10.8,16.5,66.3,18.3,,,,,,,,,,
-Jaxson Hayes,LAL,23,85,220,Texas,USA,2019,1,8,36,2.8,1.7,0.3,-7.7,5.2,11.8,11.8,65.3,5,,,,,,,,,,
-Jules Bernard,WAS,24,78,210,UCLA,USA,Undrafted,Undrafted,Undrafted,4,0.5,0.3,0.3,-21.1,3.7,0,20,11.1,10,,,,,,,,,,
-Landry Shamet,WAS,26,76,190,Wichita State,USA,2018,1,26,29,7.8,1.3,1.3,-7.5,1.9,6.7,19.9,58,12.9,,,,,,,,,,
-Markelle Fultz,ORL,25,76,209,Washington,USA,2017,1,1,14,8.8,2.9,3.6,0.4,4.8,7.3,16.7,51.8,22.5,,,,,,,,,,
-Theo Maledon,PHX,22,76,175,None,France,2020,2,34,13,4.2,1.8,2.2,-13.2,1.8,9.8,16.8,37.9,17.9,,,,,,,,,,
-Ausar Thompson,DET,20,78,205,None,USA,2023,1,5,46,8.3,6.6,1.9,-9,8.4,18.8,16.4,51.2,11.6,,,,,,,,,,
-Sasha Vezenkov,SAC,28,80,225,None,Bulgaria,2017,2,57,33,5.7,2.6,0.4,-1.2,6.9,13.2,17.2,57.6,4.6,,,,,,,,,,
-Brandin Podziemski,GSW,20,76,205,Santa Clara,USA,2023,1,19,37,9.2,5.4,3.2,3.8,5.9,15.3,15.7,55.1,17.4,,,,,,,,,,
-Cam Reddish,LAL,24,79,217,Duke,USA,2019,1,10,35,6.7,2.4,1.3,-1.5,2.4,7.8,13.1,51.9,7.2,,,,,,,,,,
-Brice Sensabaugh,UTA,20,77,235,Ohio State,USA,2023,1,28,4,1.3,0.8,0.5,-22.8,8.3,16.7,19.4,41.7,25,,,,,,,,,,
-Dexter Dennis,DAL,24,77,210,Texas A&M,USA,Undrafted,Undrafted,Undrafted,4,5.5,2.3,1,-11,2.5,21.1,27.8,54.1,36.4,,,,,,,,,,
-Trevelin Queen,ORL,26,77,190,New Mexico State,USA,Undrafted,Undrafted,Undrafted,12,3.3,1.5,1.5,3.7,2.2,9.6,13.9,48.4,17.5,,,,,,,,,,
-Skylar Mays,LAL,26,75,205,Louisiana State,USA,2020,2,50,24,6.1,1.6,3.3,-11.3,2.4,8.5,18.8,47.3,31.2,,,,,,,,,,
-Jordan McLaughlin,MIN,27,73,185,Southern California,USA,Undrafted,Undrafted,Undrafted,25,2.3,1,1.7,1.9,3.4,7.3,12.8,48.6,27,,,,,,,,,,
-Bones Hyland,LAC,23,74,169,Virginia Commonwealth,USA,2021,1,26,18,6.4,0.9,1.8,-5.8,0.8,5.5,24.3,47.8,20.5,,,,,,,,,,
-Daishen Nix,MIN,21,75,226,None,USA,Undrafted,Undrafted,Undrafted,6,1.3,0.2,0,25.6,0,4.5,17.3,45,0,,,,,,,,,,
-Ben Simmons,BKN,27,82,240,Louisiana State,Australia,2016,1,1,6,6.5,10.8,6.7,-7.1,8.1,23.9,11.8,51.6,26,,,,,,,,,,
-Lindy Waters III,OKC,26,78,210,Oklahoma State,USA,Undrafted,Undrafted,Undrafted,17,2.9,0.8,0.6,4.2,0.8,9.7,14.6,61.3,11.6,,,,,,,,,,
-Ayo Dosunmu,CHI,24,77,200,Illinois,USA,2021,2,38,45,9,2.5,2.1,-2.9,2.7,7.9,15.6,58,12.5,,,,,,,,,,
-Chimezie Metu,PHX,26,82,225,Southern California,USA,2018,2,49,35,5.2,3.1,0.5,-5.1,5.8,18.8,16.7,62.4,6,,,,,,,,,,
-CJ McCollum,NOP,32,75,190,Lehigh,USA,2013,1,10,32,19.2,4.3,4.9,3.7,2,11.7,23.1,60.5,22.2,,,,,,,,,,
-Kenrich Williams,OKC,29,78,210,TCU,USA,Undrafted,Undrafted,Undrafted,35,4.6,2.9,1.3,10.6,5.2,13.6,12.8,57,11.8,,,,,,,,,,
-Devonte' Graham,SAS,28,73,195,Kansas,USA,2018,2,34,10,3.5,1.3,1.9,12.3,2.2,13.8,15.7,55.5,26,,,,,,,,,,
-Christian Braun,DEN,22,78,220,Kansas,USA,2022,1,21,47,7.2,3.5,1.5,-4,3.6,13.6,16.3,54.1,11,,,,,,,,,,
-Aaron Nesmith,IND,24,78,215,Vanderbilt,USA,2020,1,14,42,12.1,3.7,1.3,2.5,3.6,10.5,15.9,65.3,6.1,,,,,,,,,,
-D'Angelo Russell,LAL,27,75,193,Ohio State,USA,2015,1,2,43,17.1,2.7,6.1,2.7,1.2,7.1,22.2,60,27.6,,,,,,,,,,
-Zach Collins,SAS,26,83,250,Gonzaga,USA,2017,1,10,36,12.2,5.7,3.2,-12.3,7.1,14.8,21.4,56.5,18.6,,,,,,,,,,
-Christian Wood,LAL,28,80,214,UNLV,USA,Undrafted,Undrafted,Undrafted,41,7.2,5.4,1.1,-0.2,4.7,23,17,58.5,8.3,,,,,,,,,,
-Karl-Anthony Towns,MIN,28,85,248,Kentucky,USA,2015,1,1,45,22.6,8.7,3,6.3,4.7,21.7,26.8,63.8,14.4,,,,,,,,,,
-DaQuan Jeffries,NYK,26,77,222,Tulsa,USA,Undrafted,Undrafted,Undrafted,10,1.1,0.5,0.2,-14.3,0,13.9,19.7,42.7,11.8,,,,,,,,,,
-Jalen McDaniels,TOR,25,81,190,San Diego State,USA,2019,2,52,28,2.9,1.2,0.5,-7.8,2.6,10.1,17.6,41.5,8.6,,,,,,,,,,
-Sam Merrill,CLE,27,76,205,Utah State,USA,2020,2,60,28,8.8,2.1,1.6,6.8,2.9,9.4,18.7,62.4,14.2,,,,,,,,,,
-Jontay Porter,TOR,24,82,240,Missouri,USA,Undrafted,Undrafted,Undrafted,13,5.1,3.6,2.2,-8.3,7.3,16.8,16.2,49.8,19,,,,,,,,,,
-Alex Len,SAC,30,85,250,Maryland,Ukraine,2013,1,5,17,2.4,3.3,1.1,21.6,14.7,22.1,12,59.9,15.3,,,,,,,,,,
-Lonnie Walker IV,BKN,25,76,204,Miami,USA,2018,1,18,27,11.6,2.1,1.3,3.2,1,10.3,24.1,61.2,10.6,,,,,,,,,,
-Luka Doncic,DAL,24,79,230,None,Slovenia,2018,1,3,39,34.4,8.6,9.4,0.9,2.1,20.6,35.8,61.4,42.6,,,,,,,,,,
-Chris Livingston,MIL,20,78,220,Kentucky,USA,2023,2,58,13,1.3,1,0.3,0.5,4.3,19.3,12.4,61.2,7.7,,,,,,,,,,
-Kyle Lowry,CHA,37,73,196,Villanova,USA,2006,1,24,37,8.2,3.5,4,0.1,2.5,10.6,13,58.2,19.9,,,,,,,,,,
-Anfernee Simons,POR,24,75,193,None,USA,2018,1,24,24,23.2,3.6,5.2,-15,1.4,9.7,27.9,57.2,27,,,,,,,,,,
-Precious Achiuwa,NYK,24,80,243,Memphis,Nigeria,2020,1,20,39,6.4,5.4,1.4,-0.9,11.6,18.9,17.9,51.4,12.1,,,,,,,,,,
-Dmytro Skapintsev,NYK,25,85,215,,Ukraine,Undrafted,Undrafted,Undrafted,2,0,0,0,15,0,0,25,0,0,,,,,,,,,,
-Herbert Jones,NOP,25,79,206,Alabama,USA,2021,2,35,43,11,3.6,2.4,3.2,3.9,8.6,15,61.7,11.2,,,,,,,,,,
-Ibou Badji,POR,21,85,240,None,Senegal,Undrafted,Undrafted,Undrafted,12,1.8,3.7,0.7,-17.5,9.5,16.3,6.9,59.5,7.3,,,,,,,,,,
-Jeremy Sochan,SAS,20,80,230,Baylor,Poland,2022,1,9,46,11.7,5.8,3.9,-8.6,5.5,13.9,18.5,52.9,18.7,,,,,,,,,,
-Jalen Williams,OKC,22,77,211,Santa Clara,USA,2022,1,12,43,18.6,4.1,4.5,9.5,1.8,10.2,22,62.4,19.2,,,,,,,,,,
-Moussa Diabate,LAC,22,81,210,Michigan,France,2022,2,43,10,2.7,2,0.4,-4.7,23,9.7,17.6,58,10,,,,,,,,,,
-Klay Thompson,GSW,33,78,220,Washington State,USA,2011,1,11,42,17.6,3.4,2.4,-2.9,1.7,9.2,22.8,56.8,11.1,,,,,,,,,,
-Tre Jones,SAS,24,73,185,Duke,USA,2020,2,41,41,9.5,3.1,5.6,-1.7,2.8,8.9,15.4,58.8,29,,,,,,,,,,
-Josh Okogie,PHX,25,76,213,Georgia Tech,Nigeria,2018,1,20,40,4.9,2.8,1.3,2.8,7,8.2,12.2,51.7,9.6,,,,,,,,,,
-Rui Hachimura,LAL,25,80,230,Gonzaga,Japan,2019,1,9,33,11.1,3.5,1.1,3.9,3.5,11.1,18.9,58.2,6.7,,,,,,,,,,
-Filip Petrusev,SAC,23,83,225,Gonzaga,Serbia,2021,2,50,3,1,0.3,0,30,0,8.3,15,52.1,0,,,,,,,,,,
-Braxton Key,DEN,26,80,225,Virginia,USA,Undrafted,Undrafted,Undrafted,13,1.2,0.8,0.6,-6.3,4.7,19.5,16.8,46.3,25.8,,,,,,,,,,
-Jared Butler,WAS,23,75,193,Baylor,USA,2021,2,40,17,4.6,0.6,1.8,-2.4,0,8.4,21.2,68.9,37.8,,,,,,,,,,
-Haywood Highsmith,MIA,27,77,220,Wheeling Jesuit,USA,2018,,,32,6.2,3,1.3,-1,4.1,10.2,12.3,57.5,8.2,,,,,,,,,,
-OG Anunoby,NYK,26,79,240,Indiana,United Kingdom,2017,1,23,41,15.3,4.2,2.3,9.8,2.8,9.1,17.3,60.9,8.9,,,,,,,,,,
-Kevin Durant,PHX,35,83,240,Texas,USA,2007,1,2,39,28.5,6.4,5.7,3.3,1.4,15,28.7,64.3,24.4,,,,,,,,,,
-Miles McBride,NYK,23,73,195,West Virginia,USA,2021,2,36,33,4.8,0.7,0.9,-3,1.1,5.8,18.1,61.9,15.9,,,,,,,,,,
-Matisse Thybulle,POR,26,77,201,Washington,USA,2019,1,20,44,5.7,2,1.2,-7.7,1.8,7,9.9,58.7,7,,,,,,,,,,
-Josh Hart,NYK,28,76,215,Villanova,USA,2017,1,30,45,7.3,6.5,2.7,8.8,4.2,18.3,11.8,53.3,12.7,,,,,,,,,,
-Mike Muscala,DET,32,82,240,Bucknell,USA,2013,2,44,30,4,3.1,1,-11.6,6.2,15,13.8,50.1,9.3,,,,,,,,,,
-Aaron Holiday,HOU,27,73,185,UCLA,USA,2018,1,23,43,6.7,1.9,1.7,3.9,1.4,9,15.2,59.1,14.3,,,,,,,,,,
-E.J. Liddell,NOP,23,78,240,Ohio State,USA,2022,2,41,8,0.5,0.6,0.1,-11.7,0,21.7,14.8,29.1,6.7,,,,,,,,,,
-Jarred Vanderbilt,LAL,24,80,214,Kentucky,USA,2018,2,41,26,4.8,4.9,1.2,4.5,7.3,16.7,10.7,54.8,7.2,,,,,,,,,,
-Shake Milton,MIN,27,77,205,Southern Methodist,USA,2018,2,54,36,4.8,1.4,1.4,-3.5,1.4,8.3,17.2,50.2,15,,,,,,,,,,
-Amen Thompson,HOU,20,79,200,None,USA,2023,1,4,26,6.5,4.2,2.2,-0.4,5.5,19,17.3,53.5,18.3,,,,,,,,,,
-Jalen Slawson,SAC,24,79,215,Furman,USA,2023,2,54,5,0.8,0.8,0.4,-36.8,0,20,11.6,66.7,16.7,,,,,,,,,,
-Marcus Sasser,DET,23,74,195,Houston,USA,2023,1,25,41,7.2,1.6,2.7,-6.5,0.9,9,18.8,58.4,25.3,,,,,,,,,,
-Julius Randle,NYK,29,80,250,Kentucky,USA,2014,1,7,46,24,9.2,5,6,5.9,19.8,28.7,56.9,21.7,,,,,,,,,,
-Scoot Henderson,POR,19,75,202,None,USA,2023,1,3,37,12,3,4.6,-11.5,2.9,8.4,25.1,46,27.1,,,,,,,,,,
-Jusuf Nurkic,PHX,29,85,290,None,Bosnia and Herzegovina,2014,1,16,43,11.6,10.3,3.6,9.3,10.3,26.8,19.2,56.2,17,,,,,,,,,,
-Darius Garland,CLE,24,73,192,Vanderbilt,USA,2019,1,5,20,20.7,2.8,5.9,4.1,1.8,6.1,27.1,57.3,26.5,,,,,,,,,,
-Bruno Fernando,ATL,25,81,240,Maryland,Angola,2019,2,34,13,2.9,2,0.3,7.6,8.5,22.9,20.6,53.7,6.5,,,,,,,,,,
-Jabari Walker,POR,21,79,227,Colorado,USA,2022,2,57,42,8.5,6.2,0.9,-6.7,8.1,21.6,16.2,56.6,5.9,,,,,,,,,,
-Caleb Martin,MIA,28,77,205,Nevada,USA,Undrafted,Undrafted,Undrafted,29,10.4,4.7,2.2,-2.3,4.5,14.1,17.9,54.1,12.1,,,,,,,,,,
-Mark Williams,CHA,22,85,240,Duke,USA,2022,1,15,19,12.7,9.7,1.2,-1.2,14.3,20.9,16.2,67.5,5.9,,,,,,,,,,
-Tobias Harris,PHI,31,80,226,Tennessee,USA,2011,1,19,41,17.7,6,3.2,10.9,3,14.1,19.8,60.6,13.2,,,,,,,,,,
+﻿PLAYER,TEAM,AGE,HEIGHT,WEIGHT,COLLEGE,COUNTRY,DRAFT YEAR,DRAFT ROUND,DRAFT NUMBER,GP,PTS,REB,AST,NETRTG,OREB%,DREB%,USG%,TS%,AST%
+Trey Lyles,SAC,28,81,234,Kentucky,Canada,2015,1,12,30,6.9,4.7,1.3,7.8,4.6,18.3,13.1,59.2,8.2
+Royce O'Neale,BKN,30,78,226,Baylor,USA,Undrafted,Undrafted,Undrafted,44,7,4.6,2.9,-0.4,3,14.9,13.1,53.1,16.1
+Talen Horton-Tucker,UTA,23,76,234,Iowa State,USA,2019,2,46,31,10.9,2.5,4.1,-1.5,1.7,9.3,23.5,50.7,29
+Jaden Springer,PHI,21,76,202,Tennessee,USA,2021,1,28,26,3.1,1.4,0.9,-6.6,6.7,7.3,17.8,44.6,13.6
+Nic Claxton,BKN,24,83,215,Georgia,USA,2019,2,31,35,12.4,10.4,1.9,-5.1,9.5,23.9,15.5,64.3,9.6
+Jayson Tatum,BOS,25,80,210,Duke,USA,2017,1,3,43,26.8,8.4,4.3,10.3,2.6,19.2,29.3,59.9,18.9
+Zion Williamson,NOP,23,78,284,Duke,USA,2019,1,1,37,21.9,5.5,4.7,2.1,5.8,11.8,27.5,62,24.7
+Mo Bamba,PHI,25,85,231,Texas,USA,2018,1,6,24,4.3,3,0.5,4.6,13.6,17.3,17.9,63.6,9.3
+Gui Santos,GSW,21,78,185,None,Brazil,2022,2,55,6,2.5,2,0.3,-16.1,10.6,19.4,17.8,55,9.5
+Justin Minaya,POR,24,77,205,Providence,USA,Undrafted,Undrafted,Undrafted,12,1.5,1.1,0.4,-2.1,3.8,6.7,9.5,39.8,6.4
+Ben Sheppard,IND,22,78,190,Belmont,USA,2023,1,26,25,3.1,1.2,0.9,0.7,2.5,9.8,12.7,48.6,10
+Vince Williams Jr.,MEM,23,76,205,Virginia Commonwealth,USA,2022,2,47,36,8.4,5.5,2.2,0.4,4.9,16.9,13.5,61,12.2
+Jacob Gilyard,MEM,25,68,160,Richmond,USA,Undrafted,Undrafted,Undrafted,29,3.8,1,3.2,-12.1,1.4,5,10.7,56.5,29.3
+Obi Toppin,IND,25,81,220,Dayton,USA,2020,1,8,47,11.2,4,1.6,1.3,4.8,12.5,15.7,67.6,8.3
+Dennis Schroder,TOR,30,73,175,None,Germany,2013,1,17,46,13.9,2.7,6.3,0.6,1.3,7.2,18.8,56.5,27
+Aaron Gordon,DEN,28,80,235,Arizona,USA,2014,1,4,41,13.6,6.5,3,7.2,8.3,12.5,17,59.2,12.4
+Clint Capela,ATL,29,82,256,None,Switzerland,2014,1,25,44,11.3,10.4,1,-3.6,15.9,21.8,15.9,59.4,5.2
+Malcolm Brogdon,POR,31,76,229,Virginia,USA,2016,2,36,36,15.7,3.6,5.4,-4.9,2.2,10.4,22.9,55.8,30.3
+Garrett Temple,TOR,37,77,195,Louisiana State,USA,Undrafted,Undrafted,Undrafted,12,1.5,0.8,0.5,-4.8,7.1,11.6,15.8,57.1,20
+Marcus Smart,MEM,29,75,220,Oklahoma State,USA,2014,1,6,20,14.5,2.7,4.3,-0.8,0.9,7.3,22.5,55.2,21.1
+Brandon Miller,CHA,21,79,200,Alabama,USA,2023,1,2,38,14.7,3.9,2.3,-9.3,2.7,10.4,21.3,53.6,10.7
+Quentin Grimes,NYK,23,77,210,Houston,USA,2021,1,25,43,7.2,1.9,1.1,0.6,1.5,7.4,14.7,55.2,8.1
+Shaedon Sharpe,POR,20,77,205,Kentucky,Canada,2022,1,7,32,15.9,5,2.9,-10.3,3.6,11.6,22,52.4,13.8
+Josh Green,DAL,23,77,200,Arizona,Australia,2020,1,18,33,8.1,3.1,2.6,0.9,2.3,9.1,12.8,57.6,12.5
+DeMar DeRozan,CHI,34,78,220,Southern California,USA,2009,1,9,45,22.1,4.1,5.4,-3,1.5,9.7,24,56.7,22.7
+Kevin Knox II,DET,24,79,215,Kentucky,USA,2018,1,9,28,7.5,2.4,0.7,-10.1,2.9,10.9,15.7,58.2,5.6
+Jalen Smith,IND,23,81,215,Maryland,USA,2020,1,10,33,10.6,5.6,1.1,-1.6,8.7,23.6,18.4,72.4,7.8
+Kawhi Leonard,LAC,32,79,225,San Diego State,USA,2011,1,15,40,23.6,6.2,3.7,11.7,3.2,14.2,25.1,63.3,16.6
+Cason Wallace,OKC,20,75,195,Kentucky,USA,2023,1,10,46,6.8,2.3,1.4,4.4,3.4,7.4,12,63.5,8.6
+Mikal Bridges,BKN,27,78,209,Villanova,USA,2018,1,10,45,21.7,5.1,3.7,-2.2,2.2,11.8,25.6,57.1,16.6
+Tre Mann,OKC,22,75,178,Florida,USA,2021,1,18,13,3.8,1.8,1.5,-3.8,3.5,16.1,18.2,60.6,25.3
+Deandre Ayton,POR,25,85,247,Arizona,Bahamas,2018,1,1,30,13.2,10.6,1.6,-8.9,9.8,24.2,18.3,56.5,7.8
+Nathan Mensah,CHA,25,81,230,San Diego State,Ghana,Undrafted,Undrafted,Undrafted,19,1.5,3,0.5,-21.1,8.9,14,6.9,51.3,5
+Jevon Carter,CHI,28,73,200,West Virginia,USA,2018,2,32,45,5.2,0.8,1.2,0.7,0.7,5,17.8,47.9,12.3
+Xavier Tillman,MEM,25,79,245,Michigan State,USA,2020,2,35,33,5.9,4.6,1.6,-6.7,7.4,14.9,16,43.3,12.4
+Keldon Johnson,SAS,24,77,220,Kentucky,USA,2019,1,29,44,16.7,5.9,3.3,-8.4,4.4,14.1,22.3,55.5,15.7
+Robin Lopez,MIL,35,85,281,Stanford,USA,2008,1,15,13,0.8,0.2,0.3,-9.8,3,4.7,11,56.3,14.8
+Jalen Wilson,BKN,23,78,220,Kansas,USA,2023,2,51,11,4.5,2.2,0.8,-12.6,11.2,9.5,14.1,63.5,11.3
+Boban Marjanovic,HOU,35,88,290,None,Serbia,Undrafted,Undrafted,Undrafted,8,2.1,2.3,0.5,-23.5,11.6,28.3,18.9,40.9,12.5
+Ryan Arcidiacono,NYK,29,75,195,Villanova,USA,Undrafted,Undrafted,Undrafted,18,0,0.4,0.2,-2,0,13,6.7,0,13.8
+JT Thor,CHA,21,81,203,Auburn,USA,2021,2,37,37,3.3,2.7,0.4,-7.2,6.3,11.9,11.5,44.2,3.9
+Julian Phillips,CHI,20,80,198,Tennessee,USA,2023,2,35,23,1.3,0.6,0.3,3.5,2.8,7.1,11.8,42,9
+Lester Quinones,GSW,23,76,208,Memphis,USA,Undrafted,Undrafted,Undrafted,9,2.7,1.3,0.6,8.1,6.3,13.6,20.1,50.3,10.6
+Dillon Brooks,HOU,28,78,225,Oregon,Canada,2017,2,45,36,13.8,3.5,1.6,1,2.2,8.3,18.4,57.9,7.2
+Gradey Dick,TOR,20,78,200,Kansas,USA,2023,1,13,25,4.2,1.5,1.1,-5.2,3.1,7.1,15,48.2,11.4
+Alec Burks,DET,32,77,214,Colorado,USA,2011,1,12,39,12.5,2.4,1.5,-11.1,1.7,9.6,22.8,57.4,11.2
+Gabe Vincent,LAL,27,74,200,California-Santa Barbara,USA,Undrafted,Undrafted,Undrafted,5,5.4,1,3,-1.5,1.5,2.3,11.5,41.1,17.2
+Seth Curry,DAL,33,73,185,Duke,USA,Undrafted,Undrafted,Undrafted,34,4.3,1.4,0.8,8.8,3,7.5,14.7,50.3,8.3
+Ja Morant,MEM,24,74,174,Murray State,USA,2019,1,2,9,25.1,5.6,8.1,-0.2,1.9,13.4,29.6,57,38.4
+Joe Ingles,ORL,36,81,220,None,Australia,Undrafted,Undrafted,Undrafted,32,5,2.5,3.3,4.9,2.5,11.6,12.1,56.1,22.4
+Thaddeus Young,TOR,35,80,225,Georgia Tech,USA,2007,1,12,18,4.3,2.8,2.1,-2.7,8.1,13.2,13,58.4,19.7
+Kessler Edwards,SAC,23,79,203,Pepperdine,USA,2021,2,44,30,1.5,0.7,0.3,-7.6,3.1,12.1,12.5,52.6,8.2
+Terry Rozier,MIA,29,73,190,Louisville,USA,2015,1,16,33,21.9,3.9,6.5,-14.2,1.6,10.1,26.4,56.4,29.8
+Trent Forrest,ATL,25,76,210,Florida State,USA,Undrafted,Undrafted,Undrafted,19,2.1,1.4,2,-16.5,2.2,12,12.4,38.9,26
+Mamadi Diakite,SAS,27,81,228,Virginia,Guinea,Undrafted,Undrafted,Undrafted,3,4,1,0.7,15.2,5.9,11.8,22.2,78.5,25
+Usman Garuba,GSW,21,80,229,None,Spain,2021,1,23,2,0,0,0.5,-33.3,0,0,5.3,0,33.3
+R.J. Hampton,MIA,22,76,175,None,USA,2020,1,24,8,1.3,0.8,1,10.6,2.6,4.5,9.8,33.6,12.7
+Saben Lee,PHX,24,74,183,Vanderbilt,USA,2020,2,38,11,2.8,1.1,1.1,7,8.5,8.6,19.5,54.4,24
+Ziaire Williams,MEM,22,81,185,Stanford,USA,2021,1,10,44,7.7,3.4,1.5,-11.4,3.3,14.1,19.6,50.6,12.5
+David Roddy,MEM,22,76,255,Colorado State,USA,2022,1,23,43,8.1,4,1.5,-7.2,4.5,13,17,49.4,9.4
+Eric Gordon,PHX,35,75,215,Indiana,USA,2008,1,7,38,12.4,2.1,2.3,1.5,1.1,5.7,17,58.1,10.4
+Bryce McGowens,CHA,21,78,175,Nebraska,USA,2022,2,40,35,5.1,1.7,0.9,-12.7,2.1,8.6,13.3,57.3,7.8
+Terquavion Smith,PHI,21,76,160,North Carolina State,USA,Undrafted,Undrafted,Undrafted,4,2,0,1.3,2.3,0,0,25,40.5,38.5
+Johnny Davis,WAS,21,76,195,Wisconsin,USA,2022,1,10,20,2.4,1,0.3,1.8,5.5,7.5,14.6,46.8,4.4
+Joel Embiid,PHI,29,85,280,Kansas,Cameroon,2014,1,3,33,36,11.4,5.8,11.2,8,24,38.7,65,31.7
+Kevon Looney,GSW,27,81,222,UCLA,USA,2015,1,30,43,5.4,6.9,2.3,-5.8,12,22,10.4,63.8,15.9
+Wendell Carter Jr.,ORL,24,82,270,Duke,USA,2018,1,7,20,11.1,6.6,1.6,-1.3,7.3,19.7,17,63.1,9.7
+Lindell Wigginton,MIL,25,73,189,Iowa State,Canada,2019,,,3,2,0,0,-66.5,0,0,41.2,51,0
+Dejounte Murray,ATL,27,77,180,Washington,USA,2016,1,29,45,21.4,5,5.1,-4,1.8,12.6,24.2,56.7,22
+Jarace Walker,IND,20,79,235,Houston,USA,2023,1,8,15,4.9,1.9,1.3,-1.7,4.6,13.3,18,55.2,15.5
+Ron Harper Jr.,TOR,23,76,233,Rutgers,USA,Undrafted,Undrafted,Undrafted,1,0,0,1,-88.9,0,0,0,0,33.3
+Kyle Anderson,MIN,30,81,230,UCLA,USA,2014,1,30,46,6.3,3.5,4,1.1,3.2,12,14,51.3,25.7
+Nate Hinton,HOU,24,77,210,Houston,USA,Undrafted,Undrafted,Undrafted,6,2.3,1.3,0.3,-5.4,6.3,15.8,15.7,63.6,7.4
+Jae'Sean Tate,HOU,28,76,230,Ohio State,USA,Undrafted,Undrafted,Undrafted,42,4.6,3.5,1.1,5,5.2,13,10.6,55.3,8.2
+Johnny Juzang,UTA,22,77,209,UCLA,USA,Undrafted,Undrafted,Undrafted,1,0,0,1,-18.1,0,0,20,0,100
+Luke Kornet,BOS,28,85,250,Vanderbilt,USA,Undrafted,Undrafted,Undrafted,33,5.3,3.9,0.9,3.3,11.4,12.8,11.4,72,8.4
+Keita Bates-Diop,PHX,28,80,229,Ohio State,USA,2018,2,48,35,4.5,2.6,0.9,-3.2,5.1,11.4,12.8,50.4,8.4
+Trey Murphy III,NOP,23,80,206,Virginia,USA,2021,1,17,21,12.9,3.8,2,11.2,1.6,12.2,18.7,58.7,11
+Stanley Umude,DET,24,78,210,Arkansas,USA,Undrafted,Undrafted,Undrafted,15,5,1.9,0.5,-11.4,2.1,15.1,16.9,69.3,7.7
+Patrick Williams,CHI,22,79,215,Florida State,USA,2020,1,4,43,10,3.9,1.5,-1.2,3.9,10.5,16.3,55.3,7.7
+Davis Bertans,OKC,31,82,225,None,Latvia,2011,2,42,14,3.1,0.7,0.6,7.8,2.1,9.1,14,67.5,11.7
+JD Davison,BOS,21,73,195,Alabama,USA,2022,2,53,2,1,1,0,13.2,16.7,11.1,13.3,53.2,0
+De'Anthony Melton,PHI,25,75,200,Southern California,USA,2018,2,46,33,11.8,4,3.2,10.7,2.8,10.9,17.4,54,14.1
+James Wiseman,DET,22,83,240,Memphis,USA,2020,1,2,29,6,4.1,0.6,-13.6,9.2,18,14.8,67.9,6.5
+AJ Griffin,ATL,20,78,220,Duke,USA,2022,1,16,17,2.2,0.8,0.2,-9.9,1.5,9.4,15.6,41.2,4.3
+Jalen Johnson,ATL,22,80,219,Duke,USA,2021,1,20,32,15.5,8.2,3.2,-3.1,3.4,20.9,17.5,61.8,13.9
+Jimmy Butler,MIA,34,79,230,Marquette,USA,2011,1,30,31,21,5,4.4,2.7,6.2,9.2,24.2,61.7,20.4
+Keon Ellis,SAC,24,75,175,Alabama,USA,Undrafted,Undrafted,Undrafted,28,3.9,1.3,1.3,1.3,2.7,8.6,13,60.2,12.9
+Bol Bol,PHX,24,87,220,Oregon,Sudan,2019,2,44,12,3.4,2.3,0.5,6.8,11.8,21.4,14.9,81.3,9.2
+Luka Garza,MIN,25,82,243,Iowa,USA,2021,2,52,9,1.7,0.9,0.2,-3.6,12.9,15.4,32.4,38.4,13.3
+Jamaree Bouyea,POR,24,74,180,San Francisco,USA,Undrafted,Undrafted,Undrafted,6,1.7,1.7,1.3,-19.7,2.7,15.7,20,23.8,25.8
+Justin Holiday,DEN,34,78,180,Washington,USA,Undrafted,Undrafted,Undrafted,26,3.5,1.2,1,6.5,1.2,8.2,9.5,64.1,9.1
+Grayson Allen,PHX,28,76,198,Duke,USA,2018,1,21,41,13.5,4.2,2.9,3.2,2.4,10,14.1,70.2,11.3
+Gary Harris,ORL,29,76,210,Michigan State,USA,2014,1,19,27,7.1,1.7,1.9,4.3,2.2,5.4,12.2,57.3,10.9
+Kristaps Porzingis,BOS,28,86,240,None,Latvia,2015,1,4,33,19.5,6.7,2,12.2,5.5,15.5,23.1,66.3,9.3
+Alex Caruso,CHI,29,77,186,Texas A&M,USA,Undrafted,Undrafted,Undrafted,40,10.1,3.6,2.7,0.8,3.6,10,15.2,63.7,14.8
+Jock Landale,HOU,28,83,255,St. Mary's,Australia,Undrafted,Undrafted,Undrafted,27,2.3,2.1,0.6,6.7,12,8.4,12.5,44.5,8.3
+Reggie Jackson,DEN,33,74,208,Boston College,USA,2011,1,24,47,11,2,4,1.3,1.6,6.9,21,54.8,24.9
+Isaiah Jackson,IND,22,81,205,Kentucky,USA,2021,1,22,36,6.8,4.1,0.9,0.8,11.1,19.1,16.8,68.5,8.5
+Yuta Watanabe,PHX,29,81,215,George Washington,Japan,Undrafted,Undrafted,Undrafted,26,3.7,1.7,0.4,-4.7,2.9,8.5,12.9,48.7,3.7
+Scotty Pippen Jr.,MEM,23,73,170,Vanderbilt,USA,Undrafted,Undrafted,Undrafted,3,7.3,3.3,3.7,12.2,4.5,14.5,20.9,64.4,35.5
+Craig Porter Jr.,CLE,23,73,180,Wichita State,USA,Undrafted,Undrafted,Undrafted,29,7.1,2.7,3.1,2.9,3.3,13.8,20.4,56.2,27
+Javon Freeman-Liberty,TOR,24,75,190,DePaul,USA,Undrafted,Undrafted,Undrafted,2,1,0.5,0,-75,14.3,0,30,33.3,0
+Amir Coffey,LAC,26,79,210,Minnesota,USA,Undrafted,Undrafted,Undrafted,32,4.8,1.7,0.7,-1.9,2.4,7.7,10.1,67.6,5.3
+Pat Connaughton,MIL,31,77,209,Notre Dame,USA,2015,2,41,40,5.5,3.2,1.7,1,3.1,11.9,9.9,59.8,9.9
+Jay Huff,DEN,26,85,240,Virginia,USA,Undrafted,Undrafted,Undrafted,6,1.2,0.2,0.2,-15.4,0,9.1,16.3,58.3,12.5
+Trendon Watford,BKN,23,80,237,Louisiana State,USA,Undrafted,Undrafted,Undrafted,31,5.7,2.9,1.6,6.8,7.4,15.2,18.7,60.2,17.5
+Isaiah Mobley,CLE,24,80,238,Southern California,USA,2022,2,49,3,1.7,0.7,1.3,-21.4,0,25,15.6,62.5,44.4
+Alex Fudge,LAL,20,80,200,Florida,USA,Undrafted,Undrafted,Undrafted,4,1,0.5,0,-77.3,13.3,0,21.1,29.1,0
+Jamal Murray,DEN,26,76,215,Kentucky,Canada,2016,1,7,33,20.9,3.9,6.5,7,1.9,10.5,26.9,58.3,29.7
+Juan Toscano-Anderson,SAC,30,78,209,Marquette,USA,Undrafted,Undrafted,Undrafted,11,0.6,1.3,0.4,-0.1,6.8,16.7,10.6,29.2,10.8
+Noah Clowney,BKN,19,81,210,Alabama,USA,2023,1,21,2,7,2.5,1,-47.5,8.8,9.5,16.2,70.9,12.5
+Cedi Osman,SAS,28,79,230,None,Turkey,2015,2,31,46,7.1,2.6,1.8,-15.1,1.9,12.2,15.1,59.4,14.5
+De'Andre Hunter,ATL,26,80,221,Virginia,USA,2019,1,4,24,14.9,4.1,1.4,-2.2,2,11.7,18.4,60.1,6.1
+Trae Young,ATL,25,73,164,Oklahoma,USA,2018,1,5,41,27,2.9,10.8,-2.1,1.2,6.6,30,57.8,44.2
+Sam Hauser,BOS,26,79,217,Virginia,USA,Undrafted,Undrafted,Undrafted,45,8,3.6,1,8.6,3,12.3,13.5,62.1,6.5
+Jaylen Nowell,MEM,24,76,201,Washington,USA,2019,2,43,9,5.7,1.6,1.8,-0.6,1.8,6.7,16.2,45.3,14.5
+KJ Martin,PHI,23,78,215,None,USA,2020,2,52,30,2.3,1,0.5,-0.7,2.6,8.9,12.8,51.5,9.2
+Malik Beasley,MIL,27,76,187,Florida State,USA,2016,1,19,44,11.3,4,1.4,6.8,2.2,10,13.3,65.2,5.9
+Danuel House Jr.,PHI,30,78,220,Texas A&M,USA,Undrafted,Undrafted,Undrafted,29,4.1,1.6,0.8,5.3,2.8,7.8,12,57.1,7.5
+AJ Green,MIL,24,76,190,Northern Iowa,USA,Undrafted,Undrafted,Undrafted,28,3.3,0.8,0.6,2.7,2.7,7.4,14.9,61.5,9.9
+Devin Vassell,SAS,23,77,200,Florida State,USA,2020,1,11,41,18.1,3.5,3.6,-6.1,1.1,9.8,21.9,58.2,17.4
+Trey Jemison,WAS,24,82,260,Alabama-Birmingham,USA,Undrafted,Undrafted,Undrafted,2,0,0.5,0,75,0,50,25,0,0
+Chris Duarte,SAC,26,77,190,Oregon,Dominican Republic,2021,1,13,35,3.7,1.8,0.9,-1.7,2.7,11.4,14.2,47.6,8.8
+James Johnson,IND,36,79,240,Wake Forest,USA,2009,1,16,5,0.8,0.8,1,14.8,4,15,10.9,40,20
+Taylor Hendricks,UTA,20,81,215,Central Florida,USA,2023,1,9,13,4.9,2.2,0.5,1.6,5.9,9,15.5,52,4.1
+Keegan Murray,SAC,23,80,225,Iowa,USA,2022,1,4,40,16,5.5,1.6,1.9,3.9,12.9,18.7,57.6,6.7
+Nikola Jokic,DEN,28,83,284,None,Serbia,2014,2,41,46,26.3,12,8.9,10.1,9.5,26.8,29.1,66.1,40.7
+Julian Strawther,DEN,21,78,205,Gonzaga,USA,2023,1,29,33,5.9,1.5,1.1,-10.8,0.8,9.4,18.7,50,11.3
+Jaden Ivey,DET,21,76,195,Purdue,USA,2022,1,5,42,14.3,3.8,3.7,-7.7,5,9.3,23.4,55,19.4
+Leonard Miller,MIN,20,82,210,None,Canada,2023,2,33,5,2.6,1.8,0.2,-41.3,0,50,22.2,72.2,14.3
+Thanasis Antetokounmpo,MIL,31,79,219,None,Greece,2014,2,51,19,0.7,0.4,0.5,-5.6,6.3,4.5,12.4,50,14.8
+Orlando Robinson,MIA,23,82,235,Fresno State,USA,Undrafted,Undrafted,Undrafted,20,4.2,3.1,1.4,5.3,8.6,19.9,15.4,60.3,16.8
+Maxi Kleber,DAL,32,82,240,None,Germany,Undrafted,Undrafted,Undrafted,11,3.9,3.3,1.6,-8.6,4.1,14.5,11.4,47,12.1
+Rudy Gobert,MIN,31,85,258,None,France,2013,1,27,45,13.4,12.4,1.2,9.3,11.3,25.4,15.6,65.5,5.2
+Josh Richardson,MIA,30,77,200,Tennessee,USA,2015,2,40,36,9.6,2.7,2.5,-5.8,1.6,9,15.7,55.8,14.7
+Isaiah Hartenstein,NYK,25,85,250,None,Germany,2017,2,43,44,6.5,8.4,1.9,9.4,12.7,19.9,10.1,64.2,9.5
+Franz Wagner,ORL,22,82,220,Michigan,Germany,2021,1,8,38,20.4,5.7,3.9,1.5,3.2,14,25.2,56.2,19.2
+Jordan Clarkson,UTA,31,75,194,Missouri,USA,2014,2,46,37,18,3.6,5,-2.3,3.3,8.4,26.7,52.8,25.2
+Dereck Lively II,DAL,19,85,230,Duke,USA,2023,1,12,35,8.9,7.8,1.3,4.8,11.2,18.2,11.9,72.3,6.6
+Kobe Bufkin,ATL,20,77,195,Michigan,USA,2023,1,15,2,0.5,1,0,-126.4,16.7,100,33.3,12.9,0
+Chet Holmgren,OKC,21,85,208,Gonzaga,USA,2022,1,2,46,17,7.5,2.7,9.2,5.2,18.1,21,63.4,12.3
+GG Jackson,MEM,19,81,210,South Carolina,USA,2023,2,45,14,8.1,2.6,0.6,6.7,4.8,12.2,18.7,67.5,6.7
+P.J. Tucker,LAC,38,77,245,Texas,USA,2006,2,35,15,1.3,2.9,0.5,-0.5,6.6,11.3,4.3,49.2,4.3
+Dru Smith,MIA,26,74,203,Missouri,USA,Undrafted,Undrafted,Undrafted,9,4.3,1.6,1.6,-15,4.1,5.8,12.8,57.6,18.7
+Dyson Daniels,NOP,20,79,199,None,Australia,2022,1,8,46,5.5,3.7,2.7,4.6,4.5,12.2,12.5,50.6,15.6
+Isaiah Livers,WAS,25,78,232,Michigan,USA,2021,2,42,23,5,2.1,1.1,-19.3,3,7.3,12.2,46,7.1
+Hamidou Diallo,WAS,25,77,202,Kentucky,USA,2018,2,45,2,1,1,0.5,31.8,18.2,0,18.8,50,33.3
+Dean Wade,CLE,27,81,228,Kansas State,USA,Undrafted,Undrafted,Undrafted,36,5.9,4.5,0.8,8.2,3.7,15.9,9.8,62.2,5
+Damian Jones,CLE,28,82,245,Vanderbilt,USA,2016,1,30,20,2,1.3,0.4,-14.2,5.6,15.1,12.8,61.9,8.9
+Cody Martin,CHA,28,78,205,Nevada,USA,2019,2,36,14,6.8,3.3,2.6,-14.1,3.3,10,14.8,43.1,13.8
+Norman Powell,LAC,30,76,215,UCLA,USA,2015,2,46,44,13.3,2.5,1,7.6,0.6,9,18.6,63.8,5.4
+Jaden McDaniels,MIN,23,81,185,Washington,USA,2020,1,28,36,10.9,2.7,1.3,5.7,2.5,6.9,15.6,60.2,6
+Duncan Robinson,MIA,29,79,215,Michigan,USA,Undrafted,Undrafted,Undrafted,44,13.5,2.5,2.9,0.6,0.9,8.3,19.1,61.4,15.7
+Cam Thomas,BKN,22,75,210,Louisiana State,Japan,2021,1,27,36,21,2.6,2.4,-5.7,0.7,8.2,30,54.7,13.5
+Delon Wright,WAS,31,77,185,Utah,USA,2015,1,20,24,4.5,2.1,3,-3.6,2.4,10,13.3,48.3,25.3
+Dorian Finney-Smith,BKN,30,79,220,Florida,USA,Undrafted,Undrafted,Undrafted,42,9.1,4.8,1.4,-1.1,5.5,10.4,13.5,54.8,6.8
+Jordan Hawkins,NOP,21,77,190,Connecticut,USA,2023,1,14,41,10.8,2.8,1.4,-1.1,2.5,10.1,19.3,57.2,9.1
+Giannis Antetokounmpo,MIL,29,83,243,None,Greece,2013,1,15,44,31,11.7,6.2,8.3,7.6,23.9,32.1,64.7,29.1
+RJ Barrett,TOR,23,78,214,Duke,Canada,2019,1,3,39,19.2,5.2,2.8,-1.6,2.7,13.9,25.7,56.2,13.4
+Bruce Brown,TOR,27,76,202,Miami,USA,2018,2,42,38,11.8,4.9,2.8,1.8,3.1,13.7,16.1,56.7,11.5
+LeBron James,LAL,39,81,250,None,USA,2003,1,1,42,25,7.5,7.6,1.9,2.7,18,28.8,61.3,34.8
+Keyontae Johnson,OKC,23,76,230,Kansas State,USA,2023,2,50,6,1.5,1,0.7,3.1,6.5,7,12.7,40.9,11.1
+Onuralp Bitim,CHI,24,78,215,None,Turkey,Undrafted,Undrafted,Undrafted,1,0,0,0,-45.2,0,0,0,0,0
+Lauri Markkanen,UTA,26,85,240,Arizona,Finland,2017,1,7,37,24,8.8,1.9,4.4,7.1,18.8,24.3,64.8,8.8
+Robert Covington,PHI,33,79,209,Tennessee State,USA,Undrafted,Undrafted,Undrafted,29,4.4,3.3,0.8,12.1,6.4,12.7,10.4,58,6.4
+Sandro Mamukelashvili,SAS,24,81,240,Seton Hall,Georgia,2021,2,54,26,2.6,1.9,1,-0.1,7.8,19.2,16.9,51.5,20.2
+JaVale McGee,SAC,36,85,270,Nevada,USA,2008,1,18,34,4.6,2.9,0.4,-1.1,11,23.1,21.2,65.1,7.6
+Harrison Barnes,SAC,31,80,225,North Carolina,USA,2012,1,7,44,11.9,2.9,1.3,-1.9,2.8,7.2,14.1,63.8,5.5
+Oscar Tshiebwe,IND,24,80,255,Kentucky,DRC,Undrafted,Undrafted,Undrafted,6,3.5,2,0.3,15.4,15.8,24,20,56.3,7.7
+Dalano Banton,BOS,24,80,204,Nebraska,Canada,2021,2,46,22,2.5,1.5,0.7,1.8,6.7,11.5,16,49.2,14.2
+Tyrese Haliburton,IND,23,77,185,Iowa State,USA,2020,1,12,34,23.6,4.1,12.6,6.7,1.8,10.3,25.2,63.2,50.1
+Torrey Craig,CHI,33,77,221,South Carolina Upstate,USA,Undrafted,Undrafted,Undrafted,27,6.1,4.8,1,-7.7,7.6,14.5,12,55.3,6.8
+Victor Wembanyama,SAS,20,88,210,None,France,2023,1,1,40,20.5,10.1,3.1,-5.1,7.5,26.6,31.1,55.8,17.4
+Cameron Johnson,BKN,27,80,210,North Carolina,USA,2019,1,11,36,13.8,4.6,2.6,-2,3.6,12.3,19,57.5,13.7
+Bam Adebayo,MIA,26,81,255,Kentucky,USA,2017,1,14,36,21,10.5,4.2,-3.2,6.5,24,26.4,56.7,21.1
+Russell Westbrook,LAC,35,76,200,UCLA,USA,2008,1,4,44,11.3,5.8,4.7,2.8,6.8,17.6,23.3,52.3,29.1
+Donte DiVincenzo,NYK,26,76,203,Villanova,USA,2018,1,17,46,11.4,3.1,2.2,2.3,3.4,10.7,18.9,62.2,13.9
+D'Moi Hodge,LAL,25,75,188,Missouri,British Virgin Islands,Undrafted,Undrafted,Undrafted,7,2,0,0.7,-44.2,0,0,17.2,44.1,22.7
+Buddy Hield,IND,31,76,220,Oklahoma,Bahamas,2016,1,6,47,12.3,3.2,2.7,3.5,2.6,10.3,18.4,58.7,12.5
+Kelly Oubre Jr.,PHI,28,79,203,Kansas,USA,2015,1,15,32,12.8,4.2,1.1,4.2,3.3,11.5,18.4,57.1,5.5
+Jeff Green,HOU,37,80,235,Georgetown,USA,2007,1,5,43,6.3,2.1,0.7,-3.2,3.7,8.3,14.3,62.5,6.3
+Walker Kessler,UTA,22,85,245,Auburn,USA,2022,1,22,39,8.4,7.4,0.8,0.5,10.3,18.9,13,65,4.7
+Udoka Azubuike,PHX,24,83,270,Kansas,Nigeria,2020,1,27,12,2.9,2.6,0.3,-12.6,11,18.3,12.7,65.2,4
+Jacob Toppin,NYK,23,80,200,Kentucky,USA,Undrafted,Undrafted,Undrafted,3,0,0,0.3,-2.8,0,0,0,0,50
+Derrick Jones Jr.,DAL,26,78,210,UNLV,USA,Undrafted,Undrafted,Undrafted,43,10.1,3.6,1,-3.4,4.5,9,15.1,60,5.3
+Max Christie,LAL,20,77,190,Michigan State,USA,2022,2,35,37,4.8,2.6,1,-1.9,1.5,12.8,13.4,51.7,7.9
+Naz Reid,MIN,24,81,264,Louisiana State,USA,Undrafted,Undrafted,Undrafted,46,12.4,4.5,1,5.8,4.3,15,21.4,61.3,7.3
+Zach LaVine,CHI,28,77,200,UCLA,USA,2014,1,13,25,19.5,5.2,3.9,-5.4,0.9,13.4,23.8,57.8,17.2
+Andre Drummond,CHI,30,83,279,Connecticut,USA,2012,1,9,47,7.8,8.3,0.6,-1.6,19.5,32.9,20.7,56.7,5.5
+Charles Bassey,SAS,23,82,230,Western Kentucky,Nigeria,2021,2,53,19,3.3,4,1.1,-11.6,10.2,26.5,11,73.9,13.6
+Jordan Nwora,TOR,25,80,225,Louisville,USA,2020,2,45,21,5.8,2,1.2,-2.9,4.9,14.2,21.5,54.8,15.1
+Dalen Terry,CHI,21,79,195,Arizona,USA,2022,1,18,31,2.3,1.5,1.2,3.5,3.3,12.8,12.3,48.2,15.4
+Austin Reaves,LAL,25,77,197,Oklahoma,USA,Undrafted,Undrafted,Undrafted,47,15.1,4.1,5.2,-3.7,2.6,10.5,19.6,61.3,24.3
+Jermaine Samuels Jr.,HOU,25,78,230,Villanova,USA,Undrafted,Undrafted,Undrafted,7,1.7,1.4,0.3,-21.5,4.7,20,8.4,67.6,5.7
+Jabari Smith Jr.,HOU,20,83,220,Auburn,USA,2022,1,3,40,13.7,8.7,1.5,-0.7,6,20.2,17.5,58.7,6.6
+Nicolas Batum,PHI,35,80,230,None,France,2008,1,25,33,5.8,3.8,2.3,10.4,4.9,10.2,8.1,69.8,11.3
+Lamar Stevens,BOS,26,79,230,Penn State,USA,Undrafted,Undrafted,Undrafted,18,2.7,1.6,0.4,-1.2,8.5,13.8,19.2,52.4,11.4
+Keon Johnson,BKN,21,77,185,Tennessee,USA,2021,1,21,1,12,1,1,-32.1,0,5.9,19.3,61.5,5.9
+Peyton Watson,DEN,21,79,200,UCLA,USA,2022,1,30,45,6.8,2.7,1,-1.5,3,11.1,16.3,55.5,8.2
+Svi Mykhailiuk,BOS,26,79,205,Kansas,Ukraine,2018,2,47,21,2.6,0.9,0.3,2.4,3,7.1,17.1,45.3,6.3
+Jaime Jaquez Jr.,MIA,22,78,225,UCLA,USA,2023,1,18,40,13.8,3.8,2.7,-0.6,4.1,8.7,18.8,60,13.8
+James Harden,LAC,34,77,220,Arizona State,USA,2009,1,3,39,17.2,4.7,8.6,10.7,1.1,12.5,20.2,63.8,33.5
+Bilal Coulibaly,WAS,19,80,195,None,France,2023,1,7,44,8.1,4.1,1.8,-9,2.8,12.4,13.6,55.9,9
+Colin Castleton,LAL,23,82,250,Florida,USA,Undrafted,Undrafted,Undrafted,5,3.2,1.8,0.6,-15.5,13.8,17.2,16.2,74.3,16.7
+Nick Smith Jr.,CHA,19,74,185,Arkansas,USA,2023,1,27,29,6.4,1.6,1.2,-19.4,3,7.6,19.6,54.8,13.2
+Onyeka Okongwu,ATL,23,82,240,Southern California,USA,2020,1,6,45,9.2,6.7,1.4,-1.2,9.8,17.4,13,65.2,7.7
+Wesley Matthews,ATL,37,77,220,Marquette,USA,Undrafted,Undrafted,Undrafted,19,2.1,1.4,0.6,-5.4,1.7,9.9,10.4,42.2,7.5
+Pete Nance,CLE,23,82,225,North Carolina,USA,Undrafted,Undrafted,Undrafted,2,0,0,0,44.6,0,0,25,0,0
+Day'Ron Sharpe,BKN,22,81,265,North Carolina,USA,2021,1,29,37,7.5,7,1.4,7.7,16.5,24.1,18.2,59.8,12.6
+Nikola Vucevic,CHI,33,82,260,Southern California,Montenegro,2011,1,16,42,16.9,10.5,3.5,-1.8,7.7,23.3,22.8,52.8,16.2
+De'Aaron Fox,SAC,26,75,185,Kentucky,USA,2017,1,5,38,27.7,4,5.6,3.4,2.3,8.9,30.4,57.9,23.9
+Jose Alvarado,NOP,25,73,179,Georgia Tech,USA,Undrafted,Undrafted,Undrafted,29,6.8,2.1,1.8,10.6,2.4,9.6,18.4,53.7,16.4
+Nickeil Alexander-Walker,MIN,25,77,205,Virginia Tech,Canada,2019,1,17,46,6.7,1.8,2.6,3,1.9,6,12.8,57.1,15.8
+Myles Turner,IND,27,83,250,Texas,USA,2015,1,11,45,17.2,7,1.3,4.9,6.3,19.4,22.8,62.8,6.2
+Patrick Baldwin Jr.,WAS,21,81,220,Wisconsin-Milwaukee,USA,2022,1,28,15,2.9,1.9,0.4,14.3,4.4,19.4,15.3,62.1,7.7
+Seth Lundy,ATL,23,76,220,Penn State,USA,2023,2,46,9,1.6,0.8,0,-11.7,2.2,11.8,16.8,37.3,0
+Josh Minott,MIN,21,80,205,Memphis,USA,2022,2,45,15,1.7,0.2,0.2,-5.8,2,4.1,19.2,55.8,10.3
+Mouhamed Gueye,ATL,21,82,210,Washington State,Senegal,2023,2,39,2,0,0,0,-117.3,0,0,8.3,0,0
+Grant Williams,DAL,25,78,236,Tennessee,USA,2019,1,22,42,8.5,3.6,1.8,-4.6,3.5,9.9,13.4,56.8,9.1
+Anthony Black,ORL,20,79,200,Arkansas,USA,2023,1,6,43,5,2.3,1.7,-1.9,2.9,9.2,11.5,56.5,12.1
+Michael Porter Jr.,DEN,25,82,218,Missouri,USA,2018,1,14,47,16,7,1.4,8.9,4.2,18.4,19.5,59.8,5.8
+Jalen Green,HOU,21,76,186,None,USA,2021,1,2,45,17.8,4.7,3.2,-1.9,1.2,13.6,26.5,52.9,15.8
+Andrew Wiggins,GSW,28,79,197,Kansas,Canada,2014,1,1,39,12.3,4.2,1.6,-7.8,6.1,9,20.7,51,8.4
+Tyler Herro,MIA,24,77,195,Kentucky,USA,2019,1,13,27,21.6,5.3,4.1,-3.9,1.6,14,27.5,55.2,20.2
+Tyrese Maxey,PHI,23,74,200,Kentucky,USA,2020,1,21,42,25.7,3.6,6.6,10.4,1.5,7.9,26.2,57.8,26
+Chris Boucher,TOR,31,81,200,Oregon,Saint Lucia,Undrafted,Undrafted,Undrafted,43,6.2,4.1,0.4,3.1,8.2,19.8,16.5,58.9,3.9
+Chris Paul,GSW,38,73,175,Wake Forest,USA,2005,1,4,32,8.9,3.8,7.2,4,1.1,11.8,14,54.3,34.4
+Spencer Dinwiddie,BKN,30,77,215,Colorado,USA,2014,2,38,43,13.1,3.4,6,-0.8,1.7,9,18.9,53.7,27.3
+Jaylin Williams,OKC,21,81,240,Arkansas,USA,2022,2,34,38,3.5,3.1,1.3,7.8,4.1,22.4,13.4,53.2,14
+Luguentz Dort,OKC,24,76,220,Arizona State,Canada,Undrafted,Undrafted,Undrafted,44,10.8,3.8,1.3,7.8,4.5,8.5,14.8,60.1,5.5
+Malaki Branham,SAS,20,76,180,Ohio State,USA,2022,1,20,42,8.4,2,2.3,-15.1,1.3,8,18.2,51.3,15.2
+Dereon Seabron,NOP,23,77,180,North Carolina State,USA,Undrafted,Undrafted,Undrafted,5,2.8,1.4,0.8,26.6,2.2,8.6,12.8,44.8,9.8
+Ochai Agbaji,UTA,23,77,215,Kansas,USA,2022,1,14,47,5.6,2.6,0.9,-5.2,3.6,8.3,12.1,53.5,6.1
+Otto Porter Jr.,TOR,30,80,230,Georgetown,USA,2013,1,3,15,2.6,1.9,0.5,4.7,3.2,13,8.3,56.8,5.8
+Jrue Holiday,BOS,33,76,205,UCLA,USA,2009,1,17,42,13.1,6.1,4.6,8.7,4.1,12.7,17.2,57.1,18.7
+Jordan Miller,LAC,24,77,194,Miami,USA,2023,2,48,4,1.8,0.8,0,-60.1,11.1,5.3,14.6,70,0
+Javonte Smart,PHI,24,76,205,Louisiana State,USA,Undrafted,Undrafted,Undrafted,1,0,0,0,-150,0,0,0,0,0
+Brandon Boston Jr.,LAC,22,78,188,Kentucky,USA,2021,2,51,10,4.1,1.1,0.4,-39.4,7.6,7.6,25.1,50.4,9.5
+Jeremiah Robinson-Earl,NOP,23,80,240,Villanova,USA,2021,2,32,19,4.1,2.5,0.5,-4.8,6.9,15.6,14.3,63.1,6.6
+Jae Crowder,MIL,33,78,235,Marquette,USA,2012,2,34,15,7.1,3.3,1.2,-8.1,1.6,12.8,11.2,62.1,7.1
+Scottie Barnes,TOR,22,79,237,Florida State,USA,2021,1,4,46,20.3,8.3,5.7,-3.9,6.2,17,24,57.5,24.1
+Adama Sanogo,CHI,21,81,245,Connecticut,Mali,Undrafted,Undrafted,Undrafted,3,2.7,2,0,70.1,15.4,33.3,17.9,92.6,0
+Drew Peterson,BOS,24,81,205,Southern California,USA,Undrafted,Undrafted,Undrafted,1,3,0,1,60,0,0,20,150,50
+Kyle Kuzma,WAS,28,81,221,Utah,USA,2017,1,27,45,22,6.5,4.4,-12.2,3.1,16.6,30.2,54.4,21.3
+Kira Lewis Jr.,TOR,22,73,170,Alabama,USA,2020,1,13,16,2.8,0.9,1.1,-5.7,2.4,5.7,18.2,38.7,20.5
+Aaron Wiggins,OKC,25,77,190,Maryland,USA,2021,2,55,43,5.6,2.2,0.8,5.4,5,11.1,15.2,69.2,8.9
+Cory Joseph,GSW,32,74,200,Texas,Canada,2011,1,29,24,2.2,1.2,1.6,-1.8,1.7,8.4,10.2,44.9,17.1
+Naji Marshall,NOP,26,78,220,Xavier,USA,Undrafted,Undrafted,Undrafted,37,7.5,3.4,1.9,7.5,5.7,12.4,17.6,56.7,14.1
+Moritz Wagner,ORL,26,83,245,Michigan,Germany,2018,1,25,44,11.5,4.7,1.3,1.2,8.5,16.3,21.4,66,10.9
+Devin Booker,PHX,27,78,206,Kentucky,USA,2015,1,13,37,28.6,4.9,7.3,6.7,2.1,10.9,30.2,62.3,31.8
+Malik Monk,SAC,25,75,200,Kentucky,USA,2017,1,11,43,14.7,2.6,5.5,0.6,1.4,8.9,23.4,57.9,30.6
+Jonathan Isaac,ORL,26,82,230,Florida State,USA,2017,1,6,28,6.4,3.9,0.4,13.1,7.6,18.3,17.4,57.3,4.4
+Andre Jackson Jr.,MIL,22,78,209,Connecticut,USA,2023,2,36,39,2.8,2.2,0.9,-3.8,8.2,11.4,9.4,65.9,10.2
+Trayce Jackson-Davis,GSW,23,81,245,Indiana,USA,2023,2,57,32,6.8,4.3,1,3.3,11.1,17,16.3,68,9.7
+Ivica Zubac,LAC,26,85,240,None,Croatia,2016,2,32,38,12.4,9.7,1.3,9,12.9,23.2,16.7,66.5,6.6
+Al Horford,BOS,37,81,240,Florida,Dominican Republic,2007,1,3,38,7.7,6.7,2.9,9.2,4.9,18.5,11,62.9,14
+Jarrett Allen,CLE,25,81,243,Texas,USA,2017,1,22,38,15.2,10.4,3,6,11.9,21.7,18,67.9,14.1
+Bojan Bogdanovic,DET,34,79,226,None,Croatia,2011,2,31,25,20.4,3.4,2.6,-11.8,1.6,9.1,24.1,59.5,11.6
+Evan Fournier,NYK,31,78,205,None,France,2012,1,20,3,4,1.3,1,-15,0,13.8,23.2,28.7,11.5
+Omer Yurtseven,UTA,25,83,275,Georgetown,Turkey,Undrafted,Undrafted,Undrafted,25,3.4,4.1,0.5,-12.5,12.2,25.9,16.1,52.9,7.8
+Kris Dunn,UTA,29,75,205,Providence,USA,2016,1,5,39,5.2,2.9,4.3,7.2,3.9,11.7,13.4,55.5,28.4
+Nate Williams,HOU,24,77,205,Buffalo,USA,Undrafted,Undrafted,Undrafted,7,3.6,0.9,0.4,9.2,8.1,1.6,18.4,49.6,7.1
+Shaquille Harrison,MEM,30,76,195,Tulsa,USA,Undrafted,Undrafted,Undrafted,3,0.7,0.7,0,-75.3,0,40,15.4,50,0
+Brandon Williams,DAL,24,73,190,Arizona,USA,Undrafted,Undrafted,Undrafted,6,3,0.8,1,-15.8,4.5,8.6,19.8,57.5,30
+Saddiq Bey,ATL,24,79,215,Villanova,USA,2020,1,19,46,13.1,6.6,1.5,-0.9,7.3,12.4,15.7,54.2,5.8
+Andrew Nembhard,IND,24,76,191,Gonzaga,Canada,2022,2,31,33,9.2,1.7,4.7,0.4,2.8,5.2,19.5,55.7,27.8
+Dominick Barlow,SAS,20,81,215,None,USA,Undrafted,Undrafted,Undrafted,20,4.4,3.4,1.1,-9.5,8.1,16.9,13.8,52.1,10.9
+Moses Brown,POR,24,86,258,UCLA,USA,Undrafted,Undrafted,Undrafted,9,2,5.1,0.2,-17.5,18.4,35.4,13,39.5,4
+TyTy Washington Jr.,MIL,22,75,195,Kentucky,USA,2022,1,29,2,1.5,0.5,0,17,0,20,35.7,50,0
+Tim Hardaway Jr.,DAL,31,77,205,Michigan,USA,2013,1,24,43,18,3.7,1.7,-1,1.1,10.9,23.2,56.6,8.3
+Toumani Camara,POR,23,79,226,Dayton,Belgium,2023,2,52,45,6.7,4.8,0.9,-7.4,6.9,12.7,13.4,50.1,5.6
+Nick Richards,CHA,26,85,245,Kentucky,Jamaica,2020,2,42,35,9.7,7.8,0.8,-14.1,10.3,21.7,13.4,71.7,5
+Ish Wainright,POR,29,77,250,Baylor,USA,Undrafted,Undrafted,Undrafted,7,2.9,1.3,0,-0.7,0,17.6,17.1,53,0
+Rayan Rupert,POR,19,78,185,None,France,2023,2,43,15,2.8,1.3,0.7,-9.7,4.4,12.5,18.2,47.2,15.7
+Cody Zeller,NOP,31,83,240,Indiana,USA,2013,1,4,33,1.9,2.7,1,8.1,12.1,17.9,11.3,46.7,14.8
+Desmond Bane,MEM,25,77,215,TCU,USA,2020,1,30,37,24.4,4.6,5.3,-6.2,2.5,10.4,27.6,59.7,26.5
+Shai Gilgeous-Alexander,OKC,25,78,195,Kentucky,Canada,2018,1,11,45,31.1,5.6,6.4,11.2,2.7,12.6,31.7,64.8,29.4
+Admiral Schofield,ORL,26,77,241,Tennessee,United Kingdom,2019,2,42,12,1,0.6,0.3,11.7,2,11.1,18.5,37.8,14.8
+Jordan Ford,SAC,25,73,175,St. Mary's College,USA,Undrafted,Undrafted,Undrafted,6,2,0.3,0.3,28.9,0,10,18.4,76.1,11.8
+Maxwell Lewis,LAL,21,79,195,Pepperdine,USA,2023,2,40,15,0.3,0.2,0.2,-26,1.6,3,9.9,25,9.1
+Draymond Green,GSW,33,78,230,Michigan State,USA,2012,2,35,19,9.3,5.9,6.1,0.9,4.5,17.4,15.4,61.6,30.6
+Xavier Moon,LAC,29,73,165,Morehead State,USA,Undrafted,Undrafted,Undrafted,2,1,1,1.5,-60.6,0,18.2,11.1,50,42.9
+Ish Smith,CHA,35,73,175,Wake Forest,USA,Undrafted,Undrafted,Undrafted,37,3.3,1.8,3.3,-15.5,1.7,9.6,12.1,45.6,27.2
+Taurean Prince,LAL,29,78,218,Baylor,USA,2016,1,12,44,9.7,2.9,1.8,-4.2,0.8,8.3,13,57.1,7.5
+Frank Ntilikina,CHA,25,76,200,None,France,2017,1,8,3,1.7,0.3,0.3,2.2,0,3.8,12.5,51.2,5.6
+Pascal Siakam,IND,29,80,245,New Mexico State,Cameroon,2016,1,27,45,22.1,6.5,5,1.9,4.2,14.8,24.7,60.2,21.4
+Jalen Suggs,ORL,22,77,205,Gonzaga,USA,2021,1,5,42,12.5,3.3,2.4,-3.9,2.6,10.3,20.2,57.9,13.4
+Anthony Edwards,MIN,22,76,225,Georgia,USA,2020,1,1,43,25.9,5.2,5.3,8.6,2,12.5,31.5,58.3,24.3
+Danny Green,PHI,36,78,215,North Carolina,USA,2009,2,46,2,0,1,0.5,-5.9,0,11.1,4.3,0,5.6
+Domantas Sabonis,SAC,27,82,240,Gonzaga,Lithuania,2016,1,11,44,19.9,12.7,8,-0.2,8.7,27.9,22.1,65.3,33.3
+Marques Bolden,MIL,25,82,249,Duke,USA,2019,,,2,0,1,0,91.1,0,33.3,0,0,0
+Khris Middleton,MIL,32,79,222,Texas A&M,USA,2012,2,39,39,14.9,4.3,5,6.3,2.5,12.7,23.4,58.7,26.2
+Josh Giddey,OKC,21,80,216,None,Australia,2021,1,6,45,11.6,6.3,4.6,7.6,6,18.1,22.1,52.2,24.2
+Evan Mobley,CLE,22,83,215,Southern California,USA,2021,1,3,21,16,10.5,2.9,2.2,8,20.8,19.4,60.5,12.9
+Joe Harris,DET,32,78,220,Virginia,USA,2014,2,33,15,2.5,0.9,0.7,-14.2,1.8,6.1,10.4,50.2,8.7
+Bennedict Mathurin,IND,21,77,210,Arizona,Canada,2022,1,6,47,14.3,3.9,1.9,-3.5,4,11,22.4,56.6,10.4
+Leaky Black,CHA,24,78,209,North Carolina,USA,Undrafted,Undrafted,Undrafted,15,1.8,1.1,0.3,-5.9,5.8,12,12.8,57.7,8.2
+Kevin Love,MIA,35,80,251,UCLA,USA,2008,1,5,35,9.3,6.3,2.4,4.8,6,28.8,20.1,59.8,19.2
+Micah Potter,UTA,25,81,248,Wisconsin,USA,Undrafted,Undrafted,Undrafted,2,0,2,0,-106.2,0,66.7,6.3,0,0
+Olivier-Maxence Prosper,DAL,21,79,230,Marquette,Canada,2023,1,24,24,3,2.2,0.8,-7,5.7,16,14.3,47.4,11.7
+Daniel Gafford,WAS,25,82,234,Arkansas,USA,2019,2,38,40,10.7,7.7,1.6,-7.3,9.8,17.5,13.6,71.5,7.5
+Jaden Hardy,DAL,21,75,198,None,USA,2022,2,37,41,7.6,2.1,1.7,-5.3,2,11.4,22.4,48.3,16.5
+Olivier Sarr,OKC,24,82,240,Kentucky,France,Undrafted,Undrafted,Undrafted,10,2,2.7,0.2,7.3,10.4,24.4,10.5,64.4,3.6
+Wendell Moore Jr.,MIN,22,77,215,Duke,USA,2022,1,26,11,0.5,0.3,0.1,-34.7,0,9.4,8.6,60,4.8
+Bradley Beal,PHX,30,76,207,Florida,USA,2012,1,3,22,17.4,4.3,4.2,1.7,2.7,10.4,23,57.5,18.5
+Brook Lopez,MIL,35,85,282,Stanford,USA,2008,1,10,46,13,5.6,1.6,4.8,5.1,11.3,15.3,59.9,6.6
+Bogdan Bogdanovic,ATL,31,77,225,None,Serbia,2014,1,27,44,17.1,3.1,2.6,1.1,1.7,9.5,22.7,57.1,13.2
+James Bouknight,CHA,23,76,190,Connecticut,USA,2021,1,11,11,4.1,0.8,0.5,-12.6,1.5,13.1,24.1,61,14.6
+Jonas Valanciunas,NOP,31,83,265,None,Lithuania,2011,1,5,46,13.9,9.6,2.3,4.2,10.4,26.6,20.2,63.9,12.5
+Jaren Jackson Jr.,MEM,24,82,242,Michigan State,USA,2018,1,4,44,21.9,5.7,2,-4.4,3.8,13.7,28.7,56.4,11
+Tari Eason,HOU,22,80,215,Louisiana State,USA,2022,1,17,22,9.8,7,1.2,9.4,8.8,20.3,18.8,52.8,8.7
+Payton Pritchard,BOS,26,73,195,Oregon,USA,2020,1,26,46,8,3.3,3,11.4,4.3,10.2,15.1,56.8,19
+Julian Champagnie,SAS,22,79,217,St. John's,USA,Undrafted,Undrafted,Undrafted,39,6.1,2.3,1,-9.1,2.5,11.9,15.2,59.1,8.7
+Collin Sexton,UTA,25,75,190,Alabama,USA,2018,1,8,47,17.5,2.7,4.3,0.7,3.6,7,26.5,61.3,27
+Immanuel Quickley,TOR,24,74,190,Kentucky,USA,2020,1,25,42,15.5,3.1,3.5,2.5,0.8,10.9,23.1,58.4,19.8
+Collin Gillespie,DEN,24,73,195,Villanova,USA,Undrafted,Undrafted,Undrafted,14,2.1,0.4,0.6,-4.3,1.1,4.7,13.8,57.3,11.8
+Jalen Duren,DET,20,82,250,Memphis,USA,2022,1,13,31,14.1,11.9,2.6,-7.7,10.5,27.5,17.2,65.7,12.6
+Jalen Brunson,NYK,27,74,190,Villanova,USA,2018,2,33,44,26.6,3.9,6.5,7.1,1.6,9.2,28.1,60,28.7
+Marvin Bagley III,WAS,24,82,235,Duke,USA,2018,1,2,32,11.4,5.4,1.1,-7.3,11.8,16,21.5,63.1,8.5
+Max Strus,CLE,27,77,215,DePaul,USA,Undrafted,Undrafted,Undrafted,43,12.8,4.9,3.8,7.7,2.3,11.9,17.2,53.4,15.2
+Terry Taylor,CHI,24,76,230,Austin Peay,USA,Undrafted,Undrafted,Undrafted,16,1.7,1.3,0.3,8.2,10.9,6.7,11.2,60.2,4.9
+Jerami Grant,POR,29,79,210,Syracuse,USA,2014,2,39,41,21.2,3.7,2.5,-10.7,1.8,9.3,25.4,57.7,13
+Ricky Council IV,PHI,22,78,207,Arkansas,USA,Undrafted,Undrafted,Undrafted,5,2.4,0.2,0,-19.6,3.6,0,19.3,52.1,0
+Paul Reed,PHI,24,81,210,DePaul,USA,2020,2,58,44,6.2,4.9,1.1,7.7,11.7,19.8,15.5,59.9,9.7
+Keyonte George,UTA,20,76,185,Baylor,USA,2023,1,16,41,10.7,2.7,4.3,-7.1,1.3,9.7,20.9,51.8,25.7
+Colby Jones,SAC,21,78,207,Xavier,USA,2023,2,34,15,2.3,1.4,0.6,-0.5,7.1,11.1,17.4,40.4,12
+Moses Moody,GSW,21,77,211,Arkansas,USA,2021,1,14,34,8.7,3.1,0.8,-0.4,5.6,10.6,17.8,60.1,6.9
+John Collins,UTA,26,81,226,Wake Forest,USA,2017,1,19,43,14.1,7.9,1,-6.7,7.3,21,19.5,60,5.3
+Jerome Robinson,GSW,26,77,190,Boston College,USA,2018,1,13,7,0.6,0.4,0.3,5.1,3,7.4,17.1,17.2,9.1
+Stephen Curry,GSW,35,74,185,Davidson,USA,2009,1,7,40,27.3,4.2,5,-2.6,1.3,11,30.2,62.3,23.4
+Paolo Banchero,ORL,21,82,250,Duke,USA,2022,1,1,46,22.7,6.9,4.9,-2,3.2,17.3,29.5,53.7,23.4
+Ty Jerome,CLE,26,77,195,Virginia,USA,2019,1,24,2,2,0.5,1.5,-37.1,6.7,0,14.7,50,27.3
+A.J. Lawson,DAL,23,78,179,South Carolina,Canada,Undrafted,Undrafted,Undrafted,21,4.2,1.2,0.6,8.3,3.9,7.8,16.9,57.3,8
+Taze Moore,POR,25,77,195,Houston,USA,Undrafted,Undrafted,Undrafted,2,2,0,0,-22.5,0,0,25,50,0
+Sidy Cissoko,SAS,19,78,200,None,France,2023,2,44,5,1.2,1.2,0,19.1,0,17.1,10.5,38.7,0
+Isaiah Stewart,DET,22,80,250,Washington,USA,2020,1,16,35,11,6.8,1.7,-4.3,5.9,16.1,15.2,57.9,7.5
+Gary Trent Jr.,TOR,25,77,204,Duke,USA,2018,2,37,41,11.7,2.1,1.6,-3,0.9,7,18.1,55.1,8.2
+Jake LaRavia,MEM,22,79,235,Wake Forest,USA,2022,1,19,11,3.6,1.5,0.5,-13.5,5,7.2,16,44.7,8.5
+Garrison Mathews,ATL,27,78,215,Lipscomb,USA,Undrafted,Undrafted,Undrafted,32,3.7,1.2,0.5,-6.8,1.9,7.8,10.5,66.3,5.1
+Kaiser Gates,NOP,27,79,225,Xavier,USA,2018,,,1,0,1,0,-7,0,9.1,22.2,0,0
+Matt Ryan,NOP,26,78,215,Tennessee-Chattanooga,USA,Undrafted,Undrafted,Undrafted,13,9.3,2.3,1.1,4.8,1.6,7.5,14.3,67.9,6.2
+Deni Avdija,WAS,23,81,210,None,Israel,2020,1,9,45,12.4,6.1,3.9,-7.2,3.5,17.8,18.2,59.4,19.1
+Cam Whitmore,HOU,19,79,230,Villanova,USA,2023,1,20,22,10.5,3.8,0.4,-2.2,3.7,18.7,23.6,58.3,3.9
+Tyus Jones,WAS,27,73,196,Duke,USA,2015,1,24,45,12.4,2.9,6.2,-11.8,1,8.7,16.5,58.6,28.9
+Duop Reath,POR,27,81,245,Louisiana State,South Sudan,Undrafted,Undrafted,Undrafted,34,9.2,4,1.2,-0.8,7.2,15.6,20,58.6,10.6
+Markieff Morris,DAL,34,81,245,Kansas,USA,2011,1,13,16,2.6,1.8,0.7,-17.3,2.4,15.1,15.8,43.1,10.9
+Damian Lillard,MIL,33,74,195,Weber State,USA,2012,1,6,43,25.3,4.3,6.8,6.8,1.5,9.8,27.2,59.9,26.8
+Donovan Mitchell,CLE,27,75,215,Louisville,USA,2017,1,13,34,27.7,5.5,6.1,9.1,2.8,11.9,31.3,58.4,27.7
+Emoni Bates,CLE,20,80,170,Eastern Michigan,USA,2023,2,49,10,1.8,1,0.6,-35.1,1.3,11.8,15.3,34.8,12.2
+Dennis Smith Jr.,BKN,26,75,205,North Carolina State,USA,2017,1,9,30,7.1,3.3,4,-0.5,4.7,11.4,17.9,49.8,28.6
+Patrick Beverley,PHI,35,74,180,Arkansas,USA,2009,2,42,41,5.6,3.1,2.8,4.6,3.1,11.8,13.6,53.4,20.9
+Gordon Hayward,CHA,33,79,225,Butler,USA,2010,1,9,25,14.5,4.7,4.6,-8.5,3.1,11.6,20.1,54.4,20
+Drew Eubanks,PHX,26,82,245,Oregon State,USA,Undrafted,Undrafted,Undrafted,40,5.6,4.2,1,-6.3,8.7,17,13.9,65.9,9.4
+Larry Nance Jr.,NOP,31,80,245,Wyoming,USA,2015,1,27,29,6,5.2,1.3,3.1,7.4,20.6,12.3,68.8,10.2
+Miles Bridges,CHA,25,79,225,Michigan State,USA,2018,1,12,33,20.8,7.2,3,-11.8,2,18.3,23.7,56,12.9
+Dario Saric,GSW,29,82,225,None,Croatia,2014,1,12,43,10.4,5.5,2.5,0.4,6.6,19.7,19.2,62.7,17.2
+Mike Conley,MIN,36,73,175,Ohio State,USA,2007,1,4,42,10.9,2.7,6.4,9.1,1.3,7.7,14.6,61.8,29.8
+Jalen Hood-Schifino,LAL,20,77,215,Indiana,USA,2023,1,17,12,2,0.8,0.6,-20.9,2.2,9.3,22.5,31.3,14.9
+Patty Mills,ATL,35,74,180,St. Mary's,Australia,2009,2,55,15,3.3,1.1,0.9,-14.1,2.3,6.8,12,55.7,10.2
+Kelly Olynyk,UTA,32,83,240,Gonzaga,Canada,2013,1,13,45,8.2,5.1,4.4,-3.1,6.2,17.8,15.4,67.5,28.9
+Jared Rhoden,DET,24,77,210,Seton Hall,USA,Undrafted,Undrafted,Undrafted,5,2.6,0.8,0.6,23,5,10.7,17.9,65.8,13.6
+Greg Brown III,DAL,22,79,206,Texas,USA,2021,2,43,6,2.5,1.5,0.7,-9.6,6.4,12.2,17.8,50.1,13.8
+Aleksej Pokusevski,OKC,22,85,210,None,Serbia,2020,1,17,8,1,1.1,0.6,-33,3.9,19.4,15.3,28.8,14.3
+Joshua Primo,LAC,21,76,189,Alabama,Canada,2021,1,12,1,2,0,0,-23.7,0,0,38.5,50,0
+Fred VanVleet,HOU,29,73,197,Wichita State,USA,Undrafted,Undrafted,Undrafted,43,17.1,3.8,8.3,3.6,1,8.9,19.3,55.8,32.2
+Caris LeVert,CLE,29,78,205,Michigan,USA,2016,1,20,33,15.6,3.6,4.2,0.1,1.6,10.6,23.8,52.7,21.2
+Jonathan Kuminga,GSW,21,79,225,None,DRC,2021,1,7,42,14.5,4.5,1.6,1.1,4.9,13.3,23.3,60.5,9.9
+Vasilije Micic,OKC,30,75,188,None,Serbia,2014,2,52,25,3.3,0.8,2.4,16.2,0.4,5.7,14.8,50.5,24.4
+Jericho Sims,NYK,25,82,250,Texas,USA,2021,2,58,22,1.5,1.7,0.2,-7.9,5.7,14.9,6.9,69.3,4
+Simone Fontecchio,UTA,28,79,209,None,Italy,Undrafted,Undrafted,Undrafted,45,9,3.4,1.5,-0.1,4,10.2,15.1,60.3,8.4
+Amari Bailey,CHA,19,75,185,UCLA,USA,2023,2,41,2,2.5,1,0,-1.4,20,0,29.6,36.3,0
+Kentavious Caldwell-Pope,DEN,30,77,204,Georgia,USA,2013,1,8,45,10,2.3,2.4,9.8,1.5,5.7,12.6,58.3,8.7
+Luka Samanic,UTA,24,82,227,None,Croatia,2019,1,19,21,2.8,1.8,0.2,9.9,5.2,20.3,21.7,47,4.7
+Jakob Poeltl,TOR,28,85,260,Utah,Austria,2016,1,9,36,10.6,8.3,2.5,-1,10.5,21,15,67.5,12.6
+Cade Cunningham,DET,22,78,220,Oklahoma State,USA,2021,1,1,37,22.8,4.1,7.4,-9.8,1.2,10.7,29.5,54.3,33.4
+Reggie Bullock Jr.,HOU,32,78,205,North Carolina,USA,2013,1,25,18,2.4,1.3,0.5,-12.7,1.1,13.5,10.9,57.2,7.2
+John Konchar,MEM,27,77,210,Indiana-Purdue Fort Wayne,USA,Undrafted,Undrafted,Undrafted,37,3.6,4,1.6,-7.5,5.7,16.5,9.5,51.4,12.9
+Furkan Korkmaz,PHI,26,79,202,None,Turkey,2016,1,26,29,1.8,0.6,0.6,9.9,0.5,7.7,11.9,46.6,11.3
+Kenneth Lofton Jr.,PHI,21,78,275,Louisiana Tech,USA,Undrafted,Undrafted,Undrafted,16,2.4,1.1,0.9,-1.8,1.6,15.5,20.7,42.8,21.2
+Taj Gibson,NYK,38,81,232,USC,USA,2009,1,26,10,1.4,1.8,0.5,-12.1,5.9,11.8,7.1,50,7.1
+Dylan Windler,LAL,27,79,196,Belmont,USA,2019,1,26,4,1.5,0.3,0.5,50.3,0,5.6,10.7,100,25
+LaMelo Ball,CHA,22,79,180,None,USA,2020,1,3,22,23.9,5.1,8,-8.4,3.8,12.2,31.5,56.1,39.5
+Daniel Theis,LAC,31,80,245,None,Germany,Undrafted,Undrafted,Undrafted,34,6.7,3.7,0.9,2.2,9.1,11.8,15.3,60.5,7.1
+Armoni Brooks,BKN,25,75,195,Houston,USA,2019,,,10,4.2,1.8,0.5,13.7,6.1,9.8,18.8,44.8,6
+Kris Murray,POR,23,80,210,Iowa,USA,2023,1,23,27,3.5,1.9,0.6,-5.8,4.5,9.9,13.5,46.4,6.8
+DeAndre Jordan,DEN,35,83,265,Texas A&M,USA,2008,2,35,23,4.3,5,0.8,-6.9,13.4,23.3,14.8,60.3,9.7
+Malachi Flynn,NYK,25,73,185,San Diego State,USA,2020,1,29,40,4.4,1.7,1.9,-7.1,2.3,10.6,15.7,53.6,21.8
+Doug McDermott,SAS,32,78,225,Creighton,USA,2014,1,11,41,6.1,1,1.3,-12.2,1.1,5.4,14.4,63.2,10.9
+Tristan Thompson,CLE,32,81,254,Texas-Austin,Canada,2011,1,4,36,3.8,3.9,1.1,5.7,13.3,17.3,12.8,60.5,12.2
+Isaac Okoro,CLE,23,77,225,Auburn,USA,2020,1,5,34,8.6,3.3,1.9,2,4.5,7.5,13.3,58.1,10
+Jamal Cain,MIA,24,78,191,Oakland,USA,Undrafted,Undrafted,Undrafted,14,5.7,2.1,0.2,-3.8,5.7,8.8,15.9,53.8,2.1
+Anthony Gill,WAS,31,80,230,Virginia,USA,Undrafted,Undrafted,Undrafted,26,2.2,1.3,0.4,21.2,9.4,13.3,17.3,55.7,8.8
+Kevon Harris,ORL,26,77,216,Stephen F. Austin,USA,Undrafted,Undrafted,Undrafted,1,0,1,0,18.1,0,33.3,12.5,0,0
+Derrick White,BOS,29,76,190,Colorado,USA,2017,1,29,42,15.6,4.1,4.7,12.8,2.2,9.6,19,60.9,20
+Thomas Bryant,MIA,26,82,248,Indiana,USA,2017,2,42,24,4.4,3.2,0.6,-5,10,20.6,17.1,61.1,8.7
+Paul George,LAC,33,80,220,Fresno State,USA,2010,1,10,42,23.3,5.5,3.5,11.4,2,13.9,26.6,60.7,14.9
+Anthony Davis,LAL,30,82,253,Kentucky,USA,2012,1,1,45,25,12.2,3.7,0,9,23.9,25.9,61.9,16.2
+Blake Wesley,SAS,20,75,185,Notre Dame,USA,2022,1,25,25,3.4,1.1,2.3,-9.1,2.1,7.3,13.7,51.1,28
+Isaiah Joe,OKC,24,75,165,Arkansas,USA,2020,2,49,46,8.7,2.3,1.1,10.3,2,9.9,16.1,63.3,8
+Nassir Little,PHX,23,78,220,North Carolina,USA,2019,1,25,27,4.6,2.3,0.6,-8.7,3.7,11.8,12.7,60.2,6.5
+Jordan Poole,WAS,24,76,194,Michigan,USA,2019,1,28,44,16.5,2.2,3.4,-12.7,1.3,6,25.2,52.7,16.3
+Bismack Biyombo,MEM,31,80,255,None,Democratic Republic of the Congo,2011,1,7,30,5.2,6.4,1.7,-4,7.8,18.1,10.5,56,9.2
+Brandon Ingram,NOP,26,80,190,Duke,USA,2016,1,2,42,21.3,4.8,5.6,3.3,1.8,13.1,26.9,57.7,25.5
+Alperen Sengun,HOU,21,83,243,None,Turkey,2021,1,16,45,21.7,9.2,5,1.5,8.2,19,27.7,59.3,25.8
+Derrick Rose,MEM,35,75,200,Memphis,USA,2008,1,1,17,8.4,1.8,3.4,-3.4,2.1,7,22.1,51.7,29.5
+Hunter Tyson,DEN,23,80,215,Clemson,USA,2023,2,37,9,0.2,0.7,0.1,-0.2,0,26.1,15,14.3,4.5
+Markquis Nowell,TOR,24,67,160,Kansas State,USA,Undrafted,Undrafted,Undrafted,1,2,2,2,66.1,50,0,22.2,53.2,100
+Kyrie Irving,DAL,31,74,195,Duke,Australia,2011,1,1,27,25.2,5.1,5.3,3.5,2.2,12.5,28.5,58.6,24.7
+Charlie Brown Jr.,NYK,26,78,199,St. Joseph's (PA),USA,Undrafted,Undrafted,Undrafted,3,1,0,0,-24.2,0,0,66.7,37.5,0
+Dariq Whitehead,BKN,19,78,220,Duke,USA,2023,1,22,2,1.5,2,1.5,-42.8,0,19,9.4,25.5,14.3
+Luke Kennard,MEM,27,77,206,Duke,USA,2017,1,12,21,10.6,3.2,3.1,-4,1.5,11.5,16.1,61.9,19.2
+Zeke Nnaji,DEN,23,81,240,Arizona,USA,2020,1,22,36,3.1,2.1,0.5,-14.5,10.6,10.2,15.9,53.3,8.3
+P.J. Washington,CHA,25,79,230,Kentucky,USA,2019,1,12,38,13.4,5.1,2.3,-10.1,4,14.2,19.7,55.9,11.4
+Chuma Okeke,ORL,25,79,229,Auburn,USA,2019,1,16,28,3.4,2.5,0.6,-4.4,4.5,14.7,12.7,49.9,7.6
+Killian Hayes,DET,22,77,195,None,France,2020,1,7,41,6.9,2.8,4.8,-11.4,1.1,10.7,14.7,47.1,26.5
+Troy Brown Jr.,MIN,24,79,215,Oregon,USA,2018,1,15,34,4.4,2,1,-0.9,3.7,12.9,15.2,60.7,12.1
+Richaun Holmes,DAL,30,81,235,Bowling Green,USA,2015,2,37,20,3.2,3.3,0.5,-4.6,12.2,18,13.9,53.5,7.1
+Nikola Jovic,MIA,20,82,205,None,Serbia,2022,1,27,19,5.5,4.3,1.9,11.9,5.2,19.7,16.2,51.6,15.1
+Malcolm Cazalon,DET,22,78,185,None,France,Undrafted,Undrafted,Undrafted,1,0,0,0,83.3,0,0,0,0,0
+Kevin Huerter,SAC,25,79,198,Maryland,USA,2018,1,19,42,10.6,3.8,2.6,3.4,2.1,13.7,17.5,57.2,14.5
+T.J. McConnell,IND,31,73,190,Arizona,USA,2015,0,,38,8,2.6,5.5,-0.3,2.9,12.6,20.7,55.2,42.2
+Cameron Payne,MIL,29,75,183,Murray State,USA,2015,1,14,42,6.5,1.2,2.3,0.1,0.5,7.2,16.3,62.4,20
+Jaylen Brown,BOS,27,78,223,California,USA,2016,1,3,43,22.6,5.2,3.6,9.5,3,11.5,28,57.7,17
+Davion Mitchell,SAC,25,73,202,Baylor,USA,2021,1,9,34,3.6,1,1.8,-12.4,1.3,6.8,14.6,46.2,21.8
+Mason Plumlee,LAC,33,82,254,Duke,USA,2013,1,22,14,6.3,5.3,1.2,5.1,7.9,22,13,66.7,9.3
+Jordan Goodwin,PHX,25,76,200,St. Louis,USA,Undrafted,Undrafted,Undrafted,37,5.1,3.2,2.1,-2.3,7.1,13.1,17.4,47.3,21.2
+Harry Giles III,BKN,25,82,240,Duke,USA,2017,1,20,13,3.3,1.5,0.2,5.6,11.5,13.3,24.6,52.6,6.1
+Jett Howard,ORL,20,78,215,Michigan,USA,2023,1,11,11,1.8,0.5,0.3,4.3,2.4,8.9,21.9,48.2,12.5
+Goga Bitadze,ORL,24,82,250,None,Georgia,2019,1,18,40,6.7,6.2,1.7,4,11.4,19.3,12.5,64.1,11.2
+Corey Kispert,WAS,24,78,224,Gonzaga,USA,2021,1,15,44,11.2,2.2,1.5,-11.3,1.4,8.2,19.4,61.4,10.2
+Cole Anthony,ORL,23,74,185,North Carolina,USA,2020,1,15,45,12.6,4.2,3.2,0.5,4,13.4,23.6,54.5,20.7
+Kobe Brown,LAC,24,79,250,Missouri,USA,2023,1,30,27,2.1,1.4,0.6,-10.3,2.9,12,10.2,47.6,8
+Bobby Portis,MIL,28,82,250,Arkansas,USA,2015,1,22,46,12.4,6.7,1,1.8,6.6,21.9,20.6,58.3,5.7
+MarJon Beauchamp,MIL,23,79,199,None,USA,2022,1,24,35,4.9,2.4,0.8,1.1,3.8,11.2,13.1,58.2,6.8
+Jordan Walsh,BOS,19,78,205,Arkansas,USA,2023,2,38,2,0,2.5,0.5,7.1,0,50,6.3,0,33.3
+Danilo Gallinari,DET,35,82,236,None,Italy,2008,1,6,28,7.1,2.9,1.3,-7.2,2.9,16.6,17.6,60.3,12.7
+Jalen Pickett,DEN,24,74,202,Penn State,USA,2023,2,32,16,2.1,0.7,0.8,-1,1.1,10.8,16.1,57.1,18.2
+Mitchell Robinson,NYK,25,85,240,Western Kentucky,USA,2018,2,36,21,6.2,10.3,0.7,2.9,16.9,17.9,9.3,56.7,3.3
+Oshae Brissett,BOS,25,79,210,Syracuse,Canada,Undrafted,Undrafted,Undrafted,28,4.3,3.1,0.7,8.8,8.6,15,13.8,56.9,7.5
+Dwight Powell,DAL,32,82,240,Stanford,Canada,2014,2,45,39,4.6,3.9,1.7,6.1,11,13.1,9,75.3,13.1
+Caleb Houstan,ORL,21,80,205,Michigan,Canada,2022,2,32,36,5,1.7,0.6,-2.5,3.6,7,12.8,57,5.8
+Coby White,CHI,23,77,195,North Carolina,USA,2019,1,7,47,18.8,4.7,5,0.4,1.5,11.6,22.1,58.4,20.4
+Terance Mann,LAC,27,77,215,Florida State,USA,2019,2,48,38,7.7,3.2,1.8,6,5.1,7.9,13,54.6,9.3
+Monte Morris,DET,28,74,183,Iowa State,USA,2017,2,51,3,5.7,1.7,1.7,-7.4,0,13.2,23.7,50.4,27.8
+Santi Aldama,MEM,23,85,215,Loyola-Maryland,Spain,2021,1,30,35,10.4,5.6,1.8,-4,4.7,18.1,19.2,53.5,12.3
+Gary Payton II,GSW,31,74,195,Oregon State,USA,Undrafted,Undrafted,Undrafted,16,5.4,3,0.8,5.3,5.6,11.5,14.1,52.4,7.2
+Marcus Morris Sr.,PHI,34,80,218,Kansas,USA,2011,1,14,34,6.6,2.9,0.7,0.7,3,14.3,15.4,56.6,6.4
+Neemias Queta,BOS,24,85,248,Utah State,Portugal,2021,2,39,18,4.6,4.4,0.4,13.1,14.8,19.7,13.4,62.2,4.6
+Kendall Brown,IND,20,79,205,Baylor,USA,2022,2,48,4,2,0.5,0.3,-22,9.5,0,16,52.4,10
+Ousmane Dieng,OKC,20,81,185,None,France,2022,1,11,22,4.2,1.9,0.9,-1.9,3.4,12.1,15.8,55.2,11
+Ryan Rollins,WAS,21,75,180,Toledo,USA,2022,2,44,10,4.1,1.1,1.1,38.8,3.2,11.8,23.2,63.1,20
+Robert Williams III,POR,26,81,249,Texas A&M,USA,2018,1,27,6,6.8,6.3,0.8,-13.3,8,22.7,12.2,68.4,6.5
+Eugene Omoruyi,WAS,26,78,235,Oregon,Nigeria,Undrafted,Undrafted,Undrafted,19,4.5,1.5,0.6,11.6,9.6,14.4,27.3,66.2,18
+Georges Niang,CLE,30,79,230,Iowa State,USA,2016,2,50,43,9.5,3.8,1.2,1.1,1.6,15,17.2,57.5,7.7
+Cole Swider,MIA,24,80,220,Syracuse,USA,Undrafted,Undrafted,Undrafted,9,2.6,0.2,0.3,11.1,2,2.3,22,54.8,10.7
+Dante Exum,DAL,28,77,214,None,Australia,2014,1,5,32,9.2,2.8,2.8,8.3,2.8,10.8,16.5,66.3,18.3
+Jaxson Hayes,LAL,23,85,220,Texas,USA,2019,1,8,36,2.8,1.7,0.3,-7.7,5.2,11.8,11.8,65.3,5
+Jules Bernard,WAS,24,78,210,UCLA,USA,Undrafted,Undrafted,Undrafted,4,0.5,0.3,0.3,-21.1,3.7,0,20,11.1,10
+Landry Shamet,WAS,26,76,190,Wichita State,USA,2018,1,26,29,7.8,1.3,1.3,-7.5,1.9,6.7,19.9,58,12.9
+Markelle Fultz,ORL,25,76,209,Washington,USA,2017,1,1,14,8.8,2.9,3.6,0.4,4.8,7.3,16.7,51.8,22.5
+Theo Maledon,PHX,22,76,175,None,France,2020,2,34,13,4.2,1.8,2.2,-13.2,1.8,9.8,16.8,37.9,17.9
+Ausar Thompson,DET,20,78,205,None,USA,2023,1,5,46,8.3,6.6,1.9,-9,8.4,18.8,16.4,51.2,11.6
+Sasha Vezenkov,SAC,28,80,225,None,Bulgaria,2017,2,57,33,5.7,2.6,0.4,-1.2,6.9,13.2,17.2,57.6,4.6
+Brandin Podziemski,GSW,20,76,205,Santa Clara,USA,2023,1,19,37,9.2,5.4,3.2,3.8,5.9,15.3,15.7,55.1,17.4
+Cam Reddish,LAL,24,79,217,Duke,USA,2019,1,10,35,6.7,2.4,1.3,-1.5,2.4,7.8,13.1,51.9,7.2
+Brice Sensabaugh,UTA,20,77,235,Ohio State,USA,2023,1,28,4,1.3,0.8,0.5,-22.8,8.3,16.7,19.4,41.7,25
+Dexter Dennis,DAL,24,77,210,Texas A&M,USA,Undrafted,Undrafted,Undrafted,4,5.5,2.3,1,-11,2.5,21.1,27.8,54.1,36.4
+Trevelin Queen,ORL,26,77,190,New Mexico State,USA,Undrafted,Undrafted,Undrafted,12,3.3,1.5,1.5,3.7,2.2,9.6,13.9,48.4,17.5
+Skylar Mays,LAL,26,75,205,Louisiana State,USA,2020,2,50,24,6.1,1.6,3.3,-11.3,2.4,8.5,18.8,47.3,31.2
+Jordan McLaughlin,MIN,27,73,185,Southern California,USA,Undrafted,Undrafted,Undrafted,25,2.3,1,1.7,1.9,3.4,7.3,12.8,48.6,27
+Bones Hyland,LAC,23,74,169,Virginia Commonwealth,USA,2021,1,26,18,6.4,0.9,1.8,-5.8,0.8,5.5,24.3,47.8,20.5
+Daishen Nix,MIN,21,75,226,None,USA,Undrafted,Undrafted,Undrafted,6,1.3,0.2,0,25.6,0,4.5,17.3,45,0
+Ben Simmons,BKN,27,82,240,Louisiana State,Australia,2016,1,1,6,6.5,10.8,6.7,-7.1,8.1,23.9,11.8,51.6,26
+Lindy Waters III,OKC,26,78,210,Oklahoma State,USA,Undrafted,Undrafted,Undrafted,17,2.9,0.8,0.6,4.2,0.8,9.7,14.6,61.3,11.6
+Ayo Dosunmu,CHI,24,77,200,Illinois,USA,2021,2,38,45,9,2.5,2.1,-2.9,2.7,7.9,15.6,58,12.5
+Chimezie Metu,PHX,26,82,225,Southern California,USA,2018,2,49,35,5.2,3.1,0.5,-5.1,5.8,18.8,16.7,62.4,6
+CJ McCollum,NOP,32,75,190,Lehigh,USA,2013,1,10,32,19.2,4.3,4.9,3.7,2,11.7,23.1,60.5,22.2
+Kenrich Williams,OKC,29,78,210,TCU,USA,Undrafted,Undrafted,Undrafted,35,4.6,2.9,1.3,10.6,5.2,13.6,12.8,57,11.8
+Devonte' Graham,SAS,28,73,195,Kansas,USA,2018,2,34,10,3.5,1.3,1.9,12.3,2.2,13.8,15.7,55.5,26
+Christian Braun,DEN,22,78,220,Kansas,USA,2022,1,21,47,7.2,3.5,1.5,-4,3.6,13.6,16.3,54.1,11
+Aaron Nesmith,IND,24,78,215,Vanderbilt,USA,2020,1,14,42,12.1,3.7,1.3,2.5,3.6,10.5,15.9,65.3,6.1
+D'Angelo Russell,LAL,27,75,193,Ohio State,USA,2015,1,2,43,17.1,2.7,6.1,2.7,1.2,7.1,22.2,60,27.6
+Zach Collins,SAS,26,83,250,Gonzaga,USA,2017,1,10,36,12.2,5.7,3.2,-12.3,7.1,14.8,21.4,56.5,18.6
+Christian Wood,LAL,28,80,214,UNLV,USA,Undrafted,Undrafted,Undrafted,41,7.2,5.4,1.1,-0.2,4.7,23,17,58.5,8.3
+Karl-Anthony Towns,MIN,28,85,248,Kentucky,USA,2015,1,1,45,22.6,8.7,3,6.3,4.7,21.7,26.8,63.8,14.4
+DaQuan Jeffries,NYK,26,77,222,Tulsa,USA,Undrafted,Undrafted,Undrafted,10,1.1,0.5,0.2,-14.3,0,13.9,19.7,42.7,11.8
+Jalen McDaniels,TOR,25,81,190,San Diego State,USA,2019,2,52,28,2.9,1.2,0.5,-7.8,2.6,10.1,17.6,41.5,8.6
+Sam Merrill,CLE,27,76,205,Utah State,USA,2020,2,60,28,8.8,2.1,1.6,6.8,2.9,9.4,18.7,62.4,14.2
+Jontay Porter,TOR,24,82,240,Missouri,USA,Undrafted,Undrafted,Undrafted,13,5.1,3.6,2.2,-8.3,7.3,16.8,16.2,49.8,19
+Alex Len,SAC,30,85,250,Maryland,Ukraine,2013,1,5,17,2.4,3.3,1.1,21.6,14.7,22.1,12,59.9,15.3
+Lonnie Walker IV,BKN,25,76,204,Miami,USA,2018,1,18,27,11.6,2.1,1.3,3.2,1,10.3,24.1,61.2,10.6
+Luka Doncic,DAL,24,79,230,None,Slovenia,2018,1,3,39,34.4,8.6,9.4,0.9,2.1,20.6,35.8,61.4,42.6
+Chris Livingston,MIL,20,78,220,Kentucky,USA,2023,2,58,13,1.3,1,0.3,0.5,4.3,19.3,12.4,61.2,7.7
+Kyle Lowry,CHA,37,73,196,Villanova,USA,2006,1,24,37,8.2,3.5,4,0.1,2.5,10.6,13,58.2,19.9
+Anfernee Simons,POR,24,75,193,None,USA,2018,1,24,24,23.2,3.6,5.2,-15,1.4,9.7,27.9,57.2,27
+Precious Achiuwa,NYK,24,80,243,Memphis,Nigeria,2020,1,20,39,6.4,5.4,1.4,-0.9,11.6,18.9,17.9,51.4,12.1
+Dmytro Skapintsev,NYK,25,85,215,,Ukraine,Undrafted,Undrafted,Undrafted,2,0,0,0,15,0,0,25,0,0
+Herbert Jones,NOP,25,79,206,Alabama,USA,2021,2,35,43,11,3.6,2.4,3.2,3.9,8.6,15,61.7,11.2
+Ibou Badji,POR,21,85,240,None,Senegal,Undrafted,Undrafted,Undrafted,12,1.8,3.7,0.7,-17.5,9.5,16.3,6.9,59.5,7.3
+Jeremy Sochan,SAS,20,80,230,Baylor,Poland,2022,1,9,46,11.7,5.8,3.9,-8.6,5.5,13.9,18.5,52.9,18.7
+Jalen Williams,OKC,22,77,211,Santa Clara,USA,2022,1,12,43,18.6,4.1,4.5,9.5,1.8,10.2,22,62.4,19.2
+Moussa Diabate,LAC,22,81,210,Michigan,France,2022,2,43,10,2.7,2,0.4,-4.7,23,9.7,17.6,58,10
+Klay Thompson,GSW,33,78,220,Washington State,USA,2011,1,11,42,17.6,3.4,2.4,-2.9,1.7,9.2,22.8,56.8,11.1
+Tre Jones,SAS,24,73,185,Duke,USA,2020,2,41,41,9.5,3.1,5.6,-1.7,2.8,8.9,15.4,58.8,29
+Josh Okogie,PHX,25,76,213,Georgia Tech,Nigeria,2018,1,20,40,4.9,2.8,1.3,2.8,7,8.2,12.2,51.7,9.6
+Rui Hachimura,LAL,25,80,230,Gonzaga,Japan,2019,1,9,33,11.1,3.5,1.1,3.9,3.5,11.1,18.9,58.2,6.7
+Filip Petrusev,SAC,23,83,225,Gonzaga,Serbia,2021,2,50,3,1,0.3,0,30,0,8.3,15,52.1,0
+Braxton Key,DEN,26,80,225,Virginia,USA,Undrafted,Undrafted,Undrafted,13,1.2,0.8,0.6,-6.3,4.7,19.5,16.8,46.3,25.8
+Jared Butler,WAS,23,75,193,Baylor,USA,2021,2,40,17,4.6,0.6,1.8,-2.4,0,8.4,21.2,68.9,37.8
+Haywood Highsmith,MIA,27,77,220,Wheeling Jesuit,USA,2018,,,32,6.2,3,1.3,-1,4.1,10.2,12.3,57.5,8.2
+OG Anunoby,NYK,26,79,240,Indiana,United Kingdom,2017,1,23,41,15.3,4.2,2.3,9.8,2.8,9.1,17.3,60.9,8.9
+Kevin Durant,PHX,35,83,240,Texas,USA,2007,1,2,39,28.5,6.4,5.7,3.3,1.4,15,28.7,64.3,24.4
+Miles McBride,NYK,23,73,195,West Virginia,USA,2021,2,36,33,4.8,0.7,0.9,-3,1.1,5.8,18.1,61.9,15.9
+Matisse Thybulle,POR,26,77,201,Washington,USA,2019,1,20,44,5.7,2,1.2,-7.7,1.8,7,9.9,58.7,7
+Josh Hart,NYK,28,76,215,Villanova,USA,2017,1,30,45,7.3,6.5,2.7,8.8,4.2,18.3,11.8,53.3,12.7
+Mike Muscala,DET,32,82,240,Bucknell,USA,2013,2,44,30,4,3.1,1,-11.6,6.2,15,13.8,50.1,9.3
+Aaron Holiday,HOU,27,73,185,UCLA,USA,2018,1,23,43,6.7,1.9,1.7,3.9,1.4,9,15.2,59.1,14.3
+E.J. Liddell,NOP,23,78,240,Ohio State,USA,2022,2,41,8,0.5,0.6,0.1,-11.7,0,21.7,14.8,29.1,6.7
+Jarred Vanderbilt,LAL,24,80,214,Kentucky,USA,2018,2,41,26,4.8,4.9,1.2,4.5,7.3,16.7,10.7,54.8,7.2
+Shake Milton,MIN,27,77,205,Southern Methodist,USA,2018,2,54,36,4.8,1.4,1.4,-3.5,1.4,8.3,17.2,50.2,15
+Amen Thompson,HOU,20,79,200,None,USA,2023,1,4,26,6.5,4.2,2.2,-0.4,5.5,19,17.3,53.5,18.3
+Jalen Slawson,SAC,24,79,215,Furman,USA,2023,2,54,5,0.8,0.8,0.4,-36.8,0,20,11.6,66.7,16.7
+Marcus Sasser,DET,23,74,195,Houston,USA,2023,1,25,41,7.2,1.6,2.7,-6.5,0.9,9,18.8,58.4,25.3
+Julius Randle,NYK,29,80,250,Kentucky,USA,2014,1,7,46,24,9.2,5,6,5.9,19.8,28.7,56.9,21.7
+Scoot Henderson,POR,19,75,202,None,USA,2023,1,3,37,12,3,4.6,-11.5,2.9,8.4,25.1,46,27.1
+Jusuf Nurkic,PHX,29,85,290,None,Bosnia and Herzegovina,2014,1,16,43,11.6,10.3,3.6,9.3,10.3,26.8,19.2,56.2,17
+Darius Garland,CLE,24,73,192,Vanderbilt,USA,2019,1,5,20,20.7,2.8,5.9,4.1,1.8,6.1,27.1,57.3,26.5
+Bruno Fernando,ATL,25,81,240,Maryland,Angola,2019,2,34,13,2.9,2,0.3,7.6,8.5,22.9,20.6,53.7,6.5
+Jabari Walker,POR,21,79,227,Colorado,USA,2022,2,57,42,8.5,6.2,0.9,-6.7,8.1,21.6,16.2,56.6,5.9
+Caleb Martin,MIA,28,77,205,Nevada,USA,Undrafted,Undrafted,Undrafted,29,10.4,4.7,2.2,-2.3,4.5,14.1,17.9,54.1,12.1
+Mark Williams,CHA,22,85,240,Duke,USA,2022,1,15,19,12.7,9.7,1.2,-1.2,14.3,20.9,16.2,67.5,5.9
+Tobias Harris,PHI,31,80,226,Tennessee,USA,2011,1,19,41,17.7,6,3.2,10.9,3,14.1,19.8,60.6,13.2
