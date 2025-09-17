@@ -31,7 +31,8 @@ This mainly houses the data for the ANOVA Lesson.
 [Sub Shops](/files/teaching/files-SVU-M221/FinalePrep-SubShops.csv)
 
 [Word Counts](/files/teaching/files-SVU-M221/FinalePrep-WordCounts.csv)
-<!-- 
+
+
 ## Finale Data
 
 [Presidents](/files/teaching/files-SVU-M221/01-Presidents.csv)
@@ -47,4 +48,4 @@ This mainly houses the data for the ANOVA Lesson.
 [Fast Food](/files/teaching/files-SVU-M221/06-FastFood.csv)
 
 [Premier League](/files/teaching/files-SVU-M221/06-PremierLeague.csv)
- -->
+
