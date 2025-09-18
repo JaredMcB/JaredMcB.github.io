@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jared McBride"
 title_separator          : "-"
 name                     : &name "Jared"
-description              : &description "I am an assisstnat professor of Mathematics at the Southern Virginia University"
+description              : &description "I am an assisstant professor of Mathematics at the Southern Virginia University"
 url                      : https://JaredMcB.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JaredMcB.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Jared McBride"
   avatar           : "profilepic.png"
-  bio              : "I am an assisstnat professor of Mathematics at the Southern Virginia University"
+  bio              : "I am an assisstant professor of Mathematics at the Southern Virginia University"
   location         : "Buena Vista, VA"
   employer         :
   pubmed           :
