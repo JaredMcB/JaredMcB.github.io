@@ -47,5 +47,5 @@ This mainly houses the data for the ANOVA Lesson.
 
 [Fast Food](/files/teaching/files-SVU-M221/06-FastFood.csv)
 
-[Premier League](/files/teaching/files-SVU-M221/06-PremierLeague.csv)
+[Premier League](/files/teaching/files-SVU-M221/07-PremierLeague.csv)
 

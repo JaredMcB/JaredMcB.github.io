@@ -4,6 +4,9 @@ main:
   - title: "Teaching"
     url: /teaching/
 
+  - title: "Athletic Algebra"
+    url: /athletic-algebra/
+
   - title: "Publications"
     url: /publications/
 
@@ -15,9 +18,6 @@ main:
 
   - title: "DDMR Reading Group"
     url: /DDMRRG/
-
-  - title: "Manim Videos"
-    url: /manim/
 
   # - title: "Research"
   #   url: /year-archive/

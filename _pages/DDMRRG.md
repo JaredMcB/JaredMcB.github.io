@@ -4,10 +4,6 @@ title: "Data-driven Model Reduction Reading Group"
 author_profile: false
 ---
 
-
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FPhoenix&mode=AGENDA&src=Y18xYXJkNHFnMTkxazBwdGx0OXVqcGFrNjBvZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23AD1457" style="border:solid 1px #777" width="700" height="400" frameborder="0" scrolling="no"></iframe>
-
-
 Nov 23, 2021
 ====
 

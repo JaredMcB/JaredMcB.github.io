@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jared McBride"
 title_separator          : "-"
 name                     : &name "Jared"
-description              : &description "I am an assisstant professor of Mathematics at the Southern Virginia University"
+description              : &description "Assistant Professor of Mathematics at Southern Virginia University"
 url                      : https://JaredMcB.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JaredMcB.github.io"
@@ -73,16 +73,16 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : # set a GA4 Measurement ID (G-XXXXXXX) and provider: "google" to enable
 
 
 # Site Author
 author:
   name             : "Jared McBride"
   avatar           : "profilepic.png"
-  bio              : "I am an assisstant professor of Mathematics at the Southern Virginia University"
+  bio              : "Assistant Professor of Mathematics at Southern Virginia University"
   location         : "Buena Vista, VA"
   employer         :
   pubmed           :
@@ -255,7 +255,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
