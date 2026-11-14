@@ -59,7 +59,7 @@ freshly randomized warm-ups and per-form scrimmages practical to run every class
 - [Course Policies](/files/teaching/files-SVU-M100/syllabus/M100-Course_Policies-Fa26.pdf)
 - [Schedule](/files/teaching/files-SVU-M100/syllabus/M100-Schedule-Fa26.pdf)
 
-The course follows OpenStax *Elementary Algebra 2e*, which is free to students.
+The course follows OpenStax [*Elementary Algebra 2e*](https://openstax.org/details/books/elementary-algebra-2e), which is free to students.
 
 ## Installs
 

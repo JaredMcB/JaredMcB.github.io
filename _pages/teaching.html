@@ -7,6 +7,18 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
+<p>Each course page has a description of the course, the most recent syllabus, and resources I recommend to students. Current students should use Canvas for assignments and due dates. I also post lesson videos on my <a href="https://www.youtube.com/@JaredMcBrideMath">YouTube channel</a>.</p>
+
+<h2>Southern Virginia University</h2>
+
+{% assign svu = site.teaching | where: "venue", "Southern Virginia University" | sort: "title" %}
+{% for post in svu %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2>University of Arizona</h2>
+
+{% assign ua = site.teaching | where: "venue", "University of Arizona, Math Department" | sort: "date" | reverse %}
+{% for post in ua %}
   {% include archive-single.html %}
 {% endfor %}

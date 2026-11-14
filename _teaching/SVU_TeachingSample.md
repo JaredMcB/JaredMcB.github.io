@@ -1,7 +1,7 @@
 ---
-title: "MATH 115: College Algebra"
+title: "Teaching Sample: College Algebra in Everyday Life"
 collection: teaching
-type: "Undergraduate course"
+type: "Sample lesson"
 permalink: /teaching/SVU_TeachingSample
 venue: "Southern Virginia University"
 date: 2023-5-3
